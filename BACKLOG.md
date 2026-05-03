@@ -1,7 +1,7 @@
 # AI Operational Maturity — Backlog
 
 > Living tracker. Updated as each item is completed.  
-> **Total items:** 41 | **Done:** 35 | **In Progress:** 0 | **To Do:** 6
+> **Total items:** 41 | **Done:** 41 | **In Progress:** 0 | **To Do:** 0
 
 ---
 
@@ -15,7 +15,7 @@
 | 4 | Artefacts | E4-01 ✅ · E4-02 ✅ · E4-05 ✅ · E4-03 ✅ · E4-04 ✅ · E4-06 ✅ |
 | 5 | Stage Overviews | E2-07 ✅ · E2-01 ✅ · E2-02 ✅ · E2-03 ✅ · E2-04 ✅ · E2-05 ✅ · E2-06 ✅ |
 | 6 | Worked Examples | E6-01 ✅ · E6-04 ✅ · E6-06 ✅ · E6-07 ✅ · E6-02 ✅ · E6-03 ✅ · E6-05 ✅ |
-| 7 | Organisational & Strategic | E5-01 · E5-05 · E5-04 · E5-02 · E5-03 · E5-06 |
+| 7 | Organisational & Strategic | E5-01 ✅ · E5-05 ✅ · E5-04 ✅ · E5-02 ✅ · E5-03 ✅ · E5-06 ✅ |
 
 ---
 
@@ -58,12 +58,13 @@
 | E6-02 | [Worked Example: Incident Response at Each Stage](./04-examples/incident-response-worked-example.md) | Examples | 6 | P2 | L | ✅ Done |
 | E6-03 | [Anti-Patterns Library](./04-examples/anti-patterns.md) | Examples | 6 | P2 | M | ✅ Done |
 | E6-05 | [Dark Factory Operating Model](./04-examples/dark-factory-operating-model.md) | Examples | 6 | P2 | L | ✅ Done |
-| E5-01 | Organisational Maturity Assessment | Strategy | 7 | P1 | L | 🔜 To Do |
-| E5-05 | AI Governance in the Dark Factory | Strategy | 7 | P1 | L | 🔜 To Do |
-| E5-04 | Risk Register — Across All Stages | Strategy | 7 | P1 | M | 🔜 To Do |
-| E5-02 | The Engineering Team of the Future | Strategy | 7 | P2 | M | 🔜 To Do |
-| E5-03 | Investment & Roadmap Planning Guide | Strategy | 7 | P2 | M | 🔜 To Do |
-| E5-06 | Vendor & Tooling Landscape | Strategy | 7 | P3 | M | 🔜 To Do |
+| E5-01a | [Maturity Assessment — Framework Design](./05-strategy/maturity-assessment-framework.md) | Strategy | 7 | P1 | L | ✅ Done |
+| E5-01b | [Maturity Assessment — Instrument & Tool](./05-strategy/maturity-assessment-tool.md) | Strategy | 7 | P1 | L | ✅ Done |
+| E5-05 | [AI Governance in the Dark Factory](./05-strategy/ai-governance.md) | Strategy | 7 | P1 | L | ✅ Done |
+| E5-04 | [Risk Register — Across All Stages](./05-strategy/risk-register.md) | Strategy | 7 | P1 | M | ✅ Done |
+| E5-02 | [The Engineering Team of the Future](./05-strategy/engineering-team-future.md) | Strategy | 7 | P2 | M | ✅ Done |
+| E5-03 | [Investment & Roadmap Planning Guide](./05-strategy/investment-roadmap.md) | Strategy | 7 | P2 | M | ✅ Done |
+| E5-06 | [Vendor & Tooling Landscape](./05-strategy/vendor-tooling-landscape.md) | Strategy | 7 | P3 | M | ✅ Done |
 
 ---
 
