@@ -65,18 +65,22 @@ See: [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map
 |---|---|---|
 | E1-01 | [Glossary of Terms](./00-foundations/glossary.md) | ✅ Complete |
 | E1-02 | [Maturity Curve — Visual Overview](./00-foundations/maturity-curve.md) | ✅ Complete |
-| E1-05 | [The Dark Factory — Extended Definition](./00-foundations/dark-factory.md) | ✅ Complete |
 | E1-03 | [Reader Guide](./00-foundations/reader-guide.md) | ✅ Complete |
 | E1-04 | [The Cumulative Stack Explained](./00-foundations/cumulative-stack.md) | ✅ Complete |
-| E1-06 | [The Specification Discipline — Three Principles](./00-foundations/specification-discipline.md) | 🔜 Pending |
+| E1-05 | [The Dark Factory — Extended Definition](./00-foundations/dark-factory.md) | ✅ Complete |
+| E1-06 | [The Specification Discipline — Three Principles](./00-foundations/specification-discipline.md) | ✅ Complete |
+| E1-07 | [Specification Quality Standard](./00-foundations/specification-quality-standard.md) | ✅ Complete |
+| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | 🔜 To Do |
 
 ### Wave 2 — Scope & Strategy
 
 | ID | Title | Status |
 |---|---|---|
 | E5-00 | [The AI-Native Organisation — Vision Narrative](./05-strategy/vision-ai-native.md) | ✅ Complete |
-| E5-08 | [Wardley Map — AI Operational Maturity](./05-strategy/wardley-map.md) | 🔜 Pending |
-| E5-07 | [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map.md) | 🔜 Pending |
+| E5-08 | [Wardley Map — AI Operational Maturity](./05-strategy/wardley-map.md) | ✅ Complete |
+| E5-07 | [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map.md) | ✅ Complete |
+| E5-01a | [Maturity Assessment — Framework Design](./05-strategy/maturity-assessment-framework.md) | ✅ Complete |
+| E5-01b | [Maturity Assessment — Instrument & Tool](./05-strategy/maturity-assessment-tool.md) | ✅ Complete |
 | E3-01 | [The Human Role Transformation](./01-actors/human-role.md) | ✅ Complete |
 | E3-06 | [Human-Agent Handoff Protocols](./01-actors/handoff-protocols.md) | ✅ Complete |
 | E3-03 | [Agent Council Design — Constitution & Governance](./01-actors/agent-council-design.md) | ✅ Complete |
@@ -93,16 +97,56 @@ See: [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map
 
 | ID | Title | Status |
 |---|---|---|
+| E4-00 | [Specification Examples — Reference Library](./02-artefacts/specification-examples.md) | ✅ Complete |
 | E4-01 | [Artefact Catalogue — All Stages](./02-artefacts/artefact-catalogue.md) | ✅ Complete |
 | E4-02 | [Requirements Specification Templates](./02-artefacts/requirements-spec-templates.md) | ✅ Complete |
-| E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | ✅ Complete |
 | E4-03 | [Intent Manifest — Reference Design](./02-artefacts/intent-manifest.md) | ✅ Complete |
 | E4-04 | [Specification Corpus — Architecture & Governance](./02-artefacts/specification-corpus.md) | ✅ Complete |
+| E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | ✅ Complete |
 | E4-06 | [Environment Map — Reference Design](./02-artefacts/environment-map.md) | ✅ Complete |
 
-### Waves 5–7 — Pending
+### Wave 5 — Stage Overviews
 
-See [BACKLOG.md](./BACKLOG.md) for the full item list and execution sequence.
+| ID | Title | Status |
+|---|---|---|
+| E2-07 | [Stage Transition Playbooks (1→2, 2→3, 3→4, 4→5, 5→6)](./03-stages/stage-transition-playbooks.md) | ✅ Complete |
+| E2-01 | [Stage 1 Deep Dive — Prompt Engineering](./03-stages/stage-1-prompt-engineering.md) | ✅ Complete |
+| E2-02 | [Stage 2 Deep Dive — Context Engineering](./03-stages/stage-2-context-engineering.md) | ✅ Complete |
+| E2-03 | [Stage 3 Deep Dive — Intent Engineering](./03-stages/stage-3-intent-engineering.md) | ✅ Complete |
+| E2-04 | [Stage 4 Deep Dive — Specification Engineering](./03-stages/stage-4-specification-engineering.md) | ✅ Complete |
+| E2-05 | [Stage 5 Deep Dive — Harness Engineering](./03-stages/stage-5-harness-engineering.md) | ✅ Complete |
+| E2-06 | [Stage 6 Deep Dive — Environment Engineering](./03-stages/stage-6-environment-engineering.md) | ✅ Complete |
+
+### Wave 6 — Worked Examples
+
+| ID | Title | Status |
+|---|---|---|
+| E6-01 | [Worked Example: Feature Delivery at Each Stage](./04-examples/feature-delivery-worked-example.md) | ✅ Complete |
+| E6-02 | [Worked Example: Incident Response at Each Stage](./04-examples/incident-response-worked-example.md) | ✅ Complete |
+| E6-03 | [Anti-Patterns Library](./04-examples/anti-patterns.md) | ✅ Complete |
+| E6-04 | [The Stage 3→4 Transition in Detail](./04-examples/stage-3-4-transition.md) | ✅ Complete |
+| E6-05 | [Dark Factory Operating Model](./04-examples/dark-factory-operating-model.md) | ✅ Complete |
+| E6-06 | [Worked Example: Finance Month-End Close at Each Stage](./04-examples/finance-month-end-worked-example.md) | ✅ Complete |
+| E6-07 | [Worked Example: Legal Contract Review at Each Stage](./04-examples/legal-contract-review-worked-example.md) | ✅ Complete |
+
+### Wave 7 — Organisational & Strategic
+
+| ID | Title | Status |
+|---|---|---|
+| E5-01a | [Maturity Assessment — Framework Design](./05-strategy/maturity-assessment-framework.md) | ✅ Complete |
+| E5-01b | [Maturity Assessment — Instrument & Tool](./05-strategy/maturity-assessment-tool.md) | ✅ Complete |
+| E5-02 | [The Engineering Team of the Future](./05-strategy/engineering-team-future.md) | ✅ Complete |
+| E5-03 | [Investment & Roadmap Planning Guide](./05-strategy/investment-roadmap.md) | ✅ Complete |
+| E5-04 | [Risk Register — Across All Stages](./05-strategy/risk-register.md) | ✅ Complete |
+| E5-05 | [AI Governance in the Dark Factory](./05-strategy/ai-governance.md) | ✅ Complete |
+| E5-06 | [Vendor & Tooling Landscape](./05-strategy/vendor-tooling-landscape.md) | ✅ Complete |
+
+### Wave 8 — Maintenance & Vocabulary
+
+| ID | Title | Status |
+|---|---|---|
+| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | 🔜 To Do |
+| E1-01-FIX | Glossary — 4 missing entries (Atomic Specification Unit, Proxy Discrimination, Conflict Detection, RFC 8174) | ✅ Complete |
 
 ---
 

@@ -244,6 +244,38 @@ See: [The Specification Discipline — Three Principles](./specification-discipl
 
 ---
 
+### Atomic Specification Unit
+The smallest independently verifiable specification element. An atomic specification unit expresses exactly one obligation, directed at exactly one named actor, verifiable by exactly one test. It cannot be split without losing meaning and cannot be verified without depending on another unit's outcome.
+
+Conjunctions ("and", "or") in a specification clause are a signal to split into multiple atomic units, not a drafting style. The atomic unit is the primitive that enables RFC 8174 normative precision, BDD executable tests, OSCAL audit objectives, and SMT conflict detection simultaneously.
+
+See also: [Specification Quality Standard](./specification-quality-standard.md)
+
+---
+
+### Proxy Discrimination
+The use of a facially neutral data feature whose predictive utility derives from its correlation with a protected characteristic. Proxy discrimination occurs when a model trained without protected-characteristic inputs locates substitute features (e.g. postcode as a proxy for race) that reproduce discriminatory patterns. Removing protected attributes from inputs does not prevent proxy discrimination.
+
+Specifications for AI systems operating in regulated domains MUST explicitly address proxy detection and prevention. See: [Specification Quality Standard](./specification-quality-standard.md)
+
+---
+
+### Conflict Detection
+Automated analysis of a specification corpus to identify rules that produce contradictory enforcement decisions for the same input. In machine-readable corpora, conflict detection is performed using SMT solvers (e.g. AWS Cedar Analysis, Zelkova) or SAT-based tools (e.g. Margrave). In prose corpora, it relies on legal drafting canons: lex specialis (specific over general), lex posterior (later over earlier), and lex superior (higher authority).
+
+Both mechanisms require atomic, uniquely identifiable specification units as a prerequisite. A corpus without atomic units cannot be conflict-checked reliably.
+
+---
+
+### RFC 8174
+The 2017 IETF standard (Leiba) that clarified RFC 2119 obligation keywords (MUST, SHOULD, MAY etc.) carry normative force ONLY when they appear in ALL CAPITALS, as shown here. Mixed-case occurrences ("must", "should") carry only their ordinary English meaning.
+
+All specification documents in this framework MUST include the RFC 8174 boilerplate declaration at their header:
+
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all capitals, as shown here.
+
+---
+
 ### Specification Corpus
 The complete, versioned, machine-readable collection of all corporate policies, governance standards, compliance requirements, security controls, and operational rules that agents in Stages 4–6 operate within. The specification corpus is the primary governance mechanism of the Dark Factory — it is what makes automated decision-making auditable and accountable.
 
