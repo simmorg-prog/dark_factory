@@ -2,6 +2,8 @@
 
 > A cumulative, six-stage model for engineering AI systems — from ad-hoc prompt use to fully autonomous, agent-operated software delivery.
 
+**New to this framework?** Start with the strategic narrative: [The AI-Native Organisation — A Vision](./05-strategy/vision-ai-native.md)
+
 ---
 
 ## The Six Disciplines
@@ -27,6 +29,9 @@ Each stage subsumes the one before it. You cannot skip stages.
 00-foundations/      Core concepts, glossary, maturity curve
 01-actors/           Human, Agent, and Agent Council design patterns
 02-artefacts/        Specification corpus, escalation packages, requirements templates
+03-stages/           Stage deep dives and transition playbooks
+04-examples/         Worked examples and anti-patterns
+05-strategy/         Organisational and strategic guidance
 diagrams/            Draw.io sources and exported SVGs
 ```
 

@@ -10,8 +10,8 @@
 
 | Metric | Count |
 |---|---|
-| Total items | 35 |
-| Done | 11 |
+| Total items | 36 |
+| Done | 12 |
 | In Progress | 0 |
 | To Do | 24 |
 
@@ -78,6 +78,7 @@
 
 | ID | Title | Audience | Priority | Effort | Status |
 |---|---|---|---|---|---|
+| E5-00 | [The AI-Native Organisation — A Vision Narrative](./05-strategy/vision-ai-native.md) | All / CxO | P1 | L | ✅ Done |
 | E5-01 | Organisational Maturity Assessment | CTOs / Managers | P1 | L | To Do |
 | E5-05 | AI Governance in the Dark Factory | CTOs / Architects | P1 | L | To Do |
 | E5-04 | Risk Register — Across All Stages | CTOs / Architects | P1 | M | To Do |
