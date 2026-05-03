@@ -11,9 +11,9 @@
 | Metric | Count |
 |---|---|
 | Total items | 36 |
-| Done | 17 |
+| Done | 18 |
 | In Progress | 0 |
-| To Do | 19 |
+| To Do | 18 |
 
 ---
 
@@ -72,7 +72,7 @@
 | E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | All | P2 | S | ✅ Done |
 | E4-03 | [Intent Manifest — Reference Design](./02-artefacts/intent-manifest.md) | Architects / CTOs | P2 | M | ✅ Done |
 | E4-04 | [Specification Corpus — Architecture & Governance](./02-artefacts/specification-corpus.md) | Architects | P2 | L | ✅ Done |
-| E4-06 | Environment Map — Reference Design | Architects | P3 | M | To Do |
+| E4-06 | [Environment Map — Reference Design](./02-artefacts/environment-map.md) | Architects | P3 | M | ✅ Done |
 
 ## E5 — Organisational & Strategic Guidance
 
