@@ -1,4 +1,4 @@
-# AI Engineering Maturity
+# AI Operational Maturity Framework
 ## A Six-Stage Framework for Engineering Workflow
 
 *From Prompt Engineering to Environment Engineering*  

@@ -110,7 +110,7 @@ An internal cross-reference using a path relative to the current file's location
 - From `00-foundations/glossary.md` to an artefacts file: `../02-artefacts/specification-corpus.md`
 - From `00-foundations/glossary.md` to a diagram: `../diagrams/maturity-curve-overview.svg`
 
-All internal links in this framework MUST be relative links. Absolute GitHub URLs (e.g. `https://github.com/simmorg-prog/dark_factory/blob/main/...`) are a quality defect — they break in forks, local previews, and any context other than the specific GitHub repository path they encode.
+All internal links in this framework MUST be relative links. Absolute GitHub URLs (e.g. `https://github.com/org/repo/blob/main/00-foundations/glossary.md`) are a quality defect — they break in forks, local previews, and any context other than the specific GitHub repository path they encode.
 
 *Avoid:* link (unqualified), URL, reference — when the type matters, use "relative link" or "absolute URL" explicitly.
 
