@@ -11,9 +11,9 @@
 | Metric | Count |
 |---|---|
 | Total items | 35 |
-| Done | 10 |
+| Done | 11 |
 | In Progress | 0 |
-| To Do | 25 |
+| To Do | 24 |
 
 ---
 
@@ -61,7 +61,7 @@
 | E3-03 | [Agent Council Design — Constitution & Governance](./01-actors/agent-council-design.md) | Architects / CTOs | P1 | L | ✅ Done |
 | E3-02 | [Agent Taxonomy — Types, Capabilities, Limitations](./01-actors/agent-taxonomy.md) | Engineers / Architects | P2 | M | ✅ Done |
 | E3-04 | [Agent Council Patterns — Arch, Security, Compliance, Deploy](./01-actors/agent-council-patterns.md) | Architects | P2 | L | ✅ Done |
-| E3-05 | The Meta-Council — Cross-Domain Arbitration | Architects / CTOs | P2 | M | To Do |
+| E3-05 | [The Meta-Council — Cross-Domain Arbitration](./01-actors/meta-council.md) | Architects / CTOs | P2 | M | ✅ Done |
 
 ## E4 — Artefacts Reference
 

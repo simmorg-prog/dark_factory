@@ -1,0 +1,129 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="The Meta-Council — Cross-Domain Arbitration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="15" width="1010" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== LEFT: COMPOSITION ===== -->
+
+    <mxCell id="clabel" value="META-COUNCIL COMPOSITION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="80" y="65" width="280" height="20" as="geometry" />
+    </mxCell>
+
+    <mxCell id="sp1" value="Policy Arbitration Agent&#xa;Reads specification corpus&#xa;Identifies applicable authority" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="80" y="90" width="210" height="65" as="geometry" />
+    </mxCell>
+
+    <mxCell id="sp2" value="Risk Arbitration Agent&#xa;Quantifies risk of each&#xa;resolution path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="305" y="90" width="210" height="65" as="geometry" />
+    </mxCell>
+
+    <mxCell id="sp3" value="Precedent Agent&#xa;Checks prior Meta-Council&#xa;decisions for analogous cases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="80" y="175" width="210" height="65" as="geometry" />
+    </mxCell>
+
+    <mxCell id="sp4" value="Escalation Packaging Agent&#xa;Assembles human-ready decision&#xa;packages with full evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="305" y="175" width="210" height="65" as="geometry" />
+    </mxCell>
+
+    <!-- Specialists → Coordinator -->
+    <mxCell id="esp1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="sp1" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="esp2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="sp2" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="esp3" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="sp3" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="esp4" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="sp4" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arbitration Coordinator -->
+    <mxCell id="coord" value="ARBITRATION COORDINATOR&#xa;Receives conflict packages · reviews specialist inputs&#xa;Decides: resolution record or human escalation package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=11;align=center;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="105" y="280" width="400" height="65" as="geometry" />
+    </mxCell>
+
+    <!-- Coordinator → Human escalation edge -->
+    <mxCell id="echuman" value="unresolvable" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#cc3300;fontColor=#cc3300;fontSize=10;align=center;fontStyle=2;" edge="1" source="coord" target="human" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Human -->
+    <mxCell id="human" value="HUMAN — Final escalation · Exception-based only&#xa;Receives pre-packaged decision request with options and Meta-Council recommendation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="105" y="395" width="400" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- Input note -->
+    <mxCell id="inputnote" value="Escalation input from: Architecture · Security · Compliance · Deployment Councils" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="80" y="482" width="445" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ===== RIGHT: ARBITRATION PROTOCOL ===== -->
+
+    <mxCell id="plabel" value="ARBITRATION PROTOCOL" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="595" y="65" width="260" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Step 1: Conflict Intake -->
+    <mxCell id="p1" value="1. Conflict Intake&#xa;Escalation package received · conflict parties and scope identified · last safe checkpoint logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="595" y="90" width="490" height="55" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="p1" target="p2" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Step 2: Specialist Review -->
+    <mxCell id="p2" value="2. Specialist Review&#xa;Policy · Risk · Precedent agents assess in parallel · each produces a position on available resolution options" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="595" y="165" width="490" height="55" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="p2" target="p3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Step 3: Coordinator Synthesis -->
+    <mxCell id="p3" value="3. Coordinator Synthesis&#xa;Maps specialist positions · identifies dominant resolution · validates against specification authority and prior precedent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="595" y="240" width="490" height="55" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e34" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="p3" target="p4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Decision diamond -->
+    <mxCell id="p4" value="Resolvable&#xa;within spec?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="318" width="150" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- YES: Resolution Record -->
+    <mxCell id="e4yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#82b366;fontSize=10;fontStyle=2;" edge="1" source="p4" target="p5yes" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5yes" value="Resolution Record produced&#xa;Decision · rationale · all positions preserved&#xa;Councils notified · workflow resumes from checkpoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="595" y="430" width="260" height="65" as="geometry" />
+    </mxCell>
+
+    <!-- NO: Human Escalation Package -->
+    <mxCell id="e4no" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;strokeColor=#cc3300;fontColor=#cc3300;fontSize=10;fontStyle=2;" edge="1" source="p4" target="p5no" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="p5no" value="Human Escalation Package&#xa;Conflict framed · positions recorded&#xa;Options with risk assessment · Meta-Council recommendation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="880" y="430" width="205" height="65" as="geometry" />
+    </mxCell>
+
+    <!-- Footer -->
+    <mxCell id="footer" value="Common escalation triggers: Security vs. Compliance spec conflict · Architecture block under delivery timeline pressure · Novel regulatory interpretation with no prior ruling · Deployment risk above threshold with business override · Charter boundary disputes between domain councils" style="text;html=1;strokeColor=#d0d0d0;fillColor=#f8f8f8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="540" width="1010" height="38" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
