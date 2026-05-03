@@ -1,0 +1,150 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="2" value="Agent Council — Constitution &amp; Deliberation Cycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="185" y="20" width="800" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ANATOMY SECTION LABEL ===== -->
+    <mxCell id="3" value="COUNCIL ANATOMY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="80" y="72" width="200" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Specialist Agents (top row) -->
+    <mxCell id="10" value="Architecture&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="80" y="96" width="130" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="11" value="Security&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="232" y="96" width="130" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="12" value="Compliance&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="384" y="96" width="130" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="13" value="Performance&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="536" y="96" width="130" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="14" value="Deployment&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="688" y="96" width="130" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Specialist → Coordinator edges -->
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="10" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="11" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="12" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="13" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="14" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Coordinator Agent -->
+    <mxCell id="coord" value="Coordinator Agent&#xa;Synthesises · maps conflicts · seeks consensus · does not decide" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="250" y="196" width="390" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- Coordinator → charter label -->
+    <mxCell id="charter" value="Charter: domain ownership · decision scope · escalation thresholds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="700" y="96" width="390" height="55" as="geometry" />
+    </mxCell>
+
+    <mxCell id="echarter" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#d6b656;" edge="1" source="charter" target="coord" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Section divider -->
+    <mxCell id="div" value="" style="line;strokeColor=#cccccc;fillColor=none;html=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="268" width="1010" height="10" as="geometry" />
+    </mxCell>
+
+    <!-- ===== DELIBERATION CYCLE SECTION LABEL ===== -->
+    <mxCell id="dlabel" value="DELIBERATION CYCLE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="80" y="278" width="220" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Intake -->
+    <mxCell id="d1" value="Task Intake&#xa;Work package · context bundle · escalation thresholds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="370" y="300" width="350" height="52" as="geometry" />
+    </mxCell>
+
+    <mxCell id="de1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="d1" target="d2" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Parallel Assessment -->
+    <mxCell id="d2" value="Specialists assess in parallel&#xa;Each agent evaluates against its domain — independently" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="370" y="381" width="350" height="52" as="geometry" />
+    </mxCell>
+
+    <mxCell id="de2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="d2" target="d3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Coordinator synthesises -->
+    <mxCell id="d3" value="Coordinator synthesises&#xa;Maps agreements · surfaces conflicts · identifies dependencies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="370" y="462" width="350" height="52" as="geometry" />
+    </mxCell>
+
+    <mxCell id="de3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="d3" target="d4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Consensus diamond -->
+    <mxCell id="d4" value="Consensus&#xa;reached?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="480" y="542" width="130" height="75" as="geometry" />
+    </mxCell>
+
+    <!-- YES → Decision Record -->
+    <mxCell id="de4yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="d4" target="d5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="d5" value="Decision Record produced&#xa;Verdict · rationale · all positions logged&#xa;Minority views preserved in audit trail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="100" y="565" width="290" height="65" as="geometry" />
+    </mxCell>
+
+    <mxCell id="de5" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="d5" target="d6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="d6" value="Output authorised and delivered downstream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="100" y="664" width="290" height="46" as="geometry" />
+    </mxCell>
+
+    <!-- NO → Escalation Package -->
+    <mxCell id="de4no" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="d4" target="d7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="d7" value="Escalation Package assembled&#xa;Conflict framed · each position recorded&#xa;Options and recommendation included" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="700" y="565" width="290" height="65" as="geometry" />
+    </mxCell>
+
+    <mxCell id="de7" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="d7" target="d8" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="d8" value="Routed to Meta-Council (Stage 4+) or Human (Stage 3)&#xa;Resolution returned · council resumes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="700" y="664" width="290" height="46" as="geometry" />
+    </mxCell>
+
+    <!-- Stage evolution footer -->
+    <mxCell id="footer" value="Stage 2: Informal pipeline (no deliberation)  ·  Stage 3: Deliberation council (coordinator + specialists, proposals to human)  ·  Stage 4: Domain councils + Meta-Council  ·  Stage 5: Self-constituting (harness-assembled from registry)  ·  Stage 6: Environment stewards" style="text;html=1;strokeColor=#d0d0d0;fillColor=#f8f8f8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="728" width="1010" height="40" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
