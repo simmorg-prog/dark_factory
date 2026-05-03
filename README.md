@@ -145,7 +145,7 @@ See: [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map
 
 | ID | Title | Status |
 |---|---|---|
-| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | 🔜 To Do |
+| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | ✅ Complete |
 | E1-01-FIX | Glossary — 4 missing entries (Atomic Specification Unit, Proxy Discrimination, Conflict Detection, RFC 8174) | ✅ Complete |
 
 ---

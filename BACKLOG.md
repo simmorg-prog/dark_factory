@@ -1,7 +1,7 @@
 # AI Operational Maturity — Backlog
 
 > Living tracker. Updated as each item is completed.  
-> **Total items:** 45 | **Done:** 44 | **In Progress:** 0 | **To Do:** 1
+> **Total items:** 45 | **Done:** 45 | **In Progress:** 0 | **To Do:** 0
 
 ---
 
@@ -16,7 +16,7 @@
 | 5 | Stage Overviews | E2-07 ✅ · E2-01 ✅ · E2-02 ✅ · E2-03 ✅ · E2-04 ✅ · E2-05 ✅ · E2-06 ✅ |
 | 6 | Worked Examples | E6-01 ✅ · E6-04 ✅ · E6-06 ✅ · E6-07 ✅ · E6-02 ✅ · E6-03 ✅ · E6-05 ✅ |
 | 7 | Organisational & Strategic | E5-01a ✅ · E5-01b ✅ · E5-05 ✅ · E5-04 ✅ · E5-02 ✅ · E5-03 ✅ · E5-06 ✅ |
-| 8 | Maintenance & Vocabulary | E1-08 🔜 · E1-01-FIX ✅ |
+| 8 | Maintenance & Vocabulary | E1-08 ✅ · E1-01-FIX ✅ |
 
 ---
 
@@ -31,7 +31,7 @@
 | E1-04 | [The Cumulative Stack Explained](./00-foundations/cumulative-stack.md) | Foundations | 1 | P2 | M | ✅ Done |
 | E1-06 | [The Specification Discipline — Three Principles](./00-foundations/specification-discipline.md) | Foundations | 1 | P1 | S | ✅ Done |
 | E1-07 | [Specification Quality Standard](./00-foundations/specification-quality-standard.md) | Foundations | 1 | P1 | M | ✅ Done |
-| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | Foundations | 8 | P2 | S | 🔜 To Do |
+| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | Foundations | 8 | P2 | S | ✅ Done |
 | E5-00 | [The AI-Native Organisation — Vision Narrative](./05-strategy/vision-ai-native.md) | Strategy | 2 | P1 | M | ✅ Done |
 | E5-08 | [Wardley Map — AI Operational Maturity](./05-strategy/wardley-map.md) | Strategy | 2 | P1 | L | ✅ Done |
 | E5-07 | [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map.md) | Strategy | 2 | P1 | L | ✅ Done |
@@ -71,7 +71,7 @@
 | E5-02 | [The Engineering Team of the Future](./05-strategy/engineering-team-future.md) | Strategy | 7 | P2 | M | ✅ Done |
 | E5-03 | [Investment & Roadmap Planning Guide](./05-strategy/investment-roadmap.md) | Strategy | 7 | P2 | M | ✅ Done |
 | E5-06 | [Vendor & Tooling Landscape](./05-strategy/vendor-tooling-landscape.md) | Strategy | 7 | P3 | M | ✅ Done |
-| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | Foundations | 8 | P2 | S | 🔜 To Do |
+| E1-08 | [LANGUAGE.md — Structural Vocabulary](./00-foundations/LANGUAGE.md) | Foundations | 8 | P2 | S | ✅ Done |
 | E1-01-FIX | Glossary — add 4 missing entries (Atomic Specification Unit, Proxy Discrimination, Conflict Detection, RFC 8174) | Foundations | 8 | P1 | S | ✅ Done |
 
 ---
