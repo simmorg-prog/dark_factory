@@ -11,9 +11,9 @@
 | Metric | Count |
 |---|---|
 | Total items | 36 |
-| Done | 14 |
+| Done | 15 |
 | In Progress | 0 |
-| To Do | 22 |
+| To Do | 21 |
 
 ---
 
@@ -69,7 +69,7 @@
 |---|---|---|---|---|---|
 | E4-01 | [Artefact Catalogue — All Stages](./02-artefacts/artefact-catalogue.md) | All | P1 | L | ✅ Done |
 | E4-02 | [Requirements Specification Templates](./02-artefacts/requirements-spec-templates.md) | All | P1 | M | ✅ Done |
-| E4-05 | Escalation Package Standard | All | P2 | S | To Do |
+| E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | All | P2 | S | ✅ Done |
 | E4-03 | Intent Manifest — Reference Design | Architects / CTOs | P2 | M | To Do |
 | E4-04 | Specification Corpus — Architecture & Governance | Architects | P2 | L | To Do |
 | E4-06 | Environment Map — Reference Design | Architects | P3 | M | To Do |

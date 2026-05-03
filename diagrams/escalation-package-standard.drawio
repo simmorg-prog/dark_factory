@@ -1,0 +1,158 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="Escalation Package Standard — Structure and Lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="10" width="1090" height="35" as="geometry" />
+    </mxCell>
+
+    <!-- Panel labels -->
+    <mxCell id="alabel" value="PACKAGE ANATOMY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="50" y="52" width="220" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="llabel" value="ESCALATION LIFECYCLE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="570" y="52" width="250" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Vertical divider -->
+    <mxCell id="divider" value="" style="line;strokeColor=#CCCCCC;fillColor=none;html=1;verticalAlign=bottom;align=center;" vertex="1" parent="1">
+      <mxGeometry x="538" y="50" width="10" height="510" as="geometry" />
+    </mxCell>
+
+    <!-- ===== PACKAGE ANATOMY ===== -->
+
+    <!-- Document header bar -->
+    <mxCell id="doc_hdr" value="ESCALATION PACKAGE — EP-[ID]    Urgency: Low · Medium · High · Critical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="76" width="465" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Section 1: HEADER (gray) -->
+    <mxCell id="sec_header" value="HEADER&#xa;Conflict ID · Timestamp · Originating Council · Conflict Type · Last Safe Checkpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="50" y="108" width="465" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Section 2: CONFLICT STATEMENT (red) -->
+    <mxCell id="sec_conflict" value="CONFLICT STATEMENT&#xa;What is in conflict and which councils are involved · Why autonomous resolution exceeded the permitted threshold" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#6b2020;" vertex="1" parent="1">
+      <mxGeometry x="50" y="155" width="465" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Section 3: EVIDENCE (blue) -->
+    <mxCell id="sec_evidence" value="EVIDENCE&#xa;Applicable specification references · Conflicting council positions (each council&apos;s stance) · Prior decisions and precedents" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#1a3a5c;" vertex="1" parent="1">
+      <mxGeometry x="50" y="202" width="465" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Section 4: OPTIONS (yellow) -->
+    <mxCell id="sec_options" value="OPTIONS&#xa;Option A — description · expected outcome · consequences&#xa;Option B — description · expected outcome · consequences" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#5a4000;" vertex="1" parent="1">
+      <mxGeometry x="50" y="249" width="465" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- Section 5: RISK ASSESSMENT (orange) -->
+    <mxCell id="sec_risk" value="RISK ASSESSMENT&#xa;Per option: likelihood of negative outcome · impact level · available mitigations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#5a2800;" vertex="1" parent="1">
+      <mxGeometry x="50" y="306" width="465" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Section 6: COUNCIL RECOMMENDATION (green) -->
+    <mxCell id="sec_rec" value="COUNCIL RECOMMENDATION&#xa;Recommended option · Rationale · Confidence level · Dissenting positions (if any)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#1a4a1a;" vertex="1" parent="1">
+      <mxGeometry x="50" y="353" width="465" height="45" as="geometry" />
+    </mxCell>
+
+    <!-- Section 7: DECISION REQUIRED (dark — prominent) -->
+    <mxCell id="sec_decide" value="DECISION REQUIRED — Approve an option · Request amendments · Defer with rationale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="400" width="465" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- Section 8: CHECKPOINT (gray — small) -->
+    <mxCell id="sec_checkpoint" value="LAST SAFE CHECKPOINT — Task ID · State snapshot · Rollback instructions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#CCCCCC;fontSize=10;align=left;verticalAlign=middle;spacingLeft=10;fontColor=#888888;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="50" y="440" width="465" height="28" as="geometry" />
+    </mxCell>
+
+    <!-- Anatomy footnote -->
+    <mxCell id="a_footer" value="Packages are assembled by the Meta-Council. Human receives a decision brief, not a raw log dump.&#xa;Target: human can review and decide in under 15 minutes." style="text;html=1;strokeColor=#D0D0D0;fillColor=#F8F8F8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="50" y="480" width="465" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ESCALATION LIFECYCLE ===== -->
+
+    <!-- Step 1: Trigger -->
+    <mxCell id="lc1" value="1. ESCALATION TRIGGERED&#xa;Conflict detected · Autonomy threshold exceeded · Domain council cannot resolve" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontColor=#6b2020;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="623" y="76" width="410" height="52" as="geometry" />
+    </mxCell>
+
+    <!-- Step 2: Meta-Council activated -->
+    <mxCell id="lc2" value="2. META-COUNCIL ACTIVATED&#xa;Specialist agents (Policy · Risk · Precedent) review in parallel · Coordinator assembles package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="623" y="148" width="410" height="52" as="geometry" />
+    </mxCell>
+
+    <!-- Step 3: Package assembled -->
+    <mxCell id="lc3" value="3. PACKAGE ASSEMBLED&#xa;Evidence gathered · Options scoped · Risk assessed · Recommendation formed · Checkpoint recorded" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#1a3a5c;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="623" y="220" width="410" height="52" as="geometry" />
+    </mxCell>
+
+    <!-- Step 4: Delivered to human -->
+    <mxCell id="lc4" value="4. DELIVERED TO HUMAN&#xa;Decision brief sent · SLA timer starts · Workflow paused at checkpoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="623" y="292" width="410" height="52" as="geometry" />
+    </mxCell>
+
+    <!-- Decision diamond -->
+    <mxCell id="lc5" value="HUMAN DECIDES" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="728" y="368" width="200" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Outcomes -->
+    <mxCell id="lc6a" value="APPROVE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontColor=#1a4a1a;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="591" y="466" width="130" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="lc6b" value="MODIFY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontColor=#5a2800;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="763" y="466" width="130" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="lc6c" value="DEFER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontColor=#555555;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="935" y="466" width="130" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- Results -->
+    <mxCell id="lc7a" value="Decision logged&#xa;Workflow resumes&#xa;from checkpoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontColor=#1a4a1a;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="591" y="522" width="130" height="48" as="geometry" />
+    </mxCell>
+    <mxCell id="lc7b" value="Package revised&#xa;Resubmitted to&#xa;human for review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontColor=#5a2800;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="763" y="522" width="130" height="48" as="geometry" />
+    </mxCell>
+    <mxCell id="lc7c" value="Work held at&#xa;checkpoint · Pending&#xa;decision logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontColor=#555555;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="935" y="522" width="130" height="48" as="geometry" />
+    </mxCell>
+
+    <!-- ===== EDGES ===== -->
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="lc1" target="lc2" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="lc2" target="lc3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e34" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="lc3" target="lc4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e45" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="lc4" target="lc5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5a" value="approve" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#82b366;fontColor=#82b366;fontSize=10;fontStyle=2;" edge="1" source="lc5" target="lc6a" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5b" value="modify" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#D6B656;fontColor=#D6B656;fontSize=10;fontStyle=2;" edge="1" source="lc5" target="lc6b" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5c" value="defer" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#999999;fontColor=#999999;fontSize=10;fontStyle=2;" edge="1" source="lc5" target="lc6c" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6a7a" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#82b366;" edge="1" source="lc6a" target="lc7a" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6b7b" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#D6B656;" edge="1" source="lc6b" target="lc7b" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6c7c" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#999999;" edge="1" source="lc6c" target="lc7c" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
