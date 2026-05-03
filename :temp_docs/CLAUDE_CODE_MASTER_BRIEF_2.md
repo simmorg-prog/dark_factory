@@ -1,8 +1,8 @@
 # Dark Factory — Master Brief for Claude Code
-**Version:** 1.3  
+**Version:** 1.5  
 **Date:** May 2026  
 **Status:** Authoritative instruction set — execute in order  
-**Changes:** v1.1 — Added E5-00. v1.2 — Added E5-08. v1.3 — Added Practice Premium Principle across E5-00, E5-08, E1-04, E5-03.
+**Changes:** v1.1 — Added E5-00. v1.2 — Added E5-08. v1.3 — Added Practice Premium Principle. v1.4 — Split E5-01, moved to Wave 2. v1.5 — Added E1-07, E4-00, Atomic Specification Principle, five authoring notes, four glossary terms, quality checklist update.
 
 ---
 
@@ -171,6 +171,7 @@ See: [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map
 | E1-03 | [Reader Guide](./00-foundations/reader-guide.md) | 🔜 Pending |
 | E1-04 | [The Cumulative Stack Explained](./00-foundations/cumulative-stack.md) | 🔜 Pending |
 | E1-06 | [The Specification Discipline — Three Principles](./00-foundations/specification-discipline.md) | 🔜 Pending |
+| E1-07 | [Specification Quality Standard](./00-foundations/specification-quality-standard.md) | 🔜 Pending |
 
 ### Wave 2 — Scope & Strategy
 | ID | Title | Status |
@@ -178,6 +179,8 @@ See: [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map
 | E5-00 | [The AI-Native Organisation — Vision Narrative](./05-strategy/vision-ai-native.md) | 🔜 Pending |
 | E5-08 | [Wardley Map — AI Operational Maturity](./05-strategy/wardley-map.md) | 🔜 Pending |
 | E5-07 | [Enterprise Knowledge Work Map](./05-strategy/enterprise-knowledge-work-map.md) | 🔜 Pending |
+| E5-01a | [Maturity Assessment — Framework Design](./05-strategy/maturity-assessment-framework.md) | 🔜 Pending |
+| E5-01b | [Maturity Assessment — Instrument & Tool](./05-strategy/maturity-assessment-tool.md) | 🔜 Pending |
 | E3-01 | Human Role Transformation | 🔜 Pending |
 | E3-06 | Human-Agent Handoff Protocols | 🔜 Pending |
 | E3-03 | Agent Council Design | 🔜 Pending |
@@ -206,10 +209,10 @@ Create `BACKLOG.md` at the repo root. This is the living backlog tracker.
 # AI Operational Maturity — Backlog
 
 > Living tracker. Updated as each item is completed.  
-> **Total items:** 42 | **Done:** 2 | **In Progress:** 0 | **To Do:** 40
+> **Total items:** 45 | **Done:** 2 | **In Progress:** 0 | **To Do:** 43
 ```
 
-**Full item table — all 41 items:**
+**Full item table — all 45 items:**
 
 | ID | Title | Epic | Wave | Priority | Effort | Status |
 |---|---|---|---|---|---|---|
@@ -219,15 +222,19 @@ Create `BACKLOG.md` at the repo root. This is the living backlog tracker.
 | E1-03 | Reader Guide | Foundations | 1 | P2 | S | 🔜 To Do |
 | E1-04 | The Cumulative Stack Explained | Foundations | 1 | P2 | M | 🔜 To Do |
 | E1-06 | The Specification Discipline — Three Principles | Foundations | 1 | P1 | S | 🔜 To Do |
+| E1-07 | Specification Quality Standard | Foundations | 1 | P1 | M | 🔜 To Do |
 | E5-00 | The AI-Native Organisation — Vision Narrative | Strategy | 2 | P1 | M | 🔜 To Do |
 | E5-08 | Wardley Map — AI Operational Maturity | Strategy | 2 | P1 | L | 🔜 To Do |
 | E5-07 | Enterprise Knowledge Work Map | Strategy | 2 | P1 | L | 🔜 To Do |
+| E5-01a | Maturity Assessment — Framework Design | Strategy | 2 | P1 | M | 🔜 To Do |
+| E5-01b | Maturity Assessment — Instrument & Tool | Strategy | 2 | P1 | L | 🔜 To Do |
 | E3-01 | The Human Role Transformation | Actors | 2 | P1 | L | 🔜 To Do |
 | E3-06 | Human-Agent Handoff Protocols | Actors | 2 | P1 | M | 🔜 To Do |
 | E3-03 | Agent Council Design — Constitution & Governance | Actors | 2 | P1 | L | 🔜 To Do |
 | E3-02 | Agent Taxonomy — Types, Capabilities, Limitations | Actors | 3 | P2 | M | 🔜 To Do |
 | E3-04 | Agent Council Patterns | Actors | 3 | P2 | L | 🔜 To Do |
 | E3-05 | The Meta-Council — Cross-Domain Arbitration | Actors | 3 | P2 | M | 🔜 To Do |
+| E4-00 | Specification Examples — Reference Library | Artefacts | 4 | P1 | L | 🔜 To Do |
 | E4-01 | Artefact Catalogue — All Stages | Artefacts | 4 | P1 | L | 🔜 To Do |
 | E4-02 | Requirements Specification Templates | Artefacts | 4 | P1 | M | 🔜 To Do |
 | E4-05 | Escalation Package Standard | Artefacts | 4 | P2 | S | 🔜 To Do |
@@ -248,7 +255,6 @@ Create `BACKLOG.md` at the repo root. This is the living backlog tracker.
 | E6-02 | Worked Example: Incident Response at Each Stage | Examples | 6 | P2 | L | 🔜 To Do |
 | E6-03 | Anti-Patterns Library | Examples | 6 | P2 | M | 🔜 To Do |
 | E6-05 | Dark Factory Operating Model | Examples | 6 | P2 | L | 🔜 To Do |
-| E5-01 | Organisational Maturity Assessment | Strategy | 7 | P1 | L | 🔜 To Do |
 | E5-05 | AI Governance in the Dark Factory | Strategy | 7 | P1 | L | 🔜 To Do |
 | E5-04 | Risk Register — Across All Stages | Strategy | 7 | P1 | M | 🔜 To Do |
 | E5-02 | The Engineering Team of the Future | Strategy | 7 | P2 | M | 🔜 To Do |
@@ -272,13 +278,13 @@ Create `BACKLOG.md` at the repo root. This is the living backlog tracker.
 
 | Wave | Focus | Items |
 |---|---|---|
-| 1 | Foundations | E1-01 ✅ E1-02 ✅ E1-05 E1-03 E1-04 E1-06 |
-| 2 | Scope & Strategy | E5-00 E5-08 E5-07 E3-01 E3-06 E3-03 |
+| 1 | Foundations | E1-01 ✅ E1-02 ✅ E1-05 E1-03 E1-04 E1-06 E1-07 |
+| 2 | Scope & Strategy | E5-00 E5-08 E5-07 E5-01a E5-01b E3-01 E3-06 E3-03 |
 | 3 | Actors | E3-02 E3-04 E3-05 |
-| 4 | Artefacts | E4-01 E4-02 E4-05 E4-03 E4-04 E4-06 |
+| 4 | Artefacts | E4-00 E4-01 E4-02 E4-05 E4-03 E4-04 E4-06 |
 | 5 | Stage Overviews | E2-07 E2-01 E2-02 E2-03 E2-04 E2-05 E2-06 |
 | 6 | Worked Examples | E6-01 E6-04 E6-06 E6-07 E6-02 E6-03 E6-05 |
-| 7 | Organisational & Strategic | E5-01 E5-05 E5-04 E5-02 E5-03 E5-06 |
+| 7 | Organisational & Strategic | E5-05 E5-04 E5-02 E5-03 E5-06 |
 ```
 
 ---
@@ -325,6 +331,62 @@ Discipline is founded on three principles:
    (LLM agents) equally. The failure modes differ; the discipline is the same.
 
 See: [The Specification Discipline — Three Principles](./specification-discipline.md)
+```
+
+**Entry: Atomic Specification Unit**
+```markdown
+### Atomic Specification Unit
+The smallest independently verifiable specification element. An atomic 
+specification unit expresses exactly one obligation, directed at exactly 
+one named actor, verifiable by exactly one test. It cannot be split 
+without losing meaning and cannot be verified without depending on another 
+unit's outcome.
+
+Conjunctions ("and", "or") in a specification clause are a signal to split 
+into multiple atomic units, not a drafting style. See also: 
+[Specification Quality Standard](./specification-quality-standard.md)
+```
+
+**Entry: Proxy Discrimination**
+```markdown
+### Proxy Discrimination
+The use of a facially neutral data feature whose predictive utility derives 
+from its correlation with a protected characteristic. Proxy discrimination 
+occurs when a model trained without protected-characteristic inputs locates 
+substitute features (e.g. postcode as a proxy for race) that reproduce 
+discriminatory patterns. Removing protected attributes from inputs does not 
+prevent proxy discrimination. Specifications for AI systems operating in 
+regulated domains MUST explicitly address proxy detection and prevention.
+See: [Specification Quality Standard](./specification-quality-standard.md)
+```
+
+**Entry: Conflict Detection**
+```markdown
+### Conflict Detection
+Automated analysis of a specification corpus to identify rules that produce 
+contradictory enforcement decisions for the same input. In machine-readable 
+corpora, conflict detection is performed using SMT solvers (e.g. AWS Cedar 
+Analysis, Zelkova) or SAT-based tools (e.g. Margrave). In prose corpora, 
+it relies on legal drafting canons: lex specialis (specific over general), 
+lex posterior (later over earlier), and lex superior (higher authority). 
+Both mechanisms require atomic, uniquely identifiable specification units 
+as a prerequisite.
+```
+
+**Entry: RFC 8174**
+```markdown
+### RFC 8174
+The 2017 IETF standard (Leiba) that clarified RFC 2119 obligation keywords 
+(MUST, SHOULD, MAY etc.) carry normative force ONLY when they appear in ALL 
+CAPITALS, as shown here. Mixed-case occurrences ("must", "should") carry 
+only their ordinary English meaning. All specification documents in this 
+framework MUST include the RFC 8174 boilerplate declaration at their header:
+
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", 
+> "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and 
+> "OPTIONAL" in this document are to be interpreted as described in BCP 14 
+> [RFC2119] [RFC8174] when, and only when, they appear in all capitals, 
+> as shown here.
 ```
 
 ### 6.2 — maturity-curve.md (E1-02)
@@ -893,12 +955,384 @@ Title: "Organisational Capability Evolution — AI Operational Maturity." This i
 
 ---
 
+### 7.8 — E5-01a: Maturity Assessment — Framework Design
+
+**File:** `05-strategy/maturity-assessment-framework.md`
+
+**Diagrams:**
+- `diagrams/assessment-dimension-model.drawio` + `.svg` — the five assessment dimensions as a pentagon or radar chart template, each dimension labelled
+- `diagrams/assessment-two-track-scoring.drawio` + `.svg` — the T-Score / P-Score two-track model showing how effective stage is determined by the lower of the two, with example scenarios
+
+**File header:**
+```markdown
+> **E5-01a · Strategy · Wave 2**  
+> The conceptual design of the AI Operational Maturity Assessment — 
+> the scoring model, dimension framework, lowest solid layer rule, 
+> and practice indicator library.  
+> See also: [Maturity Assessment Tool](./maturity-assessment-tool.md) · 
+> [Wardley Map](./wardley-map.md) · 
+> [Maturity Curve](../00-foundations/maturity-curve.md)
+```
+
+**Content structure:**
+
+1. **Why standard maturity assessments fail** — three named failure modes:
+   - They measure what you *have* not what you *can do* (tool inventory vs practice maturity)
+   - They produce a single number that hides the real story (average obscures the lowest solid layer)
+   - They do not distinguish technology deployment from practice development (the Practice Premium blind spot)
+
+2. **The five assessment dimensions** — introduce the dimension model diagram (linked SVG). One paragraph per dimension:
+   - **Technology** — what tools, platforms, and infrastructure are deployed and operational
+   - **Practice** — how consistently and deliberately the disciplines are applied in day-to-day work
+   - **People** — role evolution, skills development, and human governance capability
+   - **Governance** — specification quality, intent encoding, oversight mechanisms, and audit capability
+   - **Domain Coverage** — which knowledge work domains are at which stage
+
+3. **The two-track scoring model** — introduce the T-Score / P-Score diagram (linked SVG). This is the central design innovation:
+   - **T-Score (Technology Readiness)** — do the tools and infrastructure exist and operate?
+   - **P-Score (Practice Maturity)** — are the disciplines genuinely operating consistently?
+   - **Effective Stage** = the lower of T-Score and P-Score at each stage
+   - The most common and most dangerous configuration: T-Score 4, P-Score 2 — looks advanced, performs poorly, expensive to maintain
+   - Named principle: *"Technology without practice is infrastructure waiting to fail."*
+
+4. **The Lowest Solid Layer Rule** — the assessment output is not an average. Define:
+   - **Effective Maturity Stage** — the highest stage where both T-Score ≥ threshold AND P-Score ≥ threshold
+   - **Maturity Debt** — the gap between the highest attempted stage and the lowest solid layer
+   - **Maturity Debt consequences** — what happens at each level of debt (1 layer = manageable, 2 layers = significant risk, 3+ layers = systemic fragility)
+   - Example: an organisation with Stage 4 tooling and Stage 2 practice is a Stage 2 organisation with Stage 4 cost structure
+
+5. **The Domain Coverage Map** — because the framework covers all knowledge work domains, the assessment must produce a domain-stage matrix, not a single number. Example output format:
+
+| Domain | Effective Stage | T-Score | P-Score | Maturity Debt |
+|---|---|---|---|---|
+| Software Engineering | 3 | 4 | 3 | 1 layer |
+| Finance | 2 | 2 | 2 | 0 |
+| Legal | 1 | 2 | 1 | 1 layer |
+| HR | 1 | 1 | 1 | 0 |
+| Procurement | 2 | 3 | 2 | 1 layer |
+
+6. **Practice indicators — the observable evidence standard** — this is the hardest and most important part. For each stage, define observable practice indicators — things you can actually look at, not things people say they do. Present as a reference table:
+
+**Stage 1 — Prompt Engineering:**
+- Prompt patterns exist as shared team assets (not individual, undocumented)
+- A review process exists for prompts used in production
+- Prompts include explicit scope boundaries (what to do AND what not to do)
+- A prompt library is versioned and accessible to the whole team
+
+**Stage 2 — Context Engineering:**
+- Context schemas are documented and versioned
+- Context quality is measured (retrieval hit rate, relevance scores, freshness)
+- A process exists for detecting and remediating context rot
+- Agents have defined and enforced context budgets
+
+**Stage 3 — Intent Engineering:**
+- An intent manifest exists, is formally owned, and is actively maintained
+- When strategy changes, the intent manifest is updated within a defined SLA
+- Teams can point to specific agent decisions shaped by encoded intent
+- A process exists for detecting intent drift
+
+**Stage 4 — Specification Engineering:**
+- ≥80% of workflow decisions are covered by machine-readable specification
+- Specification gap rate is measured (decisions requiring human escalation due to missing spec)
+- Specifications are versioned with full change history
+- Every agent decision can be traced to a specific specification clause within the audit trail
+
+**Stage 5 — Harness Engineering:**
+- Context quality is continuously monitored with automated alerts
+- Mean time to detect a harness failure is defined and measured against a target
+- A self-healing playbook exists and is regularly tested
+- Behavioural baselines are maintained and reviewed on a defined cadence
+
+**Stage 6 — Environment Engineering:**
+- ≥50% of internal APIs consumed by agents are formally specified with machine-readable contracts
+- An environment health review cadence exists and is followed
+- An Environment Council exists with a defined mandate and decision rights
+- At least one legacy system has been deliberately redesigned for AI legibility
+
+7. **How to use this framework** — guidance for assessment facilitators: who to interview, what artefacts to review, how to score honestly rather than aspirationally, how to present results to leadership
+
+8. **Navigation links** — forward to E5-01b (the instrument), back to Vision Narrative and Wardley Map
+
+---
+
+### 7.9 — E5-01b: Maturity Assessment — Instrument & Tool
+
+**File:** `05-strategy/maturity-assessment-tool.md`
+
+**Diagrams:**
+- `diagrams/assessment-output-sample.drawio` + `.svg` — a sample completed assessment output: the domain-stage matrix plus a radar chart showing T-Score vs P-Score across all five dimensions for one domain. Shows what a real assessment result looks like.
+
+**File header:**
+```markdown
+> **E5-01b · Strategy · Wave 2**  
+> The AI Operational Maturity Assessment instrument — the questionnaire, 
+> scoring rubric, and output format for conducting an organisational assessment.  
+> See also: [Assessment Framework Design](./maturity-assessment-framework.md) · 
+> [Maturity Curve](../00-foundations/maturity-curve.md)
+```
+
+**Content structure:**
+
+1. **How to conduct the assessment** — one page of practical guidance:
+   - Who should participate: CTO/technology leader, engineering leads, domain function heads (Finance, Legal, HR etc.), a governance/compliance lead
+   - Time required: 2–3 hours for a focused session, or 1–2 weeks for a thorough cross-domain assessment
+   - How to score: score what is *consistently true*, not what is *sometimes true* or *aspirationally true*
+   - The honest scoring rule: if you cannot point to an artefact, a process, or a metric that demonstrates a practice, score it as not present
+
+2. **The assessment questionnaire** — structured by dimension and stage. For each question, three possible scores:
+   - **0 — Not present:** No evidence this exists
+   - **1 — Partial:** Exists in some areas, inconsistently, or without governance
+   - **2 — Established:** Consistently present, governed, and maintained
+
+   Questions grouped by: Dimension (Technology / Practice / People / Governance / Domain Coverage) and Stage (1 through 6). Use the practice indicators from E5-01a as the basis for questions. Format as a clean table with scoring columns.
+
+3. **Scoring rubric** — how to convert question scores to T-Score and P-Score for each stage, then derive effective maturity stage and maturity debt per domain.
+
+4. **The output format** — what a completed assessment produces:
+   - Executive summary (one page): current state, maturity debt summary, top three priorities
+   - Domain-stage matrix (the coverage map)
+   - Dimension radar chart per domain (T-Score vs P-Score)
+   - Maturity debt register (where debt exists, what it means, what to do)
+   - Recommended next actions by priority
+
+5. **Interpreting results — common patterns** — five named patterns assessors commonly find, what they mean, and what to do:
+   - **The Over-Tooled Organisation** — high T-Score, low P-Score across all domains. Has bought Stage 4 infrastructure, operating at Stage 2 practice. Priority: stop buying tools, start developing practices.
+   - **The Engineering Island** — software engineering at Stage 3–4, all other domains at Stage 1. Common in tech companies. Risk: the Dark Factory exists only in engineering while governance, compliance, and finance operate at Stage 1.
+   - **The Governance Gap** — technology and practice scores reasonable, governance score low. Agents are operating without adequate oversight. High regulatory and reputational risk.
+   - **The Solid Foundation** — low effective stage but T-Score and P-Score in alignment. Low maturity debt. This is the healthiest starting position — progression is predictable and safe.
+   - **The Fragile Advanced** — high attempted stage, high maturity debt. Multiple layers of technology deployed without practice foundations. Systemic fragility. Requires deliberate remediation before further investment.
+
+6. **Sample completed assessment** — introduce the output diagram (linked SVG). Walk through the sample results, explaining what they mean and what the recommended actions would be.
+
+7. **Navigation links**
+
+---
+
+### 7.10 — E1-07: Specification Quality Standard
+
+**File:** `00-foundations/specification-quality-standard.md`  
+**No diagrams required.**
+
+**File header:**
+```markdown
+> **E1-07 · Foundations · Wave 1**  
+> The eight-dimension quality standard for all specifications produced 
+> within the AI Operational Maturity Framework — intent manifests, 
+> specification corpus entries, requirements documents, and acceptance 
+> criteria at every stage.  
+> See also: [Specification Discipline](./specification-discipline.md) · 
+> [Glossary](./glossary.md) · 
+> [Specification Examples](../02-artefacts/specification-examples.md)
+```
+
+**Purpose:** This document defines what "quality" means for any specification in this framework — whether it is a Stage 1 acceptance criterion, a Stage 3 intent manifest clause, or a Stage 4 corpus entry. It is the quality gate all specification-producing backlog items must meet. Every item in Epics E2, E4, and E6 that produces specification artefacts must be consistent with this standard.
+
+**Content structure:**
+
+1. **Opening** — The purpose of a quality standard is to make quality measurable, not aspirational. This document defines eight dimensions along which every specification can be assessed. A specification that meets all eight is ready to be enforced by agents. One that fails any dimension is a future defect waiting to be discovered at the worst possible moment.
+
+2. **The Atomic Specification Principle** — formatted as a named blockquote:
+
+> **The Atomic Specification Principle**
+>
+> A specification unit that cannot be independently verified cannot be reliably enforced. Every clause in an intent manifest and every entry in a specification corpus must express exactly one obligation, directed at exactly one named actor, verifiable by exactly one test. Conjunctions ("and", "or") in a specification clause are a signal to split, not a drafting style. The same primitive — the uniquely identifiable atomic spec unit — enables RFC 8174 precision, BDD executable tests, OSCAL audit objectives, and SMT conflict detection simultaneously. You cannot have any of them without it.
+
+3. **The Eight Quality Dimensions** — for each dimension: definition, what failure looks like, what ideal looks like, and the test for compliance.
+
+**Dimension 1 — RFC 8174 Normative Precision**
+- Definition: Obligation keywords (MUST, SHOULD, MAY, MUST NOT, SHOULD NOT) carry normative force only when in ALL CAPS and only when the document contains the RFC 8174 boilerplate declaration
+- Failure: Missing boilerplate, lowercase obligation words treated as normative, keywords applied to non-agents, SHOULD used without rationale
+- Ideal: RFC 8174 declaration in document header, every keyword bound to a named conformance role, every SHOULD accompanied by explicit rationale, keywords reserved for genuine interoperability or harm-prevention points
+- Test: Can you remove the boilerplate and have the document still read correctly? If yes, the keywords are decorative, not normative.
+
+**Dimension 2 — Single Responsibility (Atomicity)**
+- Definition: Each specification unit expresses exactly one obligation. Cannot be split without losing meaning. Cannot be verified without depending on another unit.
+- Failure: Conjunctions ("and", "or") joining multiple obligations in one clause; multiple MUST/SHOULD statements in one clause; purpose or rationale embedded in the obligation text
+- Ideal: One verb of obligation, one subject, one testable condition per unit. Rationale lives in a separate field, not in the obligation sentence. INCOSE R18-R23 met.
+- Test: Can you write a single test that passes or fails this clause without testing anything else? If no, split it.
+
+**Dimension 3 — Testability**
+- Definition: Each specification unit admits exactly one verification method and at least two test cases (positive and negative)
+- Failure: Obligation that requires human judgement to evaluate ("appropriate", "reasonable", "as needed"); no test cases defined; test requires testing multiple specifications simultaneously
+- Ideal: Binary pass/fail evaluation against observable evidence; at least one positive test case (this input MUST pass), one negative test case (this input MUST fail), one edge case; test cases co-located with the specification unit
+- Test: Can a junior engineer write a passing test for this clause without asking for clarification? If no, the clause is under-specified.
+
+**Dimension 4 — Completeness**
+- Definition: The specification covers its stated scope without leaving gaps that require human interpretation to fill
+- Failure: Terms used without definition; conditions that depend on context not specified in the document; scope limitations not stated; novel situations not addressed
+- Ideal: All terms defined in the document or by reference; scope explicitly stated including what is NOT covered; a gap register documents known uncovered situations and their handling; derived data / proxy risks explicitly addressed for any specification involving personal data
+- Test: Can an agent operating solely within this specification make every decision within its stated scope without escalating? If no, what is missing?
+
+**Dimension 5 — Traceability**
+- Definition: Every specification unit can be traced in both directions — to the source intent that created it and to the tests and audit records that verify it
+- Failure: No link to source requirement or intent manifest; no link to test suite; audit log cannot identify which specification version governed a decision
+- Ideal: Each unit has a stable unique ID; a `derived-from` field links to the intent manifest clause and regulatory basis; a `verified-by` field links to test IDs; audit logs capture specification ID and version with each decision
+- Test: Given an agent decision from six months ago, can you identify exactly which specification clause version governed it and whether that clause has since changed?
+
+**Dimension 6 — Conflict Freedom**
+- Definition: No two specification units in the corpus produce contradictory enforcement decisions for the same input
+- Failure: Two rules that both fire on the same input with different outcomes; no conflict detection mechanism; no rule-of-construction clause defining precedence
+- Ideal: A rule-of-construction clause (lex specialis, lex posterior) is stated in the corpus header; a `conflicts-with` field in each entry flags known interactions; SMT-based or Regal-style automated conflict detection runs on every corpus update; breaking changes are flagged
+- Test: For every pair of specification units whose scope could overlap, is the conflict explicitly resolved by precedence rule or by non-overlapping scope definition?
+
+**Dimension 7 — Versioning and Change Management**
+- Definition: Specifications are versioned with semantic precision, changes are logged, and breaking changes are explicitly flagged
+- Failure: Version numbers without semantic meaning; no changelog; no definition of what constitutes a breaking change; agents not notified of version updates
+- Ideal: Semantic versioning where a breaking change is defined as any change that would cause a previously-compliant agent to become non-compliant or vice versa; a `breaking-change` boolean field; changelog entry for every version; deprecation protocol; deployed agents must verify they are operating against current specification version
+- Test: Given specifications v2.0 and v2.1, can you determine from the document alone whether any agent operating against v2.0 would need to change its behaviour to be compliant with v2.1?
+
+**Dimension 8 — Proxy Discrimination Prevention (for personal data contexts)**
+- Definition: Specifications for systems processing personal data explicitly address the risk of proxy discrimination — the use of facially neutral features that correlate with protected characteristics
+- Failure: Specification bans explicit protected-characteristic fields but is silent on derived or correlated features; no proxy analysis required; no disparate impact testing specified
+- Ideal: Explicit rejection of fairness-through-unawareness; mandatory proxy analysis at feature engineering (mutual information tests, adversarial recovery); requirement for subgroup outcome testing with documented tolerance thresholds; justification required for any retained feature that correlates with a protected characteristic; lawful processing basis for special-category data used in bias detection per EU AI Act Article 10(5) / UK GDPR Article 9
+- Test: Does this specification prevent a model from locating a substitute feature that reproduces discriminatory outcomes after explicit protected fields are removed? If silent on this, it fails Dimension 8.
+
+4. **The Quality Checklist** — a compact table for rapid self-assessment of any specification unit:
+
+| Dimension | Check | Pass/Fail |
+|---|---|---|
+| RFC 8174 | Document contains verbatim RFC 8174 boilerplate | |
+| RFC 8174 | All obligation keywords bound to named conformance roles | |
+| RFC 8174 | All SHOULDs accompanied by explicit rationale | |
+| Atomicity | No conjunctions joining multiple obligations | |
+| Atomicity | One verb, one subject, one condition | |
+| Testability | Binary pass/fail evaluation possible | |
+| Testability | Positive and negative test cases defined | |
+| Completeness | All terms defined or referenced | |
+| Completeness | Scope and out-of-scope stated | |
+| Completeness | Gap register present | |
+| Traceability | Stable unique ID assigned | |
+| Traceability | Source intent / regulatory basis linked | |
+| Conflict Freedom | Rule-of-construction clause present in corpus | |
+| Conflict Freedom | Conflict detection run on corpus update | |
+| Versioning | Semantic version with breaking-change flag | |
+| Versioning | Changelog entry present | |
+| Proxy (if applicable) | Proxy analysis required | |
+| Proxy (if applicable) | Subgroup outcome testing specified | |
+
+5. **How to use this standard** — guidance for specification authors, reviewers, and governance teams: the checklist as a pre-merge gate; the eight dimensions as a review rubric; how to remediate each failure type.
+
+6. **Navigation links** — forward to E4-00 (Specification Examples), E1-06 (Specification Discipline), back to Glossary
+
+---
+
+### 7.11 — E4-00: Specification Examples — Reference Library
+
+**File:** `02-artefacts/specification-examples.md`  
+**No diagrams required.** (The examples themselves are the content.)
+
+**File header:**
+```markdown
+> **E4-00 · Artefacts · Wave 4**  
+> Canonical reference examples of high-quality specifications at Intent 
+> level (Stage 3) and Specification Corpus level (Stage 4), corrected 
+> against the eight quality dimensions of the Specification Quality Standard.  
+> See also: [Specification Quality Standard](../00-foundations/specification-quality-standard.md) · 
+> [Requirements Templates](./requirements-templates.md) · 
+> [Specification Corpus Architecture](./specification-corpus.md)
+```
+
+**Purpose:** This document provides the quality bar — concrete, corrected examples that all other specification artefacts in this framework must meet. Both examples are drawn from the Meridian Capital loan origination scenario (a financial services firm deploying agents across commercial lending workflows) and demonstrate the same governance concern — data use in credit assessment — at two maturity levels.
+
+**Content structure:**
+
+1. **Introduction** — how to use this reference library; the Meridian Capital scenario; the translation chain from intent to enforcement
+
+2. **The Translation Chain diagram** (inline Markdown, not a Draw.io diagram):
+```
+Organisational Intent
+        ↓ [Stage 3] Intent Manifest Clause — reasoned, RFC 8174, atomic
+        ↓ [Stage 4] Specification Corpus Entry — machine-enforceable, testable
+        ↓ [Stage 5] Harness Enforcement — pre-assessment validation, audit log
+        ↓ [Stage 6] Environment Contract — structurally impossible to violate
+```
+
+3. **Example A — Intent Level (Stage 3): CRED-INTENT-004-001 through CRED-INTENT-004-005**
+
+Five atomic intent manifest clauses, each covering exactly one prohibition. This replaces the original flawed single clause that bundled five concerns:
+
+- **CRED-INTENT-004-001** — Protected characteristics prohibition (absolute, MUST NOT)
+- **CRED-INTENT-004-002** — Postcode-as-proxy prohibition (conditional, MUST NOT when used as primary factor)
+- **CRED-INTENT-004-003** — Unconsented social media prohibition (conditional on consent verification)
+- **CRED-INTENT-004-004** — Health and medical data prohibition (absolute, MUST NOT)
+- **CRED-INTENT-004-005** — Derived data / proxy discrimination prohibition (NEW — not in original)
+
+Each clause must include:
+- RFC 8174 boilerplate at document header (once, not per clause)
+- Named conformance role: "A credit assessment agent"
+- Single RFC 2119 keyword per clause
+- Explicit reasoning paragraph explaining *why* (not just *what*)
+- Jurisdiction and temporal scope stated
+- Escalation trigger if applicable
+
+**CRED-INTENT-004-005 (the critical new clause)** — proxy discrimination:
+```markdown
+### CRED-INTENT-004-005 — Derived Data and Proxy Discrimination
+
+A credit assessment agent MUST NOT use any feature, derived feature, 
+composite variable, or model representation whose predictive utility 
+derives primarily from its correlation with a protected characteristic 
+as defined in CRED-INTENT-004-001, regardless of whether that feature 
+directly encodes the characteristic.
+
+**Conformance role:** Credit assessment agent  
+**Obligation level:** MUST NOT (absolute — see CRED-INTENT-004-001)  
+**Jurisdiction:** UK (Equality Act 2010, FCA PRIN 12, UK GDPR Art. 9)  
+**Temporal scope:** Applies at feature engineering, model training, 
+and inference stages  
+
+**Reasoning:** Removing protected-characteristic fields from model 
+inputs does not prevent discrimination if substitute features are 
+available that correlate with those characteristics. A model trained 
+without `applicant.race` may locate `applicant.postcode`, 
+`applicant.school`, or `applicant.spending_pattern` as proxies that 
+reproduce the same discriminatory pattern. This clause exists because 
+fairness-through-unawareness is neither legally sufficient nor 
+ethically adequate. The ICO (Annex A, AI and Data Protection Guidance) 
+explicitly requires proxy analysis at feature engineering. 
+
+**Test:** After removing all explicitly prohibited fields, apply 
+mutual-information testing and adversarial classifier recovery against 
+all remaining features. Any feature with statistically significant 
+correlation to a protected characteristic MUST be justified by 
+documented less-discriminatory-alternative analysis or removed.
+
+**Escalation trigger:** Proxy analysis results MUST be reviewed by 
+the Data Ethics function before any model reaches production. 
+Escalation package standard: CRED-ESC-003.
+```
+
+4. **Example B — Specification Level (Stage 4): Five atomic YAML entries**
+
+Five separate YAML specification corpus entries (CRED-DATA-001 through CRED-DATA-005), one per prohibition, replacing the original single bundled entry. Each entry must include:
+- Unique ID and stable version
+- `derived-from` field linking to intent manifest clause ID
+- `normative-basis` field with RFC 2119 obligation level
+- `regulatory-basis` with specific Acts, frameworks, and articles
+- `enforcement` block: mode, action-on-violation, escalation-target
+- `validation` block: exactly ONE check per entry (SRP enforced)
+- `test-cases` block: at least one positive test, one negative test, one edge case
+- `audit` block: what to log, retention period
+- `versioning` block: semantic version, breaking-change flag, changelog
+- `conflicts-with` field or explicit statement of non-conflict
+- `known-gaps` block
+
+Show the complete YAML for CRED-DATA-005 (proxy discrimination — the new entry) in full, and abbreviated versions of CRED-DATA-001 through CRED-DATA-004 demonstrating the structure.
+
+5. **Quality verification table** — for each example, show the eight-dimension checklist with pass/fail for each dimension, demonstrating that the corrected versions meet the full standard
+
+6. **What changed from the original examples** — a clear before/after comparison table showing every gap identified and how it was remediated. This is important because readers who saw the original examples need to understand why they were insufficient.
+
+7. **Navigation links**
+
+---
+
 ## 8. Execution Order
 
 Execute all tasks in this exact sequence:
 
 1. ✅ Read this brief completely before writing any file
-2. 🔧 Fix `glossary.md` — name update + two new entries
+2. 🔧 Fix `glossary.md` — name update + six new entries (Living Specification, Specification Discipline, Atomic Specification Unit, Proxy Discrimination, Conflict Detection, RFC 8174)
 3. 🔧 Fix `maturity-curve.md` — name update + link fixes + two additions
 4. 📝 Rewrite `README.md` (uppercase) — full rewrite per Section 4
 5. 📝 Create `BACKLOG.md` — per Section 5
@@ -906,10 +1340,14 @@ Execute all tasks in this exact sequence:
 7. 📝 Create `00-foundations/reader-guide.md` — per Section 7.2
 8. 📝 Create `00-foundations/cumulative-stack.md` + 1 diagram — per Section 7.3
 9. 📝 Create `00-foundations/specification-discipline.md` + 2 diagrams — per Section 7.4
-10. 📝 Create `05-strategy/vision-ai-native.md` — per Section 7.6 (no diagrams)
-11. 📝 Create `05-strategy/wardley-map.md` + 2 diagrams — per Section 7.7
-12. 📝 Create `05-strategy/enterprise-knowledge-work-map.md` + 2 diagrams — per Section 7.5
-13. 🔍 Final check — verify all internal links are relative, all diagrams are linked not embedded, framework name is consistent throughout
+10. 📝 Create `00-foundations/specification-quality-standard.md` — per Section 7.10 (no diagrams)
+11. 📝 Create `05-strategy/vision-ai-native.md` — per Section 7.6 (no diagrams)
+12. 📝 Create `05-strategy/wardley-map.md` + 2 diagrams — per Section 7.7
+13. 📝 Create `05-strategy/enterprise-knowledge-work-map.md` + 2 diagrams — per Section 7.5
+14. 📝 Create `05-strategy/maturity-assessment-framework.md` + 2 diagrams — per Section 7.8
+15. 📝 Create `05-strategy/maturity-assessment-tool.md` + 1 diagram — per Section 7.9
+16. 📝 Create `02-artefacts/specification-examples.md` — per Section 7.11 (no diagrams)
+17. 🔍 Final check — verify all internal links are relative, all diagrams are linked not embedded, framework name is consistent throughout
 
 ---
 
@@ -925,13 +1363,73 @@ Run these checks on every file before committing:
 - [ ] Colour palette matches the standard in Section 2
 - [ ] No absolute GitHub URLs in any file
 - [ ] BACKLOG.md status reflects actual state of files
-- [ ] The three named principles appear consistently wherever referenced: **Specification Debt Principle**, **Strategic Misalignment Principle**, **Practice Premium Principle**
+- [ ] The four named principles appear consistently: **Specification Debt Principle**, **Strategic Misalignment Principle**, **Practice Premium Principle**, **Atomic Specification Principle**
+- [ ] Every specification document contains the RFC 8174 boilerplate declaration verbatim
+- [ ] Every specification clause is atomic — no conjunctions joining multiple obligations
+- [ ] Every specification corpus entry has a unique ID, `derived-from` field, and `normative-basis` field
 
 ---
 
 ## 10. Authoring Notes — Future Items
 
 These notes apply to backlog items not yet being written but whose content direction has been decided. Store these so the correct framing is applied when those items are executed.
+
+### E4-02 — Requirements Specification Templates (Wave 4)
+
+**Critical content requirements:** This document must include:
+
+1. The RFC 8174 boilerplate verbatim as the mandatory opening for any normative document — copy the exact text from E1-07 (Specification Quality Standard) and E1-06 (Specification Discipline)
+2. INCOSE singularity rules R18-R23 translated into practical authoring guidance: one verb, one subject, no conjunctions, no embedded purpose, no parentheses
+3. Atomic requirement structure — the unit template showing ID, conformance role, obligation keyword, condition, and separate rationale field
+4. Embedded acceptance criteria in Gherkin format (Given/When/Then) as the standard for requirements that will become Stage 4 specification corpus entries
+5. A proxy discrimination clause template based on CRED-INTENT-004-005 in E4-00 — for any requirement involving personal data processing
+6. Examples showing the same requirement written at Stage 1 (informal), Stage 2 (structured), Stage 3 (RFC 8174 + atomic), and Stage 4 (machine-enforceable YAML) to demonstrate the progression
+
+### E4-04 — Specification Corpus Architecture & Governance (Wave 4)
+
+**Critical content requirements:** This document must include:
+
+1. The Cedar/SMT conflict detection stack as the recommended architecture for automated corpus conflict detection: Cedar Analysis as primary, Zelkova-style SMT encoding as alternative, Regal-style linting for syntactic hygiene, Margrave for design-time exploration
+2. A rule-of-construction clause template for the corpus header specifying: lex specialis (specific over general), lex posterior (later over earlier), lex superior (higher authority), and explicit statement that lex posterior generalis does NOT override lex prior specialis
+3. Semantic versioning standards: definition of breaking change (any change that would cause a previously-compliant agent to become non-compliant), the `breaking-change` boolean field, deprecation protocol, agent version-verification requirement
+4. Gap register governance: who owns gaps, what SLA for resolution, how escalation packages reference open gaps, what triggers gap closure
+5. The OSCAL assessment objective model as the standard for linking specification units to test objectives and audit evidence
+
+### E2-04 — Stage 4 Deep Dive: Specification Engineering (Wave 5)
+
+**Critical framing note:** This deep dive must explain the five specification disciplines as the *practice standard* for Stage 4 — not as optional enhancements but as prerequisites for operating a Dark Factory safely. Specifically:
+
+1. RFC 8174 is not optional at Stage 4 — it is what makes human audit of machine-enforced specifications possible
+2. Atomicity (INCOSE R18-R23) is not a style preference — it is what enables automated conflict detection and per-clause audit logging
+3. Embedded testability (BDD/Gherkin, OPA test co-location) is not a testing convenience — it is what closes the specification-to-enforcement gap and prevents specification drift
+4. Proxy discrimination prevention is not a legal formality — it is what prevents the Dark Factory from systematically reproducing human discrimination at machine speed
+5. Conflict detection (Cedar/SMT stack) is not an advanced capability — it is what prevents the specification corpus from becoming a source of non-deterministic agent behaviour as it grows
+
+The deep dive should include the Quality Checklist from E1-07 as a mandatory gate for every specification corpus entry entering Stage 4 production.
+
+### E1-06 — Specification Discipline: Three Principles (Wave 1)
+
+**Addition to Principle 2 (Living Specifications):** Principle 2 must now explicitly reference:
+- BDD/Gherkin (Cucumber, SpecFlow) as the canonical model for executable living specifications in software engineering contexts — feature files where scenarios ARE specification clauses, co-located with tests, run in CI
+- OSCAL assessment objectives as the canonical model for executable living specifications in compliance and governance contexts — each control statement linked to an assessment objective and evidence requirement
+- OPA/Rego with co-located `_test.rego` files as the canonical model for policy-as-code contexts
+
+The mechanism that makes specifications living is not a process or a culture — it is a specific technical pattern: specification and test in the same artefact, automated validation in CI, stable addressable IDs that survive refactoring.
+
+### E6-01 — Worked Example: Feature Delivery at Each Stage (Wave 6)
+
+**Critical additional requirement:** The MFA feature delivery example must demonstrate specification quality progression across the maturity stages — not just workflow changes. Specifically:
+
+At each stage, show the *same* acceptance criterion written to the quality standard of that stage:
+
+- **Stage 1:** "Users should be able to log in with MFA" — informal, no RFC 2119, not atomic, not testable
+- **Stage 2:** "The authentication service SHOULD support TOTP-based MFA for all users" — RFC 2119 present but no boilerplate, not atomic (bundles TOTP + all users), no test case
+- **Stage 3 (Intent Manifest):** Atomic clause CRED-AUTH-001 — RFC 8174 boilerplate, single obligation, explicit reasoning, named conformance role, escalation trigger
+- **Stage 4 (Specification Corpus):** YAML entry AUTH-SPEC-001 — machine-enforceable, atomic, `normative-basis`, `derived-from`, embedded test cases, semantic versioning, conflict-free
+- **Stage 5:** Harness pre-flight check validating AUTH-SPEC-001 on every deployment, telemetry on compliance rate
+- **Stage 6:** Authentication environment contract — MFA compliance is a property of the environment by construction, not a runtime check
+
+This progression is the single most concrete illustration of why specification quality at Stage 1 determines Dark Factory performance at Stage 4.
 
 ### E5-03 — Investment & Roadmap Planning Guide (Wave 7)
 
@@ -940,25 +1438,17 @@ These notes apply to backlog items not yet being written but whose content direc
 > The investment question is never "what tools do we need?" The question is "what practice disciplines do we need to develop, and what tools will support that development?"
 
 The document should structure investment planning as a **practice development roadmap** in which:
-- Each stage of the maturity framework represents a practice investment, not a technology purchase
-- Technology spending at each stage is justified by and calibrated to the practice it enables
+- Each stage represents a practice investment, not a technology purchase
+- Technology spending is justified by and calibrated to the practice it enables
 - ROI is measured in practice maturity gain, not tool deployment
 - The roadmap explicitly names which practices must precede which technology investments
 
 The document should include a table structured as:
 
-| Stage | Practice to Develop | Practice Indicators (how you know it's real) | Technology That Supports It | What to Avoid Buying Before the Practice Exists |
+| Stage | Practice to Develop | Practice Indicators | Technology That Supports It | What NOT to Buy Before Practice Exists |
 |---|---|---|---|---|
 
 This framing is a genuine differentiator from all other AI investment frameworks in the market, which are universally tool-centric. It is also more defensible with CFOs and boards who are rightly sceptical of technology investment claims.
-
-### E5-00 — Vision Narrative (Wave 2, already specified in Section 7.6)
-
-**Additional note:** The Practice Premium Principle section has been added to the narrative content in Section 7.6. Ensure it appears between "The Stakes" and "A Note on Urgency" sections as specified.
-
-### E5-08 — Wardley Map (Wave 2, already specified in Section 7.7)
-
-**Additional note:** The Organisational Capability Map (second diagram) must visually distinguish between technology capability components (T marker, standard rightward movement) and practice capability components (P marker, slower movement arrow). This distinction is the key visual insight that separates the framework from technology-centric maturity models. See Section 7.7 diagram annotation note for full specification.
 
 ---
 
