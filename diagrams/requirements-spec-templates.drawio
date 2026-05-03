@@ -1,0 +1,221 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="Requirements Specification Templates — Stages 2 to 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="10" width="1090" height="35" as="geometry" />
+    </mxCell>
+
+    <!-- Subtitle -->
+    <mxCell id="subtitle" value="Each stage adds a new section. Inherited fields shown in grey. Stage 1 has no template; Stages 5–6 shift to intent boundary documents." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="40" y="48" width="1090" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE HEADERS ===== -->
+    <mxCell id="s2_hdr" value="Stage 2 — Context Engineering&#xa;Structured Requirements Document" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="50" y="72" width="290" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s3_hdr" value="Stage 3 — Intent Engineering&#xa;Intent-Linked Requirement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="370" y="72" width="290" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s4_hdr" value="Stage 4 — Specification Engineering&#xa;Machine-Readable Spec Requirement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="690" y="72" width="290" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SECTION: IDENTITY ===== -->
+    <!-- S2 — new at S2 (blue) -->
+    <mxCell id="s2_sec1" value="IDENTITY" style="text;html=1;strokeColor=#6C8EBF;fillColor=#BBDEFB;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#1a3a5c;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="50" y="126" width="290" height="20" as="geometry" />
+    </mxCell>
+    <!-- S3 — inherited (grey) -->
+    <mxCell id="s3_sec1" value="IDENTITY" style="text;html=1;strokeColor=#AAAAAA;fillColor=#E0E0E0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#888888;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="370" y="126" width="290" height="20" as="geometry" />
+    </mxCell>
+    <!-- S4 — inherited (grey) -->
+    <mxCell id="s4_sec1" value="IDENTITY" style="text;html=1;strokeColor=#AAAAAA;fillColor=#E0E0E0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#888888;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="690" y="126" width="290" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- F1: Requirement ID (y=148) -->
+    <mxCell id="s2_f1" value="Requirement ID" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="148" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f1" value="Requirement ID" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="148" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f1" value="Requirement ID" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="148" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F2: Title (y=176) -->
+    <mxCell id="s2_f2" value="Title" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="176" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f2" value="Title" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="176" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f2" value="Title" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="176" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F3: Type (y=204) -->
+    <mxCell id="s2_f3" value="Type  (Feature · Bug · Enhancement)" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="204" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f3" value="Type  (Feature · Bug · Enhancement)" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="204" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f3" value="Type  (Feature · Bug · Enhancement)" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="204" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SECTION: DEFINITION (y=236) ===== -->
+    <mxCell id="s2_sec2" value="DEFINITION" style="text;html=1;strokeColor=#6C8EBF;fillColor=#BBDEFB;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#1a3a5c;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="50" y="236" width="290" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_sec2" value="DEFINITION" style="text;html=1;strokeColor=#AAAAAA;fillColor=#E0E0E0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#888888;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="370" y="236" width="290" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_sec2" value="DEFINITION" style="text;html=1;strokeColor=#AAAAAA;fillColor=#E0E0E0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#888888;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="690" y="236" width="290" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- F4: Description (y=258) -->
+    <mxCell id="s2_f4" value="Description" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="258" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f4" value="Description" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="258" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f4" value="Description" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="258" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F5: Acceptance Criteria (y=286) -->
+    <mxCell id="s2_f5" value="Acceptance Criteria" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="286" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f5" value="Acceptance Criteria" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="286" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f5" value="Acceptance Criteria" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="286" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F6: Priority / Dependencies / Status (y=314) -->
+    <mxCell id="s2_f6" value="Priority · Dependencies · Status" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1a3a5c;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="314" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s3_f6" value="Priority · Dependencies · Status" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="314" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f6" value="Priority · Dependencies · Status" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="314" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- S2 characteristic note (y=350) -->
+    <mxCell id="s2_note" value="Machine-readable, agent-retrievable.&#xa;First template to enable context injection." style="text;html=1;strokeColor=#6C8EBF;fillColor=#EAF4FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="50" y="350" width="290" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SECTION: INTENT (S3+, y=350) ===== -->
+    <mxCell id="s3_sec3" value="INTENT  ←  new at Stage 3" style="text;html=1;strokeColor=#D6B656;fillColor=#FFD966;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#5a4000;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="370" y="350" width="290" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_sec3" value="INTENT" style="text;html=1;strokeColor=#AAAAAA;fillColor=#E0E0E0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#888888;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="690" y="350" width="290" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- F7: Intent Reference (y=372) -->
+    <mxCell id="s3_f7" value="Intent Reference  (manifest ID)" style="text;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5a4000;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="372" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f7" value="Intent Reference  (manifest ID)" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="372" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F8: Strategic Priority (y=400) -->
+    <mxCell id="s3_f8" value="Strategic Priority &amp; Trade-offs" style="text;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5a4000;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="400" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f8" value="Strategic Priority &amp; Trade-offs" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="400" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F9: Outcome Statement (y=428) -->
+    <mxCell id="s3_f9" value="Outcome Statement  (not implementation)" style="text;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5a4000;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="370" y="428" width="290" height="26" as="geometry" />
+    </mxCell>
+    <mxCell id="s4_f9" value="Outcome Statement  (not implementation)" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="428" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- S3 characteristic note (y=464) -->
+    <mxCell id="s3_note" value="Requirements linked to organisational intent.&#xa;Agents evaluate options against stated goals." style="text;html=1;strokeColor=#D6B656;fillColor=#FFFBEA;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="370" y="464" width="290" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SECTION: GOVERNANCE (S4 only, y=464) ===== -->
+    <mxCell id="s4_sec4" value="GOVERNANCE  ←  new at Stage 4" style="text;html=1;strokeColor=#9673A6;fillColor=#C5A3D0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;fontColor=#3d1a5a;spacingLeft=6;" vertex="1" parent="1">
+      <mxGeometry x="690" y="464" width="290" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- F10: Specification References (y=486) -->
+    <mxCell id="s4_f10" value="Specification References  (corpus IDs)" style="text;html=1;strokeColor=#9673A6;fillColor=#E1D5E7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#3d1a5a;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="486" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F11: Compliance Flags (y=514) -->
+    <mxCell id="s4_f11" value="Compliance Flags  (regulations, standards)" style="text;html=1;strokeColor=#9673A6;fillColor=#E1D5E7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#3d1a5a;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="514" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F12: Risk Envelope (y=542) -->
+    <mxCell id="s4_f12" value="Risk Envelope  (acceptable risk level)" style="text;html=1;strokeColor=#9673A6;fillColor=#E1D5E7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#3d1a5a;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="542" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- F13: Agent Acceptance Schema (y=570) -->
+    <mxCell id="s4_f13" value="Agent Acceptance Schema  (YAML / JSON)" style="text;html=1;strokeColor=#9673A6;fillColor=#E1D5E7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#3d1a5a;spacingLeft=12;" vertex="1" parent="1">
+      <mxGeometry x="690" y="570" width="290" height="26" as="geometry" />
+    </mxCell>
+
+    <!-- S4 characteristic note (y=606) -->
+    <mxCell id="s4_note" value="Machine-readable, spec-compliant.&#xa;Agents parse, validate, and act without human interpretation." style="text;html=1;strokeColor=#9673A6;fillColor=#F3EEF6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="690" y="606" width="290" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SIDE NOTES ===== -->
+    <!-- S1 note (left, y=72) -->
+    <mxCell id="s1_aside" value="Stage 1&#xa;No template.&#xa;&#xa;Requirements are&#xa;freeform notes, chat&#xa;messages, or verbal&#xa;briefings. Not stored&#xa;in retrievable form.&#xa;Non-transferable." style="text;html=1;strokeColor=#CCCCCC;fillColor=#F8F8F8;align=center;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;fontColor=#AAAAAA;" vertex="1" parent="1">
+      <mxGeometry x="990" y="72" width="150" height="140" as="geometry" />
+    </mxCell>
+
+    <!-- S5/S6 note (right, y=230) -->
+    <mxCell id="s56_aside" value="Stages 5–6&#xa;Intent Boundary&#xa;Documents&#xa;&#xa;Requirements shift from&#xa;feature specification to:&#xa;• Outcome constraints&#xa;• Intent boundaries&#xa;• Delegation scope&#xa;• Escalation thresholds&#xa;&#xa;The requirement is a&#xa;contract with the&#xa;agent system, not a&#xa;build instruction." style="text;html=1;strokeColor=#999999;fillColor=#F0F0F0;align=center;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;fontColor=#555555;" vertex="1" parent="1">
+      <mxGeometry x="990" y="226" width="150" height="220" as="geometry" />
+    </mxCell>
+
+    <!-- ===== LEGEND ===== -->
+    <mxCell id="leg_label" value="INTRODUCED AT:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="50" y="658" width="110" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_s2" value="Stage 2" style="text;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;align=center;verticalAlign=middle;rounded=1;fontSize=10;fontColor=#1a3a5c;" vertex="1" parent="1">
+      <mxGeometry x="170" y="658" width="100" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_s3" value="Stage 3" style="text;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;align=center;verticalAlign=middle;rounded=1;fontSize=10;fontColor=#5a4000;" vertex="1" parent="1">
+      <mxGeometry x="285" y="658" width="100" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_s4" value="Stage 4" style="text;html=1;strokeColor=#9673A6;fillColor=#E1D5E7;align=center;verticalAlign=middle;rounded=1;fontSize=10;fontColor=#3d1a5a;" vertex="1" parent="1">
+      <mxGeometry x="400" y="658" width="100" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_inh" value="Inherited from prior stage" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F5F5F5;align=center;verticalAlign=middle;rounded=1;fontSize=10;fontColor=#AAAAAA;" vertex="1" parent="1">
+      <mxGeometry x="515" y="658" width="180" height="22" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
