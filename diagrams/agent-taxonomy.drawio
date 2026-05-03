@@ -1,0 +1,142 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="2" value="Agent Taxonomy — Role Evolution Across the Maturity Curve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="15" width="1010" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE BOXES ===== -->
+
+    <!-- Stage 1: The Oracle -->
+    <mxCell id="s1" value="Stage 1&#xa;THE ORACLE&#xa;&#xa;Stateless — no memory&#xa;No tools · No autonomy&#xa;Human interprets all output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontColor=#444444;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="90" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 2: Bounded Executor -->
+    <mxCell id="s2" value="Stage 2&#xa;BOUNDED EXECUTOR&#xa;&#xa;Session-persistent memory&#xa;Bounded toolkit&#xa;Human reviews all output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#888888;fontColor=#333333;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="260" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 3: Intent-Aware Executor -->
+    <mxCell id="s3" value="Stage 3&#xa;INTENT-AWARE EXECUTOR&#xa;&#xa;Persistent + intent context&#xa;Can escalate value conflicts&#xa;Executes within org goals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="430" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 4: Autonomous Executor (dark) -->
+    <mxCell id="s4" value="Stage 4&#xa;AUTONOMOUS EXECUTOR&#xa;&#xa;Persistent + spec-loaded&#xa;Full toolkit — spec-bound&#xa;Owns full workflow domain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="600" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 5: Harness-Managed Executor (dark) -->
+    <mxCell id="s5" value="Stage 5&#xa;HARNESS-MANAGED EXECUTOR&#xa;&#xa;Harness-managed state&#xa;Harness-dispatched tools&#xa;Can be paused or re-routed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="770" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 6: Environment-Native Executor (dark) -->
+    <mxCell id="s6" value="Stage 6&#xa;ENVIRONMENT-NATIVE EXECUTOR&#xa;&#xa;Environment-integrated state&#xa;Environment API contracts&#xa;Errors are environment signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="940" y="60" width="160" height="175" as="geometry" />
+    </mxCell>
+
+    <!-- Arrows between stage boxes -->
+    <mxCell id="a12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#888888;" edge="1" source="s1" target="s2" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="a23" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#888888;" edge="1" source="s2" target="s3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="a34" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#444444;" edge="1" source="s3" target="s4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="a45" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#222222;" edge="1" source="s4" target="s5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="a56" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#222222;" edge="1" source="s5" target="s6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory Zone marker -->
+    <mxCell id="dfz" value="⬛  DARK FACTORY ZONE — Stages 4–6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="600" y="243" width="500" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- ===== CAPABILITY MATRIX ===== -->
+
+    <!-- Row: MEMORY -->
+    <mxCell id="rl1" value="MEMORY" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="10" y="278" width="72" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m1" value="Stateless&#xa;no persistence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#cccccc;fontColor=#555555;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="90" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m2" value="Session-scoped&#xa;cleared each workflow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="260" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m3" value="Persistent&#xa;carries intent context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="430" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m4" value="Persistent + spec-loaded&#xa;full specification corpus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="600" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m5" value="Harness-managed state&#xa;harness owns checkpoints" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="770" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="m6" value="Environment-integrated&#xa;env provides state contracts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="940" y="278" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- Row: TOOL ACCESS -->
+    <mxCell id="rl2" value="TOOL ACCESS" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="10" y="328" width="72" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t1" value="None&#xa;text output only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#cccccc;fontColor=#555555;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="90" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t2" value="Bounded toolkit&#xa;code · search · test" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="260" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t3" value="Extended toolkit&#xa;+ escalation rights" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="430" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t4" value="Full toolkit&#xa;spec-bound only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="600" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t5" value="Harness-dispatched&#xa;harness controls access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="770" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="t6" value="Environment API contracts&#xa;AI-native interfaces only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="940" y="328" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- Row: AUTONOMY -->
+    <mxCell id="rl3" value="AUTONOMY" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="10" y="378" width="72" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au1" value="None&#xa;human acts on all output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#cccccc;fontColor=#555555;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="90" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au2" value="Task-level&#xa;human reviews all output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="260" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au3" value="Intent-level&#xa;human approves strategy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontColor=#444444;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="430" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au4" value="Workflow-level&#xa;owns domain end-to-end" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="600" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au5" value="Harness-governed&#xa;monitored + interruptible" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="770" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="au6" value="Environment-governed&#xa;errors are env signals" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=9;align=center;" vertex="1" parent="1">
+      <mxGeometry x="940" y="378" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- Footer note -->
+    <mxCell id="footer" value="Capability is cumulative: a Stage 5 agent is also a bounded executor, intent-aware executor, and specification executor — all monitored and managed by the harness." style="text;html=1;strokeColor=#d0d0d0;fillColor=#f8f8f8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="438" width="1010" height="35" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
