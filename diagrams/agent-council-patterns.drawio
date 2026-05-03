@@ -1,0 +1,78 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="2" value="Agent Council Patterns — Domain Councils &amp; Workflow Sequence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="15" width="1010" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== META-COUNCIL ===== -->
+    <mxCell id="meta" value="META-COUNCIL&#xa;Arbitrates cross-domain conflicts · Final escalation before human" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#ffffff;fontSize=11;align=center;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="395" y="60" width="380" height="55" as="geometry" />
+    </mxCell>
+
+    <!-- Dashed lines from Meta-Council to each domain council -->
+    <mxCell id="em1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#555555;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" source="meta" target="arch" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="em2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#555555;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" source="meta" target="sec" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="em3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#555555;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" source="meta" target="comp" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="em4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;strokeColor=#555555;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" source="meta" target="deploy" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ARCHITECTURE COUNCIL ===== -->
+    <mxCell id="arch" value="ARCHITECTURE COUNCIL&#xa;&#xa;Domain: System design · ADRs&#xa;Technology selection · Refactoring&#xa;&#xa;Decides: Architecture within spec&#xa;Technology within approved stack&#xa;Design patterns and trade-offs&#xa;&#xa;Escalates: Greenfield architecture&#xa;Tech outside approved stack&#xa;Design with major security/compliance exposure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="80" y="155" width="260" height="205" as="geometry" />
+    </mxCell>
+
+    <!-- ===== SECURITY COUNCIL ===== -->
+    <mxCell id="sec" value="SECURITY COUNCIL&#xa;&#xa;Domain: Threat assessment&#xa;Vulnerability · Access control&#xa;Security control enforcement&#xa;&#xa;Decides: Controls within security spec&#xa;Vulnerability remediation &lt; risk threshold&#xa;&#xa;Escalates: Novel threat vectors&#xa;Risk above defined threshold&#xa;Conflicts with architecture exposure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="430" y="135" width="260" height="190" as="geometry" />
+    </mxCell>
+
+    <!-- ===== COMPLIANCE COUNCIL ===== -->
+    <mxCell id="comp" value="COMPLIANCE COUNCIL&#xa;&#xa;Domain: Regulatory requirements&#xa;Policy adherence · Data governance&#xa;Audit trail completeness&#xa;&#xa;Decides: Policy application · Data classification&#xa;Standard regulatory interpretation&#xa;&#xa;Escalates: Novel regulatory reading&#xa;Cross-jurisdictional conflicts&#xa;Policy gaps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="430" y="345" width="260" height="190" as="geometry" />
+    </mxCell>
+
+    <!-- ===== DEPLOYMENT COUNCIL ===== -->
+    <mxCell id="deploy" value="DEPLOYMENT COUNCIL&#xa;&#xa;Domain: Release risk · Rollout strategy&#xa;Rollback planning · Operational impact&#xa;&#xa;Decides: Deploy strategy within risk spec&#xa;Canary % · Rollback triggers&#xa;&#xa;Escalates: Risk above threshold&#xa;Novel failure modes&#xa;Deployment blocks from Sec/Comp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="830" y="235" width="260" height="200" as="geometry" />
+    </mxCell>
+
+    <!-- ===== WORKFLOW ARROWS ===== -->
+
+    <!-- Architecture → Security -->
+    <mxCell id="a1" value="design proposal" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontSize=9;align=center;fontStyle=2;" edge="1" source="arch" target="sec" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Architecture → Compliance -->
+    <mxCell id="a2" value="design proposal" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;fontSize=9;align=center;fontStyle=2;" edge="1" source="arch" target="comp" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Security → Deployment -->
+    <mxCell id="a3" value="security clearance" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#b85450;fontSize=9;align=center;fontStyle=2;" edge="1" source="sec" target="deploy" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Compliance → Deployment -->
+    <mxCell id="a4" value="compliance clearance" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#d6b656;fontSize=9;align=center;fontStyle=2;" edge="1" source="comp" target="deploy" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Stage evolution footer -->
+    <mxCell id="footer" value="Stage 3: Architecture Council only; Security + Compliance human-led  ·  Stage 4: All four councils fully constituted; Meta-Council established  ·  Stage 5: Harness assembles councils from registry per task  ·  Stage 6: Councils become environment stewards" style="text;html=1;strokeColor=#d0d0d0;fillColor=#f8f8f8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="80" y="575" width="1010" height="38" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

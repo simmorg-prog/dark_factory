@@ -11,9 +11,9 @@
 | Metric | Count |
 |---|---|
 | Total items | 35 |
-| Done | 9 |
+| Done | 10 |
 | In Progress | 0 |
-| To Do | 26 |
+| To Do | 25 |
 
 ---
 
@@ -60,7 +60,7 @@
 | E3-06 | [Human-Agent Handoff Protocols](./01-actors/handoff-protocols.md) | All | P1 | M | ✅ Done |
 | E3-03 | [Agent Council Design — Constitution & Governance](./01-actors/agent-council-design.md) | Architects / CTOs | P1 | L | ✅ Done |
 | E3-02 | [Agent Taxonomy — Types, Capabilities, Limitations](./01-actors/agent-taxonomy.md) | Engineers / Architects | P2 | M | ✅ Done |
-| E3-04 | Agent Council Patterns — Arch, Security, Compliance, Deploy | Architects | P2 | L | To Do |
+| E3-04 | [Agent Council Patterns — Arch, Security, Compliance, Deploy](./01-actors/agent-council-patterns.md) | Architects | P2 | L | ✅ Done |
 | E3-05 | The Meta-Council — Cross-Domain Arbitration | Architects / CTOs | P2 | M | To Do |
 
 ## E4 — Artefacts Reference
