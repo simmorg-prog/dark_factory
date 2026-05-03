@@ -6,7 +6,7 @@
 
 ## Overview
 
-Every stage of the AI Engineering Maturity Framework produces a distinct set of artefacts. These are not just outputs — they are the durable records, configurations, and governance documents that make the workflow repeatable, auditable, and transferable. As the framework matures, two things change: the **producer shifts** (from human to agent to council) and the **purpose shifts** (from personal capture toward systemic governance).
+Every stage of the AI Operational Maturity Framework produces a distinct set of artefacts. These are not just outputs — they are the durable records, configurations, and governance documents that make the workflow repeatable, auditable, and transferable. As the framework matures, two things change: the **producer shifts** (from human to agent to council) and the **purpose shifts** (from personal capture toward systemic governance).
 
 This catalogue records what is produced at each stage, who produces it, and what role it plays in the workflow.
 

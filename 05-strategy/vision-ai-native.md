@@ -1,8 +1,10 @@
-# E5-00 — The AI-Native Organisation — A Vision Narrative
-
-*Wave 6 · Organisational & Strategic Guidance*
+> **E5-00 · Strategy · Wave 2**  
+> Vision narrative — why AI operational maturity is the critical capability for organisations that intend to become AI-native.  
+> See also: [Maturity Curve Overview](../00-foundations/maturity-curve.md) · [Enterprise Knowledge Work Map](./enterprise-knowledge-work-map.md) · [The Dark Factory](../00-foundations/dark-factory.md)
 
 ---
+
+# The AI-Native Organisation
 
 ## Why This Moment Is Different From Every Previous Technology Wave
 
@@ -18,7 +20,7 @@ That is not an incremental question. It is a constitutional one. And organisatio
 
 The term "AI-native" is used loosely. It is worth being precise.
 
-An AI-native organisation is not one that uses a lot of AI tools. Most organisations now use AI tools. Worker access to AI rose by 50% in 2025. Tool adoption is not transformation. An organisation that has given every employee a ChatGPT licence and seen productivity tick up slightly is not AI-native. It is AI-augmented. The distinction matters enormously.
+An AI-native organisation is not one that uses a lot of AI tools. Most organisations now use AI tools. Tool adoption is not transformation. An organisation that has given every employee a ChatGPT licence and seen productivity tick up slightly is not AI-native. It is AI-augmented. The distinction matters enormously.
 
 An AI-native organisation is one that has redesigned its operating model around the assumption that agents will perform the majority of structured knowledge work — and that humans will govern, direct, and evolve the systems those agents operate within.
 
@@ -40,37 +42,27 @@ Becoming AI-native is not a destination you can jump to. It is a progression thr
 
 This is the central claim of the AI Operational Maturity Framework — and it is worth stating plainly, because it runs against the instinct of most technology leaders. The instinct is to move fast, deploy boldly, and learn by doing. That instinct is right for many things. For agentic AI, it is a reliable path to expensive failure.
 
-The organisations that skip the hybrid architecture in favour of pure agentic approaches — treating AI agents as the workflow rather than as a component within it — will see their agentic AI deployments fail. Gartner predicts over 40% of agentic AI projects will be cancelled by the end of 2027.
+The organisations that skip the foundational stages in favour of pure agentic deployment, treating AI agents as the workflow rather than as a component within it, will see their agentic AI deployments fail. Gartner predicts over 40% of agentic AI projects will be cancelled by the end of 2027. Why do they fail? Not because the technology doesn't work. The technology increasingly works. They fail because the organisational infrastructure required to operate agents reliably — the context architecture, the encoded intent, the specification corpus, the harness, the governance model — was not built before the agents were deployed. You cannot govern what you haven't designed. You cannot enforce what you haven't specified. And you cannot specify what you haven't understood.
 
-Why do they fail? Not because the technology doesn't work. The technology increasingly works. They fail because the organisational infrastructure required to operate agents reliably — the context architecture, the encoded intent, the specification corpus, the harness, the governance model — was not built before the agents were deployed. You cannot govern what you haven't designed. You cannot enforce what you haven't specified. And you cannot specify what you haven't understood.
+The six stages of the framework describe exactly what must be built, in what order, before an organisation can operate reliably at the next level. Each stage is a prerequisite for the next. The stack is load-bearing. Remove a layer and the layers above it collapse.
 
-The six stages of the framework describe exactly what must be built, in what order, before an organisation can operate reliably at the next level:
-
-**Stage 1 — Prompt Engineering** establishes the basic discipline of working with AI: prompting, iterating, evaluating. Most organisations are here. It is necessary but nowhere near sufficient.
-
-**Stage 2 — Context Engineering** builds the information architecture that agents need to reason well: what they see, when they see it, and how its quality is maintained. Without this, agents hallucinate not because the model is bad but because the context is poor.
-
-**Stage 3 — Intent Engineering** encodes organisational intent: what the organisation is actually trying to achieve, what its values and trade-off priorities are, what it will and will not do. Without this, agents are technically capable but strategically unanchored. They optimise for the wrong things, confidently and at scale.
-
-**Stage 4 — Specification Engineering** is the entry to the Dark Factory, where agents take ownership of the workflow and humans move to the role of requirements authors and exception handlers. This transition is only safe when Stages 1 through 3 are genuinely solid. Organisations that rush here without the foundations find that their agents comply perfectly with specifications that encode the wrong intent, within a context architecture that degrades under load, built on prompt craft that doesn't survive multi-step workflows.
-
-**Stages 5 and 6** build the self-monitoring, self-correcting, environment-native operational infrastructure that makes the Dark Factory sustainable at enterprise scale — not just a proof of concept.
-
-Each stage is a prerequisite for the next. The stack is load-bearing. Remove a layer and the layers above it collapse.
+See: [The Maturity Curve — Visual Overview](../00-foundations/maturity-curve.md) · [The Cumulative Stack Explained](../00-foundations/cumulative-stack.md)
 
 ---
 
 ## The Dark Factory — The Destination That Redefines Human Work
 
-The Dark Factory is the name for what an organisation looks like when it has progressed through all six stages and agents genuinely own the operational workflow. It borrows from manufacturing — the lights-off production facility where automation runs continuously without human presence on the floor.
+The Dark Factory is the name for what an organisation looks like when it has progressed through all six stages and agents genuinely own the operational workflow. It borrows from manufacturing — the lights-off production facility where automation runs 24 hours a day without human presence on the floor.
 
 In knowledge work, the Dark Factory does not mean an organisation without humans. It means an organisation where humans are no longer in the operational loop of routine knowledge work. They are in the governance loop. They define requirements, set intent boundaries, maintain the specification corpus, resolve escalations, and architect the environments agents operate in. The work that requires human judgement is the meta-work — designing the systems that do the work.
 
-In practice, a human team of two to five people can supervise an agent factory of fifty to a hundred specialised agents running an end-to-end process such as onboarding a customer, launching a product, or closing the books.
+In practice, a human team of two to five people can already supervise an agent factory of 50 to 100 specialised agents running an end-to-end process such as onboarding a customer, launching a product, or closing the books.
 
 This is not a future projection. It is a present reality in organisations that have made the journey. The question for every organisation is not whether this will happen to their industry. It is whether they will be operating the Dark Factory or competing against organisations that are.
 
-The competitive implications are significant. When any organisation can have agents build software — or process claims, or review contracts, or close the books — proprietary data, deep domain knowledge, strength of ecosystem, and intent quality become the differentiating factors. The organisations that will win are not those with the best AI models. They will be those with the clearest organisational intent, the most rigorous specifications, and the most mature governance infrastructure. The advantage shifts from access to AI to the quality of what you instruct AI to do and the discipline with which you govern its operation.
+The competitive implications are significant. When any organisation can have agents process claims, review contracts, or close the books, proprietary data, deep domain knowledge, strength of ecosystem, and intent quality become the differentiating factors. The organisations that will win are not those with the best AI models. They will be those with the clearest organisational intent, the most rigorous specifications, and the most mature governance infrastructure.
+
+See: [The Dark Factory — Extended Definition](../00-foundations/dark-factory.md)
 
 ---
 
@@ -80,11 +72,13 @@ Every organisation considering this journey will encounter a moment where it dis
 
 This is the specification problem. And it is not new. Rules engines, policy systems, workflow automation, and compliance frameworks have always required precise specification to function correctly. Organisations have always underinvested in this discipline because humans are remarkably good at filling in gaps — at interpreting ambiguous requirements charitably, at using contextual knowledge to produce the right output even when the instructions were incomplete.
 
-Agents cannot do this the same way. An agent executes the specification it is given with fidelity. A deterministic system executes a bad specification consistently and at scale. A probabilistic system executes a bad specification variably and invisibly. A hybrid system — which is what the enterprise actually is — does both simultaneously.
+Agents cannot do this. An agent executes the specification it is given with fidelity. A deterministic system — a rules engine, a policy engine — executes a bad specification consistently and at scale. A probabilistic system — an LLM agent — executes a bad specification variably and invisibly. A hybrid system, which is what the enterprise actually is, does both simultaneously.
 
 The organisations that will successfully become AI-native are those that treat specification authorship as a core organisational discipline — not a Stage 4 concern, but a Stage 1 habit. The cost of writing a requirement precisely at Stage 1 is negligible. The cost of discovering that every specification in the organisation is too ambiguous for agents to enforce at Stage 4 is enormous.
 
-This discipline does not require a return to waterfall. The practices of behaviour-driven development, specification by example, and spec-driven development demonstrate that precise, rigorous specifications can be written incrementally, collaboratively, and continuously. The RFC 2119 model — where a single MUST in an acceptance criterion carries the same semantic precision as a MUST in an internet standard — has worked at global scale for thirty years. The discipline is available. The question is whether organisations choose to adopt it before or after they discover why it matters.
+And critically — this discipline does not require a return to waterfall. The practices of behaviour-driven development, specification by example, and spec-driven development demonstrate that precise, rigorous specifications can be written incrementally, collaboratively, and continuously. The discipline is available. The question is whether organisations choose to adopt it before or after they discover why it matters.
+
+See: [The Specification Discipline — Three Principles](../00-foundations/specification-discipline.md)
 
 ---
 
@@ -92,31 +86,41 @@ This discipline does not require a return to waterfall. The practices of behavio
 
 Becoming AI-native requires a fundamental rethinking of what human work is for. This is uncomfortable. It is also unavoidable.
 
-The majority of current roles will need reshaping — with new or different skill mixes, including more technological skills and greater emphasis on socio-emotional and higher cognitive capabilities. New profiles are emerging: agent orchestrators who design and supervise agent workflows; hybrid managers who lead blended human-agent teams; and domain specialists who encode their expertise into agentic specifications rather than performing the tasks those specifications describe.
+Research consistently shows that 75% of current knowledge work roles will need reshaping, with new or different skill mixes including more technological literacy and greater emphasis on strategic, contextual, and higher-order cognitive skills. New profiles are emerging: agent orchestrators who design and supervise agent workflows; hybrid managers who lead blended human-agent teams; domain specialists who encode their expertise into agentic systems rather than applying it directly.
 
-The transformation is not primarily about job elimination, though some roles will not survive. It is about role elevation. The humans who remain in an AI-native organisation are doing work that is genuinely hard — defining organisational intent with enough precision that agents can act on it, designing escalation protocols that surface the right decisions at the right time, maintaining the specification corpus as the organisation's goals evolve, architecting the environments that agents navigate.
+The transformation is not about job elimination, though some roles will not survive. It is about role elevation. The humans who remain in an AI-native organisation are doing work that is genuinely hard — defining organisational intent with enough precision that agents can act on it, designing escalation protocols that surface the right decisions at the right time, maintaining the specification corpus as the organisation's goals evolve, architecting the environments that agents navigate.
 
-These are not easy tasks. They require deep domain knowledge, strategic clarity, and a new kind of systems thinking — the ability to design processes you won't participate in directly. The engineer who used to write code learns to write specifications clear enough that agents can write the code. The finance controller who used to do the reconciliation learns to govern the agents that do it. The lawyer who used to draft contracts learns to define the intent and specification envelope within which agents draft them.
+The engineer who used to write code learns to write specifications clear enough that agents can write the code. The finance controller who used to do the reconciliation learns to govern the agents that do it. The lawyer who used to draft contracts learns to define the intent and specification envelope within which agents draft them. In every domain, the role shift is the same: from execution to governance, from doing the work to designing the systems that do it.
 
-The organisations that navigate this transition well will be those that help their people understand not just that their roles are changing, but why that change is an elevation — a shift from execution to governance, from doing the work to designing the systems that do it.
+See: [The Human Role Transformation](../01-actors/human-role.md)
+
+---
+
+## The Scope — Every Domain of Knowledge Work
+
+This framework applies to the full enterprise — not just software engineering, not just one function. Finance, Legal, HR, Procurement, Sales, Risk & Compliance, Customer Operations, R&D, and IT Operations all follow the same six-stage maturity curve. The vocabulary changes by domain. The structure does not.
+
+Software engineering is the reference implementation because it is where the Dark Factory pattern emerged first and where the evidence base is clearest. Other domains are typically 12 to 36 months behind the software engineering frontier — which means the lessons from software engineering are directly applicable as those domains mature.
+
+One important difference: the governance stakes outside software engineering are higher. Financial decisions, employment decisions, legal commitments, and customer-facing actions cannot be rolled back the way code can. This makes specification rigour more critical in business operations domains, not less.
+
+See: [Enterprise Knowledge Work Map](./enterprise-knowledge-work-map.md)
 
 ---
 
 ## Why This Framework Is the Map
 
-Most organisations approaching this journey have a technology strategy: an AI tool selection, a pilot programme, a budget allocation, a set of use cases they want to automate. What most organisations do not have is a maturity map — a clear picture of where they are, where they need to get to, and what they must build at each stage of the journey.
+Most organisations approaching this journey have a technology strategy. What most organisations do not have is a maturity map — a clear picture of where they are, where they need to get to, and what they must build at each stage of the journey.
 
-The AI Operational Maturity Framework provides that map. It does so across the full scope of enterprise knowledge work — not just software engineering, not just one function, but Finance, Legal, HR, Procurement, Sales, Risk & Compliance, Customer Operations, R&D, and IT Operations. The same six stages apply in every domain. The human role transformation follows the same arc. The Dark Factory boundary represents the same qualitative shift in who owns the work. The vocabulary changes. The structure does not.
+The AI Operational Maturity Framework provides that map. It answers four questions that every organisation on this journey needs answered:
 
-The framework answers four questions that every organisation on this journey needs to answer:
-
-**Where are we?** The maturity assessment maps an organisation's current state across technology, process, people, and governance dimensions, identifying the lowest solid layer — the genuine foundation from which progression is possible.
+**Where are we?** The maturity assessment maps an organisation's current state across technology, process, people, and governance dimensions — identifying the lowest solid layer, the genuine foundation from which progression is possible.
 
 **What must we build next?** The stage deep dives and transition playbooks define exactly what capabilities, artefacts, and governance structures must be in place before the next stage transition is safe to make.
 
 **What could go wrong?** The failure mode catalogue — specification gaps, intent drift, harness failure, environment ossification — gives organisations a risk register grounded in the actual failure patterns of organisations that have attempted this journey.
 
-**What does good look like?** The worked examples — feature delivery, incident response, the Stage 3→4 transition in detail — show the same process at each stage of maturity, making the abstract concrete and giving organisations a reference point for evaluating their own progress.
+**What does good look like?** The worked examples show the same process at each stage of maturity across software engineering, finance, and legal domains — making the abstract concrete and giving organisations a reference point for evaluating their own progress.
 
 ---
 
@@ -124,15 +128,35 @@ The framework answers four questions that every organisation on this journey nee
 
 The organisations that become genuinely AI-native in the next three to five years will not simply be more efficient than their competitors. They will be operating at a fundamentally different speed, scale, and cost structure. They will be able to do in hours what their competitors do in weeks. They will be able to run processes their competitors cannot staff. They will be able to respond to market changes and regulatory shifts with a speed that legacy operating models cannot match.
 
-The organisations that do not make this journey — or that attempt it without the disciplinary foundations the framework describes — will find themselves in an increasingly difficult position. Not immediately. The gap will open slowly, and then very quickly. The organisations on the wrong side of it will be doing what organisations on the wrong side of every previous technology transition have done: wondering how their competitors got so far ahead so fast, and why their own investments in the same technology failed to produce the same results.
+The organisations that do not make this journey — or that attempt it without the disciplinary foundations this framework describes — will find themselves in an increasingly difficult position. Not immediately. The gap will open slowly, and then very quickly.
 
-The answer, when it becomes clear, will be the same answer it always is. It was not the technology that failed. It was the absence of the organisational maturity to deploy it correctly.
+The answer, when it becomes clear, will be the same answer it always is. It was not the technology that failed. It was the absence of the organisational maturity to deploy it correctly. That is what this framework is for. Not to describe a destination. To map the journey.
 
-That is what this framework is for. Not to describe a destination. To map the journey.
+---
+
+## The Practice Premium — Where the Real Value Lives
+
+There is a common misreading of the AI transformation story that must be named directly: becoming AI-native is not a technology procurement exercise.
+
+The organisations that fail will, in many cases, have purchased all the right technology. They will have licensed the best LLMs, deployed the most capable agent platforms, implemented the most sophisticated harness infrastructure. And they will still fail — because they will have confused acquiring technology with developing practice.
+
+> **The Practice Premium Principle**
+>
+> Technology components in the AI stack are commoditising on the standard evolution curve — available to all, differentiating to none. The durable competitive advantage lies in the organisational practice disciplines that make those technology components work: specification authoring, intent encoding, harness governance, environment design. These practices are emergent and tacit. They develop through deliberate learning, cultural change, and institutional accumulation. They cannot be purchased, licensed, or deployed from a vendor catalogue. Two organisations with identical technology stacks at Stage 4 will produce completely different outcomes because their practice maturity differs. The practice is the advantage, not the platform.
+
+This is not a new phenomenon. It is the same story from every previous technology transition. Two companies adopted ERP systems in the 1990s with identical software. One transformed their operations. The other spent a decade in implementation chaos. The software was identical. The organisational practices around the software were not. The same pattern played out with cloud adoption, with DevOps, with data platforms. The technology became available to everyone. The practices that unlocked the technology's value remained scarce.
+
+The AI transition is following the same curve — but faster, and with higher stakes, because the practice disciplines required are newer, less understood, and more consequential when absent.
+
+What this means practically: the six stages of the AI Operational Maturity Framework are not a technology deployment roadmap. They are a **practice development roadmap**. Technology investment at each stage should be selected to support practice development — not the other way around. The question is never "what tools do we need?" The question is "what practice disciplines do we need to develop, and what tools will support that development?"
+
+The practices are emergent. They build on each other. They compound over time. An organisation that has genuinely developed the specification discipline practices of Stages 1–3 arrives at Stage 4 with capabilities its competitors cannot replicate overnight by purchasing the same platform. That is where the durable advantage lives. Not in the tooling. In the learning that the tooling was acquired to enable.
 
 ---
 
 ## A Note on Urgency
+
+If 2025 was the year enterprises learned to build with AI, 2026 is the year they must learn to operate as AI-native organisations.
 
 The window for building the foundational disciplines — context engineering, intent encoding, specification rigour, harness design — before they are urgently needed is closing. The organisations that build these capabilities now, before the competitive pressure becomes acute, will find the transition manageable. The organisations that wait until Stage 4 is a competitive necessity will find they are trying to retrofit the foundations of a building while the upper floors are already occupied.
 
@@ -142,4 +166,5 @@ Start now. Start small. Start with the next requirement you write.
 
 ---
 
-*Part of Wave 6: Organisational & Strategic Guidance · See also: [Organisational Maturity Assessment](org-maturity-assessment.md) · [AI Governance in the Dark Factory](ai-governance.md) · [The Engineering Team of the Future](engineering-team-future.md)*
+*Continue to: [The Maturity Curve — Visual Overview](../00-foundations/maturity-curve.md) · [Enterprise Knowledge Work Map](./enterprise-knowledge-work-map.md) · [Wardley Map — Strategic Positioning](./wardley-map.md)*  
+*Back to: [README](../README.md)*

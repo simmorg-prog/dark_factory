@@ -77,14 +77,43 @@ Building foundations takes longer upfront. Rebuilding foundations after you have
 
 ---
 
-## The Depth vs. Breadth Trade-Off
+## The Specification Debt Principle
 
-Not every organisation needs to reach Stage 6. The question is not "how high can we go?" but "what stage do we need to reach for our engineering workflow to be fit for purpose?"
+The amplification argument is not just about missing stages — it is about the quality of every specification authored at each stage. Poorly-written requirements do not stay at Stage 1.
 
-A team building internal tooling with low regulatory exposure may be well-served by solid Stage 2–3 practice and never need the full Dark Factory. A team delivering regulated financial services software in a high-volume environment will likely need Stages 4–5 to make compliance and audit economically viable.
+> **The Specification Debt Principle**  
+> Ambiguity authored at Stage 1 does not disappear at Stage 4 — it becomes policy. Every poorly-authored requirement is a specification defect that compounds as it travels up the stack. At Stage 1 it produces a bad output. At Stage 2 it contaminates a retrieval pipeline. At Stage 3 it encodes a wrong goal. At Stage 4 it becomes law that agents enforce at production speed. The cost of fixing a specification defect multiplies at each stage transition. The cost of authoring it correctly at Stage 1 is negligible.
 
-The framework is not a destination — it is a diagnostic. Understanding which stage you are at, and which stage you need to be at, is the starting point for investment decisions.
+A worked example: an ambiguous requirement stating *"the system should handle errors gracefully"* at Stage 1 produces an inconsistent user experience. At Stage 2, the same phrase in a retrieval spec produces inconsistent document selection. At Stage 3, encoded into an intent manifest, it becomes a vague trade-off priority that agents will resolve differently each time. At Stage 4, written into a specification corpus, it becomes a policy that compliance agents enforce — confidently and at scale — against a criterion no one can define objectively. The same three words, compounding at every transition.
+
+The cost of precision at Stage 1 is a few minutes of careful writing. The cost at Stage 4 is a specification corpus audit, a compliance review, and potentially a governance incident.
 
 ---
 
+## The Practice Stack — Not Just a Technology Stack
+
+The most common misreading of the cumulative stack is treating it as a technology deployment sequence. It is not. It is a practice development sequence.
+
+Each stage represents a set of organisational disciplines that must be genuinely developed — not just technologies that must be deployed. This is why skipping stages fails. Not because the technology at higher stages won't run without lower-stage infrastructure. It will. But the *practices* at each stage build the organisational muscle required to make the next stage work. Deploy the technology without the practice, and the technology amplifies existing weaknesses rather than correcting them.
+
+> **The Practice Premium Principle**  
+> Technology components in the AI stack commoditise on the standard evolution curve — available to all, differentiating to none. The durable competitive advantage lies in the organisational practice disciplines that make those components work. These practices are emergent and tacit. They develop through deliberate learning and accumulation. They cannot be purchased. An organisation that deploys a Stage 4 specification management platform without having developed the specification discipline practices of Stages 1–3 has purchased infrastructure that will amplify its existing weaknesses. The platform does not create the practice. The practice must precede the platform.
+
+Two organisations with identical technology stacks at Stage 4 will produce different outcomes because their practice maturity differs. One has spent three years developing specification authoring discipline, context architecture habits, and intent encoding practices. The other has licensed the same platform. The platform is identical. The outcomes are not.
+
+---
+
+## The Maturity Assessment Implication
+
+Organisations should identify their *lowest solid layer*, not their highest attempted layer.
+
+An organisation with Stage 4 tooling and Stage 2 context quality is a Stage 2 organisation with expensive technical debt. The assessment question is not *"what is the most advanced stage we have deployed?"* It is *"what is the highest stage at which every layer below it is genuinely solid?"*
+
+This distinction matters for investment decisions. The return on Stage 4 investment depends entirely on Stage 1–3 discipline being real. Deploying a specification corpus on top of a context architecture that degrades under production load is not a Stage 4 programme. It is a Stage 2 problem with a Stage 4 label.
+
+The framework is not a destination — it is a diagnostic. Understanding which stage you are genuinely at, and which stage you need to reach, is the starting point for every investment and roadmap decision.
+
+---
+
+*See also: [The Specification Discipline — Three Principles](./specification-discipline.md) · [Wardley Map](../05-strategy/wardley-map.md) · [Maturity Curve Overview](./maturity-curve.md)*  
 *Back to: [Reader Guide](./reader-guide.md) · [README](../README.md)*

@@ -1,7 +1,7 @@
 # Glossary of Terms
 
 > **E1-01 · Foundations · Wave 1**  
-> Canonical definitions for all key terms used throughout the AI Engineering Maturity framework.  
+> Canonical definitions for all key terms used throughout the AI Operational Maturity framework.  
 > See also: [Maturity Curve Overview](./maturity-curve.md) · [Dark Factory Definition](./dark-factory.md)
 
 ---
@@ -223,6 +223,24 @@ See: [Escalation Package Standard](../02-artefacts/escalation-package.md)
 In Stages 4–6, the primary and often only human-authored engineering artefact. Requirements in the Dark Factory are not casual descriptions — they must be structured, intent-annotated, and written to be agent-consumable. Ambiguous requirements are an upstream defect that propagates through the entire automated workflow.
 
 See: [Requirements Specification Templates](../02-artefacts/requirements-templates.md)
+
+---
+
+### Living Specification
+A specification that is co-located with the work it governs, validated automatically by continuous integration, and updated iteratively as understanding evolves. Contrast with a static specification, which is written upfront, frozen after sign-off, and becomes obsolete as the system evolves. Living specifications deliver rigour without requiring completeness upfront — they mature alongside the system they describe.
+
+The mechanism that makes a specification living is automation, not intent. A specification that someone intends to keep updated but is not validated by automated tests is a static specification with good intentions.
+
+---
+
+### Specification Discipline
+The practice of writing specifications with semantic precision from the outset of a project, regardless of maturity stage. The Specification Discipline is founded on three principles:
+
+1. **Rigour from the outset, not rigour all at once** — precision at Stage 1 costs almost nothing; retrofitting it at Stage 4 is enormously expensive.
+2. **Living specifications, not static documents** — specifications should be emergent, iterative, and continuously refined.
+3. **Universal applicability** — specification quality governs deterministic systems (rules engines, OPA) and probabilistic systems (LLM agents) equally. The failure modes differ; the discipline is the same.
+
+See: [The Specification Discipline — Three Principles](./specification-discipline.md)
 
 ---
 

@@ -1,111 +1,77 @@
-# AI Engineering Maturity — Backlog
+# AI Operational Maturity — Backlog
 
-> **Approach: Breadth First**  
-> Complete one overview-level treatment of every topic before returning to deepen any section.  
-> Depth passes are by explicit instruction only.
-
----
-
-## Status Dashboard
-
-| Metric | Count |
-|---|---|
-| Total items | 36 |
-| Done | 18 |
-| In Progress | 0 |
-| To Do | 18 |
+> Living tracker. Updated as each item is completed.  
+> **Total items:** 41 | **Done:** 18 | **In Progress:** 0 | **To Do:** 23
 
 ---
 
-## Wave Execution Order
+## Execution Sequence
 
 | Wave | Focus | Items |
 |---|---|---|
-| Wave 1 | Foundations | E1-01 · E1-02 · E1-05 · E1-03 · E1-04 |
-| Wave 2 | Actors | E3-01 · E3-06 · E3-03 · E3-02 · E3-04 · E3-05 |
-| Wave 3 | Artefacts | E4-01 · E4-02 · E4-05 · E4-03 · E4-04 · E4-06 |
-| Wave 4 | Stage Deep Dives | E2-07 · E2-01 · E2-02 · E2-03 · E2-04 · E2-05 · E2-06 |
-| Wave 5 | Worked Examples | E6-01 · E6-04 · E6-02 · E6-03 · E6-05 |
-| Wave 6 | Organisational & Strategic | E5-01 · E5-05 · E5-04 · E5-02 · E5-03 · E5-06 |
+| 1 | Foundations | E1-01 ✅ · E1-02 ✅ · E1-05 ✅ · E1-03 ✅ · E1-04 ✅ · E1-06 |
+| 2 | Scope & Strategy | E5-00 ✅ · E5-08 · E5-07 · E3-01 ✅ · E3-06 ✅ · E3-03 ✅ |
+| 3 | Actors | E3-02 ✅ · E3-04 ✅ · E3-05 ✅ |
+| 4 | Artefacts | E4-01 ✅ · E4-02 ✅ · E4-05 ✅ · E4-03 ✅ · E4-04 ✅ · E4-06 ✅ |
+| 5 | Stage Overviews | E2-07 · E2-01 · E2-02 · E2-03 · E2-04 · E2-05 · E2-06 |
+| 6 | Worked Examples | E6-01 · E6-04 · E6-06 · E6-07 · E6-02 · E6-03 · E6-05 |
+| 7 | Organisational & Strategic | E5-01 · E5-05 · E5-04 · E5-02 · E5-03 · E5-06 |
 
 ---
 
-## E1 — Foundations & Framework
+## Full Item List
 
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E1-01 | [Glossary of Terms](./00-foundations/glossary.md) | All | P1 | S | ✅ Done |
-| E1-02 | [The Maturity Curve — Visual Overview](./00-foundations/maturity-curve.md) | All | P1 | M | ✅ Done |
-| E1-05 | [The Dark Factory — Extended Definition](./00-foundations/dark-factory.md) | All | P1 | M | ✅ Done |
-| E1-03 | [How to Use This Document — Reader Guide](./00-foundations/reader-guide.md) | All | P2 | S | ✅ Done |
-| E1-04 | [The Cumulative Stack Explained](./00-foundations/cumulative-stack.md) | All | P2 | M | ✅ Done |
-
-## E2 — Stage Deep Dives
-
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E2-07 | Stage Transition Playbooks (1→2, 2→3, 3→4, 4→5, 5→6) | All | P1 | XL | To Do |
-| E2-01 | Stage 1 Deep Dive — Prompt Engineering | Engineers | P3 | M | To Do |
-| E2-02 | Stage 2 Deep Dive — Context Engineering | Engineers / Architects | P2 | L | To Do |
-| E2-03 | Stage 3 Deep Dive — Intent Engineering | Architects / CTOs | P2 | L | To Do |
-| E2-04 | Stage 4 Deep Dive — Specification Engineering | Architects / CTOs | P2 | L | To Do |
-| E2-05 | Stage 5 Deep Dive — Harness Engineering | Engineers / Architects | P1 | L | To Do |
-| E2-06 | Stage 6 Deep Dive — Environment Engineering | Architects / CTOs | P2 | L | To Do |
-
-## E3 — Actors: Roles & Evolution
-
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E3-01 | [The Human Role Transformation](./01-actors/human-role.md) | Engineers / Managers | P1 | L | ✅ Done |
-| E3-06 | [Human-Agent Handoff Protocols](./01-actors/handoff-protocols.md) | All | P1 | M | ✅ Done |
-| E3-03 | [Agent Council Design — Constitution & Governance](./01-actors/agent-council-design.md) | Architects / CTOs | P1 | L | ✅ Done |
-| E3-02 | [Agent Taxonomy — Types, Capabilities, Limitations](./01-actors/agent-taxonomy.md) | Engineers / Architects | P2 | M | ✅ Done |
-| E3-04 | [Agent Council Patterns — Arch, Security, Compliance, Deploy](./01-actors/agent-council-patterns.md) | Architects | P2 | L | ✅ Done |
-| E3-05 | [The Meta-Council — Cross-Domain Arbitration](./01-actors/meta-council.md) | Architects / CTOs | P2 | M | ✅ Done |
-
-## E4 — Artefacts Reference
-
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E4-01 | [Artefact Catalogue — All Stages](./02-artefacts/artefact-catalogue.md) | All | P1 | L | ✅ Done |
-| E4-02 | [Requirements Specification Templates](./02-artefacts/requirements-spec-templates.md) | All | P1 | M | ✅ Done |
-| E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | All | P2 | S | ✅ Done |
-| E4-03 | [Intent Manifest — Reference Design](./02-artefacts/intent-manifest.md) | Architects / CTOs | P2 | M | ✅ Done |
-| E4-04 | [Specification Corpus — Architecture & Governance](./02-artefacts/specification-corpus.md) | Architects | P2 | L | ✅ Done |
-| E4-06 | [Environment Map — Reference Design](./02-artefacts/environment-map.md) | Architects | P3 | M | ✅ Done |
-
-## E5 — Organisational & Strategic Guidance
-
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E5-00 | [The AI-Native Organisation — A Vision Narrative](./05-strategy/vision-ai-native.md) | All / CxO | P1 | L | ✅ Done |
-| E5-01 | Organisational Maturity Assessment | CTOs / Managers | P1 | L | To Do |
-| E5-05 | AI Governance in the Dark Factory | CTOs / Architects | P1 | L | To Do |
-| E5-04 | Risk Register — Across All Stages | CTOs / Architects | P1 | M | To Do |
-| E5-02 | The Engineering Team of the Future | CTOs / Managers | P2 | M | To Do |
-| E5-03 | Investment & Roadmap Planning Guide | CTOs | P2 | M | To Do |
-| E5-06 | Vendor & Tooling Landscape | Architects / CTOs | P3 | M | To Do |
-
-## E6 — Practical Guides & Worked Examples
-
-| ID | Title | Audience | Priority | Effort | Status |
-|---|---|---|---|---|---|
-| E6-01 | Worked Example — Feature Delivery at Each Stage (MFA) | All | P1 | XL | To Do |
-| E6-04 | The Stage 3→4 Transition in Detail | All | P1 | L | To Do |
-| E6-02 | Worked Example — Incident Response at Each Stage | Engineers / Managers | P2 | L | To Do |
-| E6-03 | Anti-Patterns Library | All | P2 | M | To Do |
-| E6-05 | Dark Factory Operating Model | Managers / CTOs | P2 | L | To Do |
+| ID | Title | Epic | Wave | Priority | Effort | Status |
+|---|---|---|---|---|---|---|
+| E1-01 | [Glossary of Terms](./00-foundations/glossary.md) | Foundations | 1 | P1 | S | ✅ Done |
+| E1-02 | [Maturity Curve — Visual Overview](./00-foundations/maturity-curve.md) | Foundations | 1 | P1 | M | ✅ Done |
+| E1-05 | [The Dark Factory — Extended Definition](./00-foundations/dark-factory.md) | Foundations | 1 | P1 | M | ✅ Done |
+| E1-03 | [Reader Guide](./00-foundations/reader-guide.md) | Foundations | 1 | P2 | S | ✅ Done |
+| E1-04 | [The Cumulative Stack Explained](./00-foundations/cumulative-stack.md) | Foundations | 1 | P2 | M | ✅ Done |
+| E1-06 | [The Specification Discipline — Three Principles](./00-foundations/specification-discipline.md) | Foundations | 1 | P1 | S | 🔜 To Do |
+| E5-00 | [The AI-Native Organisation — Vision Narrative](./05-strategy/vision-ai-native.md) | Strategy | 2 | P1 | M | ✅ Done |
+| E5-08 | Wardley Map — AI Operational Maturity | Strategy | 2 | P1 | L | 🔜 To Do |
+| E5-07 | Enterprise Knowledge Work Map | Strategy | 2 | P1 | L | 🔜 To Do |
+| E3-01 | [The Human Role Transformation](./01-actors/human-role.md) | Actors | 2 | P1 | L | ✅ Done |
+| E3-06 | [Human-Agent Handoff Protocols](./01-actors/handoff-protocols.md) | Actors | 2 | P1 | M | ✅ Done |
+| E3-03 | [Agent Council Design — Constitution & Governance](./01-actors/agent-council-design.md) | Actors | 2 | P1 | L | ✅ Done |
+| E3-02 | [Agent Taxonomy — Types, Capabilities, Limitations](./01-actors/agent-taxonomy.md) | Actors | 3 | P2 | M | ✅ Done |
+| E3-04 | [Agent Council Patterns](./01-actors/agent-council-patterns.md) | Actors | 3 | P2 | L | ✅ Done |
+| E3-05 | [The Meta-Council — Cross-Domain Arbitration](./01-actors/meta-council.md) | Actors | 3 | P2 | M | ✅ Done |
+| E4-01 | [Artefact Catalogue — All Stages](./02-artefacts/artefact-catalogue.md) | Artefacts | 4 | P1 | L | ✅ Done |
+| E4-02 | [Requirements Specification Templates](./02-artefacts/requirements-spec-templates.md) | Artefacts | 4 | P1 | M | ✅ Done |
+| E4-05 | [Escalation Package Standard](./02-artefacts/escalation-package-standard.md) | Artefacts | 4 | P2 | S | ✅ Done |
+| E4-03 | [Intent Manifest — Reference Design](./02-artefacts/intent-manifest.md) | Artefacts | 4 | P2 | M | ✅ Done |
+| E4-04 | [Specification Corpus — Architecture & Governance](./02-artefacts/specification-corpus.md) | Artefacts | 4 | P2 | L | ✅ Done |
+| E4-06 | [Environment Map — Reference Design](./02-artefacts/environment-map.md) | Artefacts | 4 | P3 | M | ✅ Done |
+| E2-07 | Stage Transition Playbooks (1→2, 2→3, 3→4, 4→5, 5→6) | Stages | 5 | P1 | XL | 🔜 To Do |
+| E2-01 | Stage 1 Deep Dive — Prompt Engineering | Stages | 5 | P3 | M | 🔜 To Do |
+| E2-02 | Stage 2 Deep Dive — Context Engineering | Stages | 5 | P2 | L | 🔜 To Do |
+| E2-03 | Stage 3 Deep Dive — Intent Engineering | Stages | 5 | P2 | L | 🔜 To Do |
+| E2-04 | Stage 4 Deep Dive — Specification Engineering | Stages | 5 | P2 | L | 🔜 To Do |
+| E2-05 | Stage 5 Deep Dive — Harness Engineering | Stages | 5 | P1 | L | 🔜 To Do |
+| E2-06 | Stage 6 Deep Dive — Environment Engineering | Stages | 5 | P2 | L | 🔜 To Do |
+| E6-01 | Worked Example: Feature Delivery at Each Stage | Examples | 6 | P1 | XL | 🔜 To Do |
+| E6-04 | The Stage 3→4 Transition in Detail | Examples | 6 | P1 | L | 🔜 To Do |
+| E6-06 | Worked Example: Finance Month-End Close at Each Stage | Examples | 6 | P2 | L | 🔜 To Do |
+| E6-07 | Worked Example: Legal Contract Review at Each Stage | Examples | 6 | P2 | L | 🔜 To Do |
+| E6-02 | Worked Example: Incident Response at Each Stage | Examples | 6 | P2 | L | 🔜 To Do |
+| E6-03 | Anti-Patterns Library | Examples | 6 | P2 | M | 🔜 To Do |
+| E6-05 | Dark Factory Operating Model | Examples | 6 | P2 | L | 🔜 To Do |
+| E5-01 | Organisational Maturity Assessment | Strategy | 7 | P1 | L | 🔜 To Do |
+| E5-05 | AI Governance in the Dark Factory | Strategy | 7 | P1 | L | 🔜 To Do |
+| E5-04 | Risk Register — Across All Stages | Strategy | 7 | P1 | M | 🔜 To Do |
+| E5-02 | The Engineering Team of the Future | Strategy | 7 | P2 | M | 🔜 To Do |
+| E5-03 | Investment & Roadmap Planning Guide | Strategy | 7 | P2 | M | 🔜 To Do |
+| E5-06 | Vendor & Tooling Landscape | Strategy | 7 | P3 | M | 🔜 To Do |
 
 ---
 
-## Session Protocol
+## Effort Key
 
-1. Review this backlog — confirm which item is next in wave sequence
-2. Mark item In Progress
-3. Write to overview depth — comprehensive but not exhaustive
-4. Mark Done, update counts above
-5. Confirm next item before proceeding (or proceed automatically if instructed)
-
----
-
-*Effort scale: S ~1 page · M ~2–3 pages · L ~4–6 pages · XL ~7–10 pages*
+| Code | Meaning |
+|---|---|
+| S | Small — ~1 page |
+| M | Medium — ~2–3 pages |
+| L | Large — ~4–6 pages |
+| XL | Extensive — ~7–10 pages |

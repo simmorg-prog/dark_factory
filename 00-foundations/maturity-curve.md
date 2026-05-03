@@ -1,18 +1,18 @@
 # The Maturity Curve — Visual Overview
 
 > **E1-02 · Foundations · Wave 1**  
-> A structured reference for the six-stage AI Engineering Maturity framework — stages, CMMI mapping, Dark Factory boundary, and actor involvement across the full curve.  
+> A structured reference for the six-stage AI Operational Maturity framework — stages, CMMI mapping, Dark Factory boundary, and actor involvement across the full curve.  
 > See also: [Glossary of Terms](./glossary.md) · [The Dark Factory — Extended Definition](./dark-factory.md) · [The Cumulative Stack Explained](./cumulative-stack.md)
 
 ---
 
-The AI Engineering Maturity framework describes six cumulative stages through which engineering workflow evolves as AI capability and organisational maturity increase. Each stage builds on the disciplines of every stage below it — there is no shortcut. The critical boundary lies between Stage 3 and Stage 4: the entry into the **Dark Factory**, where agents own the full engineering workflow and humans shift from directing the work to defining the conditions under which agents direct themselves. Understanding the full curve — where each stage sits, what it demands, and who owns what — is the prerequisite for making sound maturity decisions.
+The AI Operational Maturity framework describes six cumulative stages through which engineering workflow evolves as AI capability and organisational maturity increase. Each stage builds on the disciplines of every stage below it — there is no shortcut. The critical boundary lies between Stage 3 and Stage 4: the entry into the **Dark Factory**, where agents own the full engineering workflow and humans shift from directing the work to defining the conditions under which agents direct themselves. Understanding the full curve — where each stage sits, what it demands, and who owns what — is the prerequisite for making sound maturity decisions.
 
 ---
 
 ## The Maturity Curve
 
-![AI Engineering Maturity Curve](../diagrams/maturity-curve-overview.svg)
+![AI Operational Maturity Curve](../diagrams/maturity-curve-overview.svg)
 
 ---
 
@@ -31,7 +31,12 @@ The AI Engineering Maturity framework describes six cumulative stages through wh
 
 ## Actor Involvement
 
+The heat map below shows how the involvement of each actor type changes across the six stages. Human involvement is high and continuous in Stages 1–3, transitioning to exception-based at Stage 4 and above. Agent involvement grows from zero at Stage 1 to dominant from Stage 4 onward. Agent Council involvement emerges at Stage 2 (informally) and becomes the primary governance mechanism of the Dark Factory from Stage 4.
+
 ![Actor Involvement Heat Map](../diagrams/maturity-curve-actor-heat.svg)
+
+> 💡 **Specification Discipline starts at Stage 1, not Stage 4.**  
+> The quality of specifications authored at every stage determines what the Dark Factory can enforce. See: [The Specification Discipline — Three Principles](./specification-discipline.md)
 
 ---
 
