@@ -11,9 +11,9 @@
 | Metric | Count |
 |---|---|
 | Total items | 36 |
-| Done | 12 |
+| Done | 13 |
 | In Progress | 0 |
-| To Do | 24 |
+| To Do | 23 |
 
 ---
 
@@ -67,7 +67,7 @@
 
 | ID | Title | Audience | Priority | Effort | Status |
 |---|---|---|---|---|---|
-| E4-01 | Artefact Catalogue — All Stages | All | P1 | L | To Do |
+| E4-01 | [Artefact Catalogue — All Stages](./02-artefacts/artefact-catalogue.md) | All | P1 | L | ✅ Done |
 | E4-02 | Requirements Specification Templates | All | P1 | M | To Do |
 | E4-05 | Escalation Package Standard | All | P2 | S | To Do |
 | E4-03 | Intent Manifest — Reference Design | Architects / CTOs | P2 | M | To Do |

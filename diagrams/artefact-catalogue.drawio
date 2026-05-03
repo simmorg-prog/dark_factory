@@ -1,0 +1,187 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="Artefact Catalogue — Six-Stage Reference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="10" width="1420" height="35" as="geometry" />
+    </mxCell>
+
+    <!-- Zone banners -->
+    <mxCell id="zone_pre" value="PRE-DARK FACTORY" style="text;html=1;strokeColor=#999999;fillColor=#EFEFEF;align=center;verticalAlign=middle;rounded=0;fontColor=#333333;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="40" y="50" width="700" height="28" as="geometry" />
+    </mxCell>
+
+    <mxCell id="zone_dark" value="⬛ DARK FACTORY ZONE ⬛" style="text;html=1;strokeColor=#111111;fillColor=#292929;align=center;verticalAlign=middle;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="760" y="50" width="700" height="28" as="geometry" />
+    </mxCell>
+
+    <!-- Stage headers — Pre-Dark Factory -->
+    <mxCell id="s1h" value="Stage 1&#xa;Prompt Engineering&#xa;CMMI Level 1 — Initial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="40" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s2h" value="Stage 2&#xa;Context Engineering&#xa;CMMI Level 2 — Managed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="280" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s3h" value="Stage 3&#xa;Intent Engineering&#xa;CMMI Level 3 — Defined" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="520" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- Stage headers — Dark Factory -->
+    <mxCell id="s4h" value="Stage 4&#xa;Specification Engineering&#xa;CMMI Level 4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="760" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s5h" value="Stage 5&#xa;Harness Engineering&#xa;CMMI Level 5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="s6h" value="Stage 6&#xa;Environment Engineering&#xa;CMMI Level 6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#292929;strokeColor=#111111;fontColor=#FFFFFF;fontSize=10;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="83" width="220" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S1 Artefacts ===== -->
+    <mxCell id="s1a1" value="Prompt scripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="45" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s1a2" value="Model outputs — raw, curated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="45" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s1a3" value="Hand-edited code &amp; docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="45" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s1a4" value="Personal prompt libraries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="45" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S2 Artefacts ===== -->
+    <mxCell id="s2a1" value="Context schemas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s2a2" value="RAG pipeline configs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s2a3" value="Structured requirements docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s2a4" value="Agent-generated code&#xa;+ human review records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s2a5" value="Test suites (agent-generated)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="310" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s2a6" value="Context quality logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="285" y="353" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S3 Artefacts ===== -->
+    <mxCell id="s3a1" value="Intent manifests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s3a2" value="Intent-annotated design docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s3a3" value="Council deliberation logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s3a4" value="Intent-alignment test reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s3a5" value="Escalation records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="310" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s3a6" value="Human decision records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="525" y="353" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S4 Artefacts ===== -->
+    <mxCell id="s4a1" value="Specification corpus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a2" value="Requirements documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a3" value="Auto-generated ADRs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a4" value="Agent implementation logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a5" value="Automated audit trails" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="310" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a6" value="Escalation packages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="353" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s4a7" value="Deployment manifests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="765" y="396" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S5 Artefacts ===== -->
+    <mxCell id="s5a1" value="Harness configuration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a2" value="Live telemetry dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a3" value="Root-cause analysis reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a4" value="Self-healing event logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a5" value="Progressive deployment manifests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="310" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a6" value="Behavioural baselines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="353" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s5a7" value="Exception reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="396" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- ===== S6 Artefacts ===== -->
+    <mxCell id="s6a1" value="Environment maps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="138" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a2" value="AI-native API contracts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="181" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a3" value="Data legibility standards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="224" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a4" value="Capability boundary docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="267" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a5" value="Environment health reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="310" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a6" value="Environment evolution proposals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="353" width="210" height="38" as="geometry" />
+    </mxCell>
+    <mxCell id="s6a7" value="Outcome verification records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="1245" y="396" width="210" height="38" as="geometry" />
+    </mxCell>
+
+    <!-- Legend -->
+    <mxCell id="leg_label" value="PRODUCER:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=3;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="40" y="458" width="85" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_h" value="Human" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="130" y="458" width="120" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_a" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D6B656;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="265" y="458" width="120" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_c" value="Agent Council" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="400" y="458" width="130" height="25" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_s" value="System / Automated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=10;align=center;" vertex="1" parent="1">
+      <mxGeometry x="545" y="458" width="150" height="25" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
