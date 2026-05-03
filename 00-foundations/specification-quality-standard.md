@@ -41,31 +41,34 @@ This principle is the foundation on which the eight dimensions rest. Dimensions 
 
 ### Dimension 1 — RFC 8174 Normative Precision
 
-**Definition:** Obligation keywords (MUST, SHALL, SHOULD, MAY, MUST NOT, SHOULD NOT, SHALL NOT) carry normative force only when presented in ALL CAPS and only when the document contains the RFC 8174 boilerplate declaration. Without the boilerplate, capitalised keywords are typographic emphasis, not contractual obligations.
+**Definition:** Obligation keywords (MUST, SHOULD, MAY, MUST NOT, SHOULD NOT) carry normative force only when all six rules of the RFC 2119 Precision Principle are met — as defined in [LANGUAGE.md — Normative Language section](./LANGUAGE.md). A document that uses MUST without meeting these rules is expressing intent, not obligation.
 
 **What failure looks like:**
-- The RFC 8174 boilerplate declaration is absent from the document header
-- Obligation keywords appear in mixed case ("must", "should") and are treated as normative
-- SHOULD is used without a rationale explaining why the obligation is advisory rather than absolute
-- Obligation keywords are applied to entities that cannot conform (e.g., "data MUST be accurate" — data cannot conform to anything)
-- Keywords are used decoratively ("SHOULD be considered") rather than normatively
+- Missing boilerplate declaration (Rule 1 violation — keywords have no normative standing)
+- Keywords applied to unnamed subjects such as "the system" or "data" (Rule 2 violation — no actor can conform)
+- SHOULD used as a hedge for an uncertain MUST, without rationale (Rules 3 and 4 violation)
+- Lowercase "must", "should", "may" treated as normative obligations (Rule 5 violation)
+- Keywords used decoratively ("SHOULD be considered") rather than to bind a named actor to a specific obligation
 
 **What ideal looks like:**
-- The RFC 8174 boilerplate declaration appears verbatim in the document header
-- Every keyword is bound to a named conformance role — a named actor who must or must not do something
-- Every SHOULD is accompanied by an explicit rationale explaining why the deviation is permitted and under what conditions
-- Keywords are reserved for genuine obligation points where compliance matters
+- The RFC 8174 boilerplate appears verbatim in a `## Conventions` or `## Normative Language` section before any normative content (Rule 1)
+- Every keyword is bound to a named conformance role — a named actor who must or must not do something (Rule 2)
+- MUST/SHOULD/MAY are correctly calibrated: MUST for absolute requirements, SHOULD for strong preferences with legitimate exceptions, MAY for genuinely discretionary choices (Rule 3)
+- Every SHOULD is accompanied by an explicit rationale clause stating either the exceptional circumstance or the harm being prevented (Rule 4)
+- Lowercase instances are non-normative throughout (Rule 5)
 
 **The RFC 8174 boilerplate (verbatim — copy this into every normative document):**
 ```
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
-BCP 14 [RFC 2119] [RFC 8174] when, and only when, they appear in all
+BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
 capitals, as shown here.
 ```
 
-**Test:** Remove the boilerplate declaration from the document. Does the remaining text still read correctly without the capitalisation carrying special meaning? If yes — if the document makes the same sense without the boilerplate — the keywords are decorative, not normative. The document fails Dimension 1.
+**Test:** Can you remove the boilerplate and have the document still read correctly without the capitalisation carrying special meaning? If yes, the keywords are decorative, not normative — the document fails Dimension 1. Does every SHOULD have a rationale clause? If no, the document has Rule 4 violations.
+
+**Reference:** See [LANGUAGE.md — Normative Language: The RFC 2119 Precision Principle](./LANGUAGE.md) for the full six rules and keyword decision rubric.
 
 ---
 

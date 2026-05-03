@@ -60,7 +60,7 @@ One of the six maturity levels of the AI Operational Maturity Framework: Prompt 
 
 The single authoritative instruction document for Claude Code. Versioned with semantic versioning (`v1.0`, `v1.5`, `v1.6`). The Master Brief is the specification that governs all content production. It supersedes all prior verbal or conversational instructions. When the Master Brief and a memory file conflict, the Master Brief governs.
 
-Current version: `v1.6` — located at `:temp_docs/CLAUDE_CODE_MASTER_BRIEF_3.md`.
+Current version: `v1.7` — located at `:temp_docs/CLAUDE_CODE_MASTER_BRIEF_4.md`.
 
 *Avoid:* brief (standalone), instructions, spec, guide.
 
@@ -113,6 +113,95 @@ An internal cross-reference using a path relative to the current file's location
 All internal links in this framework MUST be relative links. Absolute GitHub URLs (e.g. `https://github.com/org/repo/blob/main/00-foundations/glossary.md`) are a quality defect — they break in forks, local previews, and any context other than the specific GitHub repository path they encode.
 
 *Avoid:* link (unqualified), URL, reference — when the type matters, use "relative link" or "absolute URL" explicitly.
+
+---
+
+## Normative Language — The RFC 2119 Precision Principle
+
+Every document in this framework that makes normative claims — intent manifests, specification corpus entries, requirements templates, quality standards, and any document that uses the words MUST, SHOULD, MAY, MUST NOT, SHOULD NOT, REQUIRED, RECOMMENDED, NOT RECOMMENDED, OPTIONAL, SHALL, or SHALL NOT — is a normative document and MUST comply with the following six rules.
+
+> **The RFC 2119 Precision Principle**
+>
+> Normative obligation keywords carry meaning only when they are declared, bound to named actors, calibrated to the correct strength, accompanied by rationale, and distinguished from their lowercase non-normative forms. A document that uses MUST without these conditions is expressing intent, not obligation. Intent without precision is not a specification — it is a wish.
+
+### Rule 1 — Invocation
+
+Every normative document MUST contain the following verbatim boilerplate declaration in a `## Conventions` or `## Normative Language` section, placed before any normative content appears:
+
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all capitals, as shown here.
+
+This declaration is not optional and MUST appear verbatim. Paraphrasing it or abbreviating it invalidates the normative standing of all keywords in the document.
+
+### Rule 2 — Named Conformance Roles
+
+Every normative keyword MUST be applied to a named conformance role, not to a system, process, or outcome in the abstract.
+
+| ❌ Incorrect | ✅ Correct |
+|---|---|
+| The system MUST validate all inputs | A validation agent MUST reject any input that contains a prohibited field |
+| Specifications SHOULD be versioned | A specification author SHOULD assign a semantic version to every corpus entry |
+| This MUST NOT occur | A credit assessment agent MUST NOT use protected-characteristic data |
+
+Named conformance roles in this framework include: `specification author`, `intent author`, `requirements author`, `Agent Council`, `credit assessment agent`, `deployment agent`, `compliance officer`, `harness`, `environment architect`, and any other actor explicitly defined in the document's scope section.
+
+A keyword applied to an unnamed or abstract subject has no conformance meaning and is a drafting defect.
+
+### Rule 3 — Keyword Strength Calibration
+
+Use the correct keyword for the obligation level intended. Choosing the wrong keyword corrupts the signal for both human readers and agents.
+
+| Keyword | Meaning | Use when |
+|---|---|---|
+| **MUST / REQUIRED / SHALL** | Absolute requirement | Non-compliance is a defect with no legitimate exceptions |
+| **MUST NOT / SHALL NOT** | Absolute prohibition | The action is never permitted under any circumstance |
+| **SHOULD / RECOMMENDED** | Strong preference | Exceptions are permitted but must be consciously accepted and justified |
+| **SHOULD NOT / NOT RECOMMENDED** | Strong discouragement | The action is discouraged but permitted in understood circumstances |
+| **MAY / OPTIONAL** | Genuinely discretionary | No preference between compliance and non-compliance |
+
+**The hedge test:** If you are using SHOULD because you are uncertain whether MUST is appropriate, stop. Resolve the uncertainty first. SHOULD is not a safe default — it is a specific claim that legitimate exceptions exist. Using SHOULD as a hedge produces specifications that are neither binding nor optional and serves no one.
+
+### Rule 4 — SHOULD Rationale
+
+Every SHOULD and SHOULD NOT MUST be accompanied by a rationale clause. The rationale MUST state either:
+
+- **(a) The exceptional circumstance** that would justify not following the recommendation, or
+- **(b) The harm** the recommendation is designed to prevent
+
+A SHOULD without a rationale is a drafting defect. It is indistinguishable from a weak MUST and provides no useful information to an author, reviewer, or agent about when deviation is acceptable.
+
+**Examples:**
+
+❌ `A specification author SHOULD version every corpus entry.`
+
+✅ `A specification author SHOULD assign a semantic version to every corpus entry, because unversioned entries cannot be referenced in audit trails or breaking-change notifications. Exception: draft entries under active authoring may remain unversioned until they reach review state.`
+
+### Rule 5 — Lowercase Is Non-Normative
+
+Lowercase occurrences of must, should, may, shall, and their negatives carry only their ordinary English meaning (per RFC 8174). They are not normative obligations and MUST NOT be treated as such by agents or reviewers.
+
+This rule prevents the common failure mode of documents that use "must" casually in prose sections and have those instances treated as binding obligations.
+
+### Rule 6 — Scope
+
+Rules 1–5 apply to every document that intends to specify behaviour. They do not apply to purely descriptive documents (glossaries, reader guides, worked examples) unless those documents introduce normative requirements within their content.
+
+When in doubt: if the document contains a MUST, it is a normative document and all six rules apply.
+
+---
+
+### Decision Rubric — Choosing the Right Keyword
+
+| Question to ask | Answer | Keyword to use |
+|---|---|---|
+| Would non-compliance break interoperability, cause harm, or violate a regulatory requirement? | Yes | **MUST** |
+| Is there any legitimate circumstance where a named actor might reasonably not comply? | No | **MUST** |
+| Is there a strong preference but legitimate exceptions exist in specific circumstances? | Yes | **SHOULD** (with rationale) |
+| Is this genuinely discretionary — no preference between options? | Yes | **MAY** |
+| Is this prohibited with absolutely no exceptions? | Yes | **MUST NOT** |
+| Is this discouraged but permitted in understood circumstances? | Yes | **SHOULD NOT** (with rationale) |
+| Are you uncertain whether MUST or SHOULD is correct? | Yes | Stop — resolve the uncertainty before writing the clause |
+
+The last row is the most important rule in the table. Uncertainty about obligation level is a content problem, not a drafting problem. Choosing SHOULD to hedge resolves nothing and creates a specification that is neither binding nor optional.
 
 ---
 

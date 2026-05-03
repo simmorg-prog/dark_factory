@@ -1,6 +1,6 @@
 > **E1-06 · Foundations · Wave 1**  
-> The three principles of specification discipline — rigour from the outset, living specifications, and universal applicability across deterministic and probabilistic systems.  
-> See also: [Cumulative Stack Explained](./cumulative-stack.md) · [Glossary of Terms](./glossary.md) · [Maturity Curve Overview](./maturity-curve.md)
+> The four principles of specification discipline — rigour from the outset, living specifications, universal applicability, and normative language precision.  
+> See also: [Cumulative Stack Explained](./cumulative-stack.md) · [Glossary of Terms](./glossary.md) · [Maturity Curve Overview](./maturity-curve.md) · [LANGUAGE.md — Structural Vocabulary](./LANGUAGE.md)
 
 ---
 
@@ -84,6 +84,30 @@ The Dark Factory contains both layers. Every specification the organisation fail
 
 ---
 
+## Principle 4 — Normative Language Must Be Declared and Calibrated
+
+> **Principle 4: Normative language must be declared and calibrated.**  
+> A specification that uses MUST without the RFC 8174 boilerplate is expressing aspiration, not obligation. A SHOULD without a rationale clause is a weak MUST with the information removed. A keyword applied to an unnamed subject has no conformance meaning. The RFC 2119 Precision Principle is the minimum standard for any normative claim in this framework, at any maturity stage.
+
+This principle names the mechanism by which Principles 1–3 are made operational. Precision at Stage 1 (Principle 1) requires a vocabulary for expressing obligation levels. Living specifications (Principle 2) require keywords that are stable enough to be tested automatically. Universal applicability (Principle 3) requires keywords that carry the same meaning for deterministic and probabilistic systems alike.
+
+RFC 2119 and RFC 8174 provide that vocabulary. But vocabulary alone is not enough — the vocabulary must be invoked correctly. A document that uses MUST without the RFC 8174 boilerplate has not invoked the RFC 2119 vocabulary. It has used capital letters. There is no conformance obligation in capital letters alone.
+
+The [RFC 2119 Precision Principle](./LANGUAGE.md) defines six rules that together constitute the minimum standard:
+
+1. **Invocation** — the RFC 8174 boilerplate MUST appear verbatim before any normative content
+2. **Named conformance roles** — every keyword MUST be bound to a named actor, not an abstract system or process
+3. **Keyword strength calibration** — MUST, SHOULD, and MAY are not interchangeable; each makes a different claim about whether exceptions are permitted
+4. **SHOULD rationale** — every SHOULD MUST be accompanied by a rationale clause stating either the exceptional circumstance or the harm being prevented
+5. **Lowercase is non-normative** — lowercase must, should, may carry only ordinary English meaning and are never obligations
+6. **Scope** — the six rules apply to normative documents; purely descriptive documents are excluded unless they introduce normative requirements
+
+> 💡 **The minimum viable precision standard at Stage 1 is three things:** include the RFC 8174 boilerplate, bind every obligation keyword to a named actor, and accompany every SHOULD with a rationale clause. This costs minutes. Not having it at Stage 4 costs months.
+
+See: [LANGUAGE.md — Normative Language: The RFC 2119 Precision Principle](./LANGUAGE.md) for the full six rules and keyword decision rubric.
+
+---
+
 ## The Practical Implication — What to Do Tomorrow
 
 The discipline is available. It does not require a methodology change, a governance restructure, or a new toolchain. It requires a decision to apply precision habitually.
@@ -99,5 +123,5 @@ The corpus grows from there. One precise requirement is the beginning of the dis
 
 ---
 
-*See also: [Cumulative Stack Explained](./cumulative-stack.md) · [Glossary of Terms](./glossary.md) · [Maturity Curve Overview](./maturity-curve.md) · [Vision Narrative](../05-strategy/vision-ai-native.md)*  
+*See also: [Cumulative Stack Explained](./cumulative-stack.md) · [Glossary of Terms](./glossary.md) · [Maturity Curve Overview](./maturity-curve.md) · [Vision Narrative](../05-strategy/vision-ai-native.md) · [LANGUAGE.md — RFC 2119 Precision Principle](./LANGUAGE.md)*  
 *Back to: [README](../README.md)*
