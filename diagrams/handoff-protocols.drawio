@@ -1,0 +1,106 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="2" value="Human-Agent Handoff Protocols" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="185" y="20" width="800" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- Separator -->
+    <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0e0e0;strokeColor=#d0d0d0;dashed=0;" vertex="1" parent="1">
+      <mxGeometry x="582" y="80" width="4" height="595" as="geometry" />
+    </mxCell>
+
+    <!-- ===== DELEGATION COLUMN ===== -->
+
+    <mxCell id="10" value="DELEGATION&#xa;Human → Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="80" width="260" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="11" value="1. Human authors work package&#xa;Requirements · acceptance criteria&#xa;Constraints · escalation thresholds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="158" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="11" target="13" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="13" value="2. Work package transferred&#xa;Enters Agent Council queue&#xa;Context bundle attached" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="252" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="13" target="15" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="15" value="3. Agent Council confirms intake&#xa;Flags ambiguities before starting&#xa;Scope locked — execution begins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="346" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="15" target="17" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="17" value="4. Autonomous execution&#xa;Within specification bounds&#xa;No human in the loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="440" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="17" target="19" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="19" value="5. Delivery + audit trail&#xa;Summary report to human&#xa;Human notified, not involved" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="200" y="534" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ESCALATION COLUMN ===== -->
+
+    <mxCell id="30" value="ESCALATION&#xa;Agent → Human" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="80" width="260" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="31" value="1. Trigger condition reached&#xa;Spec conflict · Gap · Risk threshold&#xa;Ethical boundary · Ambiguous req." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="158" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b1" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="31" target="33" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="33" value="2. Agent assembles Escalation Package&#xa;Context · Decision point · Evidence&#xa;Options · Recommendation · Work state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="252" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b2" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="33" target="35" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="35" value="3. Work paused at safe checkpoint&#xa;Package routed to human&#xa;Urgency level declared (P1/P2/P3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="346" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b3" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="35" target="37" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="37" value="4. Human reviews and decides&#xa;Verdict + rationale recorded&#xa;Specification updated if gap found" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="440" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <mxCell id="b4" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" source="37" target="39" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="39" value="5. Agent resumes from checkpoint&#xa;Decision injected as context&#xa;Audit trail closed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="720" y="534" width="260" height="64" as="geometry" />
+    </mxCell>
+
+    <!-- Footer -->
+    <mxCell id="50" value="Stage evolution: Stages 1–2 informal and manual  ·  Stage 3 structured with evidence  ·  Stages 4–6 harness-managed, exception-triggered, decision-ready" style="text;html=1;strokeColor=#d0d0d0;fillColor=#f8f8f8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="100" y="625" width="980" height="40" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
