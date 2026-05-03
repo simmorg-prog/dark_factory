@@ -1,0 +1,420 @@
+<mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Dark Factory Background Zone (S4-S6) -->
+    <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="780" y="52" width="760" height="428" as="geometry" />
+    </mxCell>
+
+    <!-- Title Bar -->
+    <mxCell id="3" value="The Human Role Transformation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1F4E79;strokeColor=none;fontColor=#FFFFFF;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="0" y="0" width="1560" height="52" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory label overlay -->
+    <mxCell id="4" value="◾ DARK FACTORY ZONE — Stages 4–6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#60A5FA;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="780" y="54" width="760" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Stage boundary dashed line (S3/S4) -->
+    <mxCell id="5" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;strokeWidth=2;dashed=1;fillColor=none;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="778" y="52" as="sourcePoint" />
+        <mxPoint x="778" y="480" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Boundary rotated label -->
+    <mxCell id="6" value="Dark Factory Entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#3B82F6;fontSize=9;fontStyle=3;rotation=-90;" vertex="1" parent="1">
+      <mxGeometry x="745" y="230" width="60" height="100" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 1 ===== col x=20, w=230 -->
+    <mxCell id="100" value="Stage 1 · Prompt Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="20" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="101" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#93C5FD;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="20" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="102" value="Sole Operator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#1E3A5F;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="20" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="103" value="" style="endArrow=none;html=1;strokeColor=#93C5FD;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="30" y="153" as="sourcePoint" />
+        <mxPoint x="240" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="104" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="105" value="Writes prompts. Evaluates and edits all model outputs. Assembles code manually. Makes every design and implementation decision personally." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#1E3A5F;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="106" value="" style="endArrow=none;html=1;strokeColor=#93C5FD;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="30" y="254" as="sourcePoint" />
+        <mxPoint x="240" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="107" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="108" value="Curated model outputs. Hand-edited code. Personal prompt libraries." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#1E3A5F;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="30" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="109" value="" style="endArrow=none;html=1;strokeColor=#93C5FD;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="30" y="335" as="sourcePoint" />
+        <mxPoint x="240" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="110" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="111" value="Starting point. No delegation yet — the human is the entire system." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="30" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="112" value="Human = the entire system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BFDBFE;strokeColor=#93C5FD;fontColor=#1E3A5F;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="30" y="418" width="190" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 2 ===== col x=270, w=230 -->
+    <mxCell id="200" value="Stage 2 · Context Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="270" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="201" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BFDBFE;strokeColor=#60A5FA;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="270" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="202" value="System Designer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#1E3A5F;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="270" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="203" value="" style="endArrow=none;html=1;strokeColor=#60A5FA;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="280" y="153" as="sourcePoint" />
+        <mxPoint x="490" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="204" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="280" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="205" value="Engineers context pipelines and retrieval systems. Designs what information agents see at each workflow step. Reviews and approves agent outputs." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#1E3A5F;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="280" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="206" value="" style="endArrow=none;html=1;strokeColor=#60A5FA;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="280" y="254" as="sourcePoint" />
+        <mxPoint x="490" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="207" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="280" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="208" value="Context schemas. RAG configurations. Agent-generated code with human review records." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#1E3A5F;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="280" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="209" value="" style="endArrow=none;html=1;strokeColor=#60A5FA;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="280" y="335" as="sourcePoint" />
+        <mxPoint x="490" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="210" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="280" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="211" value="Hands off direct code production. Delegates execution to agents; retains architecture design and review authority." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#475569;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="280" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="212" value="Human designs the systems agents run in" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#93C5FD;strokeColor=#60A5FA;fontColor=#1E3A5F;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="280" y="418" width="210" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 3 ===== col x=520, w=230 -->
+    <mxCell id="300" value="Stage 3 · Intent Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="520" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="301" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#93C5FD;strokeColor=#3B82F6;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="520" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="302" value="Intent Author" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#0F172A;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="520" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="303" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="530" y="153" as="sourcePoint" />
+        <mxPoint x="740" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="304" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#374151;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="530" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="305" value="Encodes organisational goals and trade-off hierarchies into agent infrastructure. Resolves conflicts agents cannot arbitrate. Approves strategic decisions only." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="530" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="306" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="530" y="254" as="sourcePoint" />
+        <mxPoint x="740" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="307" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#374151;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="530" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="308" value="Intent manifests. Escalation verdicts. Strategic direction records and trade-off conflict resolutions." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="530" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="309" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="530" y="335" as="sourcePoint" />
+        <mxPoint x="740" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="310" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#374151;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="530" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="311" value="Hands off pipeline design and agent coordination. Now governs intent, not process." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#1E3A5F;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="530" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="312" value="Human encodes goals; agents execute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=#3B82F6;fontColor=#BFDBFE;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="530" y="418" width="210" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 4 ===== col x=800, w=230 (DARK) -->
+    <mxCell id="400" value="Stage 4 · Specification Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#3B82F6;fontColor=#60A5FA;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="800" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="401" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#3B82F6;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="800" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="402" value="Requirements Author" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#E0F2FE;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="800" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="403" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="810" y="153" as="sourcePoint" />
+        <mxPoint x="1020" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="404" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="810" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="405" value="Authors requirements in structured natural language. Curates the specification corpus. Reviews only unresolvable specification conflicts — all else is agent-operated." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#E0F2FE;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="810" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="406" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="810" y="254" as="sourcePoint" />
+        <mxPoint x="1020" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="407" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="810" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="408" value="Requirements documents. Specification updates. Escalation verdicts with supporting evidence packages." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#E0F2FE;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="810" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="409" value="" style="endArrow=none;html=1;strokeColor=#3B82F6;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="810" y="335" as="sourcePoint" />
+        <mxPoint x="1020" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="410" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="810" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="411" value="Hands off all design, implementation, testing, and deployment. Execution is fully delegated to agents." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#60A5FA;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="810" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="412" value="Human provides requirements only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=#60A5FA;fontColor=#EFF6FF;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="810" y="418" width="210" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 5 ===== col x=1050, w=230 (DARK) -->
+    <mxCell id="500" value="Stage 5 · Harness Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#1D4ED8;fontColor=#60A5FA;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="501" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#172554;strokeColor=#1D4ED8;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="502" value="Exception Approver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#BFDBFE;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="503" value="" style="endArrow=none;html=1;strokeColor=#1D4ED8;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1060" y="153" as="sourcePoint" />
+        <mxPoint x="1270" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="504" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="505" value="Reviews pre-packaged exception reports assembled by the harness. Approves edge cases the harness cannot resolve autonomously. Updates intent boundary definitions." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#BFDBFE;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="506" value="" style="endArrow=none;html=1;strokeColor=#1D4ED8;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1060" y="254" as="sourcePoint" />
+        <mxPoint x="1270" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="507" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="508" value="Escalation verdicts. Intent boundary updates. Exception approval records." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#BFDBFE;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="509" value="" style="endArrow=none;html=1;strokeColor=#1D4ED8;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1060" y="335" as="sourcePoint" />
+        <mxPoint x="1270" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="510" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#7DD3FC;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="511" value="Hands off requirements authorship. Receives decision packages; does not initiate workflows." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#60A5FA;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="512" value="Human approves exceptions only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=#3B82F6;fontColor=#EFF6FF;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="1060" y="418" width="210" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE 6 ===== col x=1300, w=230 (DARKEST) -->
+    <mxCell id="600" value="Stage 6 · Environment Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#020617;strokeColor=#1E3A5F;fontColor=#38BDF8;fontSize=10;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+      <mxGeometry x="1300" y="56" width="230" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="601" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#1E3A5F;arcSize=3;" vertex="1" parent="1">
+      <mxGeometry x="1300" y="94" width="230" height="376" as="geometry" />
+    </mxCell>
+    <mxCell id="602" value="Environment Architect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#7DD3FC;fontSize=17;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1300" y="100" width="230" height="50" as="geometry" />
+    </mxCell>
+    <mxCell id="603" value="" style="endArrow=none;html=1;strokeColor=#1E3A5F;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1310" y="153" as="sourcePoint" />
+        <mxPoint x="1520" y="153" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="604" value="DOES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#38BDF8;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="158" width="60" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="605" value="Designs data contracts, API semantics, capability boundaries, and ethical envelopes. Shapes the operational world agents inhabit — not the tasks they perform." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#7DD3FC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="174" width="210" height="76" as="geometry" />
+    </mxCell>
+    <mxCell id="606" value="" style="endArrow=none;html=1;strokeColor=#1E3A5F;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1310" y="254" as="sourcePoint" />
+        <mxPoint x="1520" y="254" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="607" value="PRODUCES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#38BDF8;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="259" width="80" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="608" value="Environment maps. AI-native API contracts. Capability boundary documents. Environment evolution proposals." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#7DD3FC;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="275" width="210" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="609" value="" style="endArrow=none;html=1;strokeColor=#1E3A5F;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1310" y="335" as="sourcePoint" />
+        <mxPoint x="1520" y="335" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="610" value="SHIFT FROM PRIOR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontColor=#38BDF8;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="340" width="110" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="611" value="Hands off all task-level direction. No longer involved in individual engineering workflows — shapes the arena." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#38BDF8;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="356" width="210" height="44" as="geometry" />
+    </mxCell>
+    <mxCell id="612" value="Human architects the environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0284C7;strokeColor=#0EA5E9;fontColor=#E0F2FE;fontSize=9;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="1310" y="418" width="210" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- ===== BOTTOM EVOLUTION STRIP ===== -->
+    <mxCell id="700" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="0" y="480" width="1560" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="701" value="ROLE EVOLUTION →" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#64748B;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="10" y="480" width="100" height="40" as="geometry" />
+    </mxCell>
+
+    <!-- S1 role pill -->
+    <mxCell id="710" value="Sole Operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A8A;strokeColor=#3B82F6;fontColor=#BFDBFE;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="60" y="494" width="145" height="30" as="geometry" />
+    </mxCell>
+    <!-- Arrow S1→S2 -->
+    <mxCell id="711" value="" style="endArrow=open;endFill=1;endSize=6;html=1;strokeColor=#3B82F6;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="207" y="509" as="sourcePoint" />
+        <mxPoint x="278" y="509" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- S2 role pill -->
+    <mxCell id="712" value="System Designer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=#60A5FA;fontColor=#EFF6FF;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="280" y="494" width="150" height="30" as="geometry" />
+    </mxCell>
+    <!-- Arrow S2→S3 -->
+    <mxCell id="713" value="" style="endArrow=open;endFill=1;endSize=6;html=1;strokeColor=#3B82F6;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="432" y="509" as="sourcePoint" />
+        <mxPoint x="510" y="509" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- S3 role pill -->
+    <mxCell id="714" value="Intent Author" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;strokeColor=#3B82F6;fontColor=#BFDBFE;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="512" y="494" width="140" height="30" as="geometry" />
+    </mxCell>
+    <!-- Arrow S3→S4 with Dark Factory marker -->
+    <mxCell id="715" value="" style="endArrow=open;endFill=1;endSize=6;html=1;strokeColor=#60A5FA;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="654" y="509" as="sourcePoint" />
+        <mxPoint x="755" y="509" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="716" value="◾" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#60A5FA;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="728" y="494" width="24" height="30" as="geometry" />
+    </mxCell>
+    <!-- S4 role pill -->
+    <mxCell id="717" value="Requirements Author" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#3B82F6;fontColor=#E0F2FE;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="757" y="494" width="160" height="30" as="geometry" />
+    </mxCell>
+    <!-- Arrow S4→S5 -->
+    <mxCell id="718" value="" style="endArrow=open;endFill=1;endSize=6;html=1;strokeColor=#3B82F6;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="919" y="509" as="sourcePoint" />
+        <mxPoint x="990" y="509" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- S5 role pill -->
+    <mxCell id="719" value="Exception Approver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#172554;strokeColor=#1D4ED8;fontColor=#BFDBFE;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="992" y="494" width="155" height="30" as="geometry" />
+    </mxCell>
+    <!-- Arrow S5→S6 -->
+    <mxCell id="720" value="" style="endArrow=open;endFill=1;endSize=6;html=1;strokeColor=#3B82F6;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1149" y="509" as="sourcePoint" />
+        <mxPoint x="1222" y="509" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- S6 role pill -->
+    <mxCell id="721" value="Environment Architect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#0284C7;fontColor=#7DD3FC;fontSize=10;fontStyle=1;arcSize=50;" vertex="1" parent="1">
+      <mxGeometry x="1224" y="494" width="170" height="30" as="geometry" />
+    </mxCell>
+
+    <!-- Transferable skills strip -->
+    <mxCell id="730" value="TRANSFERABLE SKILLS ACROSS ALL STAGES:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#334155;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="0" y="532" width="780" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="731" value="Strategic thinking · Systems design · Judgment under uncertainty · Communication · Governance · Domain knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#475569;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="0" y="544" width="780" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="732" value="MUST BE LEARNED AT EACH STAGE:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#334155;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="780" y="532" width="780" height="14" as="geometry" />
+    </mxCell>
+    <mxCell id="733" value="Context design · Intent encoding · Specification authorship · Escalation triage · Environment design · AI-native governance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#475569;fontSize=9;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="780" y="544" width="780" height="14" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

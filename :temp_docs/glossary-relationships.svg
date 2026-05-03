@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="960" viewBox="0 0 1660 960" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555555"/>
+    </marker>
+    <marker id="arrow_green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#70AD47"/>
+    </marker>
+    <marker id="arrow_orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ED7D31"/>
+    </marker>
+    <marker id="arrow_slate" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2D3748"/>
+    </marker>
+    <marker id="arrow_gold" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D4A017"/>
+    </marker>
+    <marker id="arrow_purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7030A0"/>
+    </marker>
+    <marker id="arrow_blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2E75B6"/>
+    </marker>
+    <marker id="arrow_red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#C00000"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1660" height="960" fill="#FAFAFA"/>
+
+  <!-- Title -->
+  <text x="830" y="44" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F3864">AI Engineering Maturity — Glossary Relationships</text>
+
+  <!-- Column Headers -->
+  <rect x="40" y="68" width="220" height="34" rx="4" fill="#1F3864"/>
+  <text x="150" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">STAGES</text>
+
+  <rect x="310" y="68" width="180" height="34" rx="4" fill="#1F3864"/>
+  <text x="400" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">ACTORS</text>
+
+  <rect x="555" y="68" width="210" height="34" rx="4" fill="#1F3864"/>
+  <text x="660" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">KEY CONCEPTS</text>
+
+  <rect x="835" y="68" width="210" height="34" rx="4" fill="#C00000"/>
+  <text x="940" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">FAILURE MODES</text>
+
+  <rect x="1120" y="68" width="230" height="34" rx="4" fill="#1F3864"/>
+  <text x="1235" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="white">PRIMARY ARTEFACTS</text>
+
+  <!-- ===== STAGES ===== -->
+  <!-- S1 Prompt -->
+  <rect x="40" y="108" width="220" height="76" rx="8" fill="#2E75B6" stroke="#1F3864" stroke-width="1.5"/>
+  <text x="150" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Stage 1</text>
+  <text x="150" y="150" text-anchor="middle" font-size="12" fill="white">Prompt Engineering</text>
+  <text x="150" y="168" text-anchor="middle" font-size="11" fill="#BDD7EE">CMMI L1 — Initial</text>
+
+  <!-- S2 Context -->
+  <rect x="40" y="220" width="220" height="76" rx="8" fill="#70AD47" stroke="#375623" stroke-width="1.5"/>
+  <text x="150" y="244" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Stage 2</text>
+  <text x="150" y="262" text-anchor="middle" font-size="12" fill="white">Context Engineering</text>
+  <text x="150" y="280" text-anchor="middle" font-size="11" fill="#E2EFDA">CMMI L2 — Managed</text>
+
+  <!-- S3 Intent -->
+  <rect x="40" y="332" width="220" height="76" rx="8" fill="#ED7D31" stroke="#C55A11" stroke-width="1.5"/>
+  <text x="150" y="356" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Stage 3</text>
+  <text x="150" y="374" text-anchor="middle" font-size="12" fill="white">Intent Engineering</text>
+  <text x="150" y="392" text-anchor="middle" font-size="11" fill="#FCE4D6">CMMI L3 — Defined</text>
+
+  <!-- Dark Factory boundary -->
+  <line x1="30" y1="426" x2="1630" y2="426" stroke="#1C1C1C" stroke-width="3" stroke-dasharray="10,5"/>
+  <rect x="590" y="414" width="430" height="24" rx="4" fill="#1C1C1C"/>
+  <text x="805" y="431" text-anchor="middle" font-size="11" font-weight="bold" fill="#D4A017">◀  DARK FACTORY BOUNDARY — Stages 4–6  ▶</text>
+
+  <!-- S4 Spec -->
+  <rect x="40" y="450" width="220" height="76" rx="8" fill="#2D3748" stroke="#1C1C1C" stroke-width="1.5"/>
+  <text x="150" y="474" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4A017">Stage 4</text>
+  <text x="150" y="492" text-anchor="middle" font-size="12" fill="#D4A017">Specification Engineering</text>
+  <text x="150" y="510" text-anchor="middle" font-size="11" fill="#A0AEC0">CMMI L4 — Quant. Managed</text>
+
+  <!-- S5 Harness -->
+  <rect x="40" y="562" width="220" height="76" rx="8" fill="#1C1C1C" stroke="#D4A017" stroke-width="1.5"/>
+  <text x="150" y="586" text-anchor="middle" font-size="13" font-weight="bold" fill="#D4A017">Stage 5</text>
+  <text x="150" y="604" text-anchor="middle" font-size="12" fill="#D4A017">Harness Engineering</text>
+  <text x="150" y="622" text-anchor="middle" font-size="11" fill="#A0AEC0">CMMI L5 — Optimising</text>
+
+  <!-- S6 Environment -->
+  <rect x="40" y="674" width="220" height="76" rx="8" fill="#7030A0" stroke="#4B1880" stroke-width="1.5"/>
+  <text x="150" y="698" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Stage 6</text>
+  <text x="150" y="716" text-anchor="middle" font-size="12" fill="white">Environment Engineering</text>
+  <text x="150" y="734" text-anchor="middle" font-size="11" fill="#EAD1FF">CMMI L6 — Transcending</text>
+
+  <!-- Stage stack arrows -->
+  <line x1="150" y1="184" x2="150" y2="218" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="150" y1="296" x2="150" y2="330" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="150" y1="408" x2="150" y2="448" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="150" y1="526" x2="150" y2="560" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="150" y1="638" x2="150" y2="672" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ===== ACTORS ===== -->
+  <rect x="310" y="118" width="180" height="56" rx="8" fill="#D5E8F0" stroke="#2E75B6" stroke-width="1.5"/>
+  <text x="400" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F3864">👤 Human</text>
+  <text x="400" y="160" text-anchor="middle" font-size="11" fill="#2E75B6">Maker → Architect</text>
+
+  <rect x="310" y="370" width="180" height="56" rx="8" fill="#E2EFDA" stroke="#70AD47" stroke-width="1.5"/>
+  <text x="400" y="392" text-anchor="middle" font-size="13" font-weight="bold" fill="#375623">🤖 Agent</text>
+  <text x="400" y="412" text-anchor="middle" font-size="11" fill="#70AD47">Oracle → Navigator</text>
+
+  <rect x="310" y="594" width="180" height="56" rx="8" fill="#EAD1FF" stroke="#7030A0" stroke-width="1.5"/>
+  <text x="400" y="616" text-anchor="middle" font-size="13" font-weight="bold" fill="#4B1880">⚖️ Agent Council</text>
+  <text x="400" y="636" text-anchor="middle" font-size="11" fill="#7030A0">Informal → Steward</text>
+
+  <!-- Actor connector lines -->
+  <line x1="310" y1="146" x2="262" y2="146" stroke="#2E75B6" stroke-width="1.5" marker-end="url(#arrow_blue)"/>
+  <line x1="310" y1="398" x2="262" y2="258" stroke="#70AD47" stroke-width="1.5" marker-end="url(#arrow_green)"/>
+  <line x1="310" y1="622" x2="262" y2="488" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrow_purple)"/>
+
+  <!-- ===== KEY CONCEPTS ===== -->
+  <rect x="555" y="220" width="210" height="48" rx="6" fill="#E2EFDA" stroke="#70AD47" stroke-width="1.5"/>
+  <text x="660" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#375623">RAG</text>
+  <text x="660" y="259" text-anchor="middle" font-size="11" fill="#375623">Retrieval-Augmented Generation</text>
+
+  <rect x="555" y="334" width="210" height="48" rx="6" fill="#FCE4D6" stroke="#ED7D31" stroke-width="1.5"/>
+  <text x="660" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#C55A11">Intent Manifest</text>
+  <text x="660" y="373" text-anchor="middle" font-size="11" fill="#C55A11">Encoded org goals &amp; values</text>
+
+  <rect x="555" y="464" width="210" height="48" rx="6" fill="#E2E8F0" stroke="#2D3748" stroke-width="1.5"/>
+  <text x="660" y="485" text-anchor="middle" font-size="12" font-weight="bold" fill="#2D3748">Specification Corpus</text>
+  <text x="660" y="503" text-anchor="middle" font-size="11" fill="#2D3748">Policy-as-code library</text>
+
+  <rect x="555" y="576" width="210" height="48" rx="6" fill="#1C1C1C" stroke="#D4A017" stroke-width="1.5"/>
+  <text x="660" y="597" text-anchor="middle" font-size="12" font-weight="bold" fill="#D4A017">Agent = Model + Harness</text>
+  <text x="660" y="615" text-anchor="middle" font-size="11" fill="#A0AEC0">Runtime envelope</text>
+
+  <rect x="555" y="700" width="210" height="48" rx="6" fill="#EAD1FF" stroke="#7030A0" stroke-width="1.5"/>
+  <text x="660" y="721" text-anchor="middle" font-size="12" font-weight="bold" fill="#4B1880">Environment Map</text>
+  <text x="660" y="739" text-anchor="middle" font-size="11" fill="#4B1880">AI-native landscape model</text>
+
+  <!-- Concept to stage lines -->
+  <line x1="555" y1="244" x2="262" y2="258" stroke="#70AD47" stroke-width="1.5" marker-end="url(#arrow_green)"/>
+  <line x1="555" y1="358" x2="262" y2="370" stroke="#ED7D31" stroke-width="1.5" marker-end="url(#arrow_orange)"/>
+  <line x1="555" y1="488" x2="262" y2="488" stroke="#2D3748" stroke-width="1.5" marker-end="url(#arrow_slate)"/>
+  <line x1="555" y1="600" x2="262" y2="600" stroke="#D4A017" stroke-width="1.5" marker-end="url(#arrow_gold)"/>
+  <line x1="555" y1="724" x2="262" y2="712" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrow_purple)"/>
+
+  <!-- ===== FAILURE MODES ===== -->
+  <rect x="835" y="220" width="210" height="48" rx="6" fill="#FDDBD8" stroke="#C00000" stroke-width="1.5"/>
+  <text x="940" y="241" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">⚠ Context Rot</text>
+  <text x="940" y="259" text-anchor="middle" font-size="11" fill="#843C0C">Signal degrades over time</text>
+
+  <rect x="835" y="334" width="210" height="48" rx="6" fill="#FDDBD8" stroke="#C00000" stroke-width="1.5"/>
+  <text x="940" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">⚠ Intent Drift</text>
+  <text x="940" y="373" text-anchor="middle" font-size="11" fill="#843C0C">Goals become stale</text>
+
+  <rect x="835" y="464" width="210" height="48" rx="6" fill="#FDDBD8" stroke="#C00000" stroke-width="1.5"/>
+  <text x="940" y="485" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">⚠ Specification Gap</text>
+  <text x="940" y="503" text-anchor="middle" font-size="11" fill="#843C0C">Novel scenario, no rule</text>
+
+  <rect x="835" y="576" width="210" height="48" rx="6" fill="#FDDBD8" stroke="#C00000" stroke-width="1.5"/>
+  <text x="940" y="597" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">⚠ Harness Monoculture</text>
+  <text x="940" y="615" text-anchor="middle" font-size="11" fill="#843C0C">Single point of failure</text>
+
+  <rect x="835" y="700" width="210" height="48" rx="6" fill="#FDDBD8" stroke="#C00000" stroke-width="1.5"/>
+  <text x="940" y="721" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">⚠ Env. Ossification</text>
+  <text x="940" y="739" text-anchor="middle" font-size="11" fill="#843C0C">AI-native becomes legacy</text>
+
+  <!-- Failure to stage dashed lines -->
+  <line x1="835" y1="244" x2="262" y2="258" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow_red)"/>
+  <line x1="835" y1="358" x2="262" y2="370" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow_red)"/>
+  <line x1="835" y1="488" x2="262" y2="488" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow_red)"/>
+  <line x1="835" y1="600" x2="262" y2="600" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow_red)"/>
+  <line x1="835" y1="724" x2="262" y2="712" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow_red)"/>
+
+  <!-- ===== ARTEFACTS ===== -->
+  <rect x="1120" y="118" width="230" height="48" rx="6" fill="#D5E8F0" stroke="#2E75B6" stroke-width="1.5"/>
+  <text x="1235" y="139" text-anchor="middle" font-size="12" font-weight="bold" fill="#1F3864">Prompt scripts</text>
+  <text x="1235" y="157" text-anchor="middle" font-size="11" fill="#2E75B6">Personal libraries</text>
+
+  <rect x="1120" y="222" width="230" height="48" rx="6" fill="#E2EFDA" stroke="#70AD47" stroke-width="1.5"/>
+  <text x="1235" y="243" text-anchor="middle" font-size="12" font-weight="bold" fill="#375623">Context schemas</text>
+  <text x="1235" y="261" text-anchor="middle" font-size="11" fill="#375623">RAG configs · Test suites</text>
+
+  <rect x="1120" y="334" width="230" height="48" rx="6" fill="#FCE4D6" stroke="#ED7D31" stroke-width="1.5"/>
+  <text x="1235" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#C55A11">Intent manifests</text>
+  <text x="1235" y="373" text-anchor="middle" font-size="11" fill="#C55A11">Council deliberation logs</text>
+
+  <rect x="1120" y="464" width="230" height="48" rx="6" fill="#E2E8F0" stroke="#2D3748" stroke-width="1.5"/>
+  <text x="1235" y="485" text-anchor="middle" font-size="12" font-weight="bold" fill="#2D3748">Specification corpus</text>
+  <text x="1235" y="503" text-anchor="middle" font-size="11" fill="#2D3748">Audit trails · Escalation packages</text>
+
+  <rect x="1120" y="576" width="230" height="48" rx="6" fill="#FFF8E7" stroke="#D4A017" stroke-width="1.5"/>
+  <text x="1235" y="597" text-anchor="middle" font-size="12" font-weight="bold" fill="#843C0C">Telemetry dashboards</text>
+  <text x="1235" y="615" text-anchor="middle" font-size="11" fill="#843C0C">Self-healing logs · Baselines</text>
+
+  <rect x="1120" y="700" width="230" height="48" rx="6" fill="#EAD1FF" stroke="#7030A0" stroke-width="1.5"/>
+  <text x="1235" y="721" text-anchor="middle" font-size="12" font-weight="bold" fill="#4B1880">Environment maps</text>
+  <text x="1235" y="739" text-anchor="middle" font-size="11" fill="#4B1880">AI-native API contracts</text>
+
+  <!-- Artefact to stage lines -->
+  <line x1="1120" y1="142" x2="262" y2="146" stroke="#2E75B6" stroke-width="1.5" marker-end="url(#arrow_blue)"/>
+  <line x1="1120" y1="246" x2="762" y2="246" stroke="#70AD47" stroke-width="1.5" marker-end="url(#arrow_green)"/>
+  <line x1="1120" y1="358" x2="762" y2="358" stroke="#ED7D31" stroke-width="1.5" marker-end="url(#arrow_orange)"/>
+  <line x1="1120" y1="488" x2="1047" y2="488" stroke="#2D3748" stroke-width="1.5" marker-end="url(#arrow_slate)"/>
+  <line x1="1120" y1="600" x2="1047" y2="600" stroke="#D4A017" stroke-width="1.5" marker-end="url(#arrow_gold)"/>
+  <line x1="1120" y1="724" x2="1047" y2="712" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrow_purple)"/>
+
+  <!-- Legend -->
+  <rect x="40" y="800" width="540" height="76" rx="6" fill="#F8F8F8" stroke="#AAAAAA" stroke-width="1"/>
+  <text x="55" y="820" font-size="12" font-weight="bold" fill="#1F3864">Legend</text>
+  <line x1="55" y1="838" x2="110" y2="838" stroke="#555" stroke-width="2"/>
+  <text x="118" y="842" font-size="11" fill="#555">Cumulative stack progression</text>
+  <line x1="55" y1="858" x2="110" y2="858" stroke="#555" stroke-width="1.5"/>
+  <text x="118" y="862" font-size="11" fill="#555">Concept / artefact belongs to stage</text>
+  <line x1="300" y1="838" x2="355" y2="838" stroke="#C00000" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="363" y="842" font-size="11" fill="#C00000">Failure mode risk at this stage</text>
+  <rect x="300" y="850" width="14" height="14" rx="2" fill="#1C1C1C"/>
+  <text x="322" y="862" font-size="11" font-weight="bold" fill="#1C1C1C">Dark Factory boundary (Stages 4–6)</text>
+
+</svg>

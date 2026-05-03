@@ -1,0 +1,98 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="325" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="AI Engineering Maturity Curve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="127" y="10" width="1400" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="subtitle" value="Six stages · CMMI mapping · Dark Factory boundary · Horizontal progression" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="127" y="38" width="1400" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory boundary line -->
+    <mxCell id="df_line" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#1C1C1C;strokeWidth=3;dashPattern=10 5;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="880" y="64" as="sourcePoint" />
+        <mxPoint x="880" y="258" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Stage 1 -->
+    <mxCell id="s1" value="&lt;b&gt;Stage 1&lt;/b&gt;&lt;br&gt;Prompt Engineering&lt;br&gt;&lt;font color=&#39;#BDD7EE&#39;&gt;&lt;i&gt;CMMI L1 — Initial&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#BDD7EE&#39; style=&#39;font-size:10px&#39;&gt;The Craft Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#1F3864;fontColor=#ffffff;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="130" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 2 -->
+    <mxCell id="s2" value="&lt;b&gt;Stage 2&lt;/b&gt;&lt;br&gt;Context Engineering&lt;br&gt;&lt;font color=&#39;#E2EFDA&#39;&gt;&lt;i&gt;CMMI L2 — Managed&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#E2EFDA&#39; style=&#39;font-size:10px&#39;&gt;The Systems Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#70AD47;strokeColor=#375623;fontColor=#ffffff;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="380" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 3 -->
+    <mxCell id="s3" value="&lt;b&gt;Stage 3&lt;/b&gt;&lt;br&gt;Intent Engineering&lt;br&gt;&lt;font color=&#39;#FCE4D6&#39;&gt;&lt;i&gt;CMMI L3 — Defined&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#FCE4D6&#39; style=&#39;font-size:10px&#39;&gt;The Strategy Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#C55A11;fontColor=#ffffff;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="630" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 4 -->
+    <mxCell id="s4" value="&lt;b&gt;&lt;font color=&#39;#D4A017&#39;&gt;Stage 4&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&#39;#D4A017&#39;&gt;Specification Engineering&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#A0AEC0&#39;&gt;&lt;i&gt;CMMI L4 — Quant. Managed&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#A0AEC0&#39; style=&#39;font-size:10px&#39;&gt;The Governance Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D3748;strokeColor=#1C1C1C;fontColor=#D4A017;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="880" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 5 -->
+    <mxCell id="s5" value="&lt;b&gt;&lt;font color=&#39;#D4A017&#39;&gt;Stage 5&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&#39;#D4A017&#39;&gt;Harness Engineering&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#A0AEC0&#39;&gt;&lt;i&gt;CMMI L5 — Optimising&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#A0AEC0&#39; style=&#39;font-size:10px&#39;&gt;The Operational Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1C1C1C;strokeColor=#D4A017;fontColor=#D4A017;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="1130" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Stage 6 -->
+    <mxCell id="s6" value="&lt;b&gt;Stage 6&lt;/b&gt;&lt;br&gt;Environment Engineering&lt;br&gt;&lt;font color=&#39;#EAD1FF&#39;&gt;&lt;i&gt;CMMI L6 — Transcending&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&#39;#EAD1FF&#39; style=&#39;font-size:10px&#39;&gt;The Transcendent Era&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7030A0;strokeColor=#4B1880;fontColor=#ffffff;fontSize=13;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="1380" y="64" width="249" height="96" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory label -->
+    <mxCell id="df_label" value="◀  DARK FACTORY BOUNDARY  ▶" style="text;html=1;strokeColor=none;fillColor=#1C1C1C;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="718" y="162" width="324" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- Workflow Owner label -->
+    <mxCell id="own_label" value="Workflow Owner" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="0" y="188" width="128" height="36" as="geometry" />
+    </mxCell>
+
+    <!-- Human-led strip -->
+    <mxCell id="own_human" value="&lt;b&gt;👤  Human-Led Workflow&lt;/b&gt;" style="text;html=1;strokeColor=#2E75B6;fillColor=#D5E8F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="130" y="188" width="750" height="36" as="geometry" />
+    </mxCell>
+
+    <!-- Agent-operated strip -->
+    <mxCell id="own_agent" value="&lt;b&gt;⬛  Agent-Operated Workflow  (Dark Factory)&lt;/b&gt;" style="text;html=1;strokeColor=#D4A017;fillColor=#1C1C1C;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="880" y="188" width="749" height="36" as="geometry" />
+    </mxCell>
+
+    <!-- Progression arrow -->
+    <mxCell id="prog_arrow" value="" style="endArrow=block;endFill=1;html=1;strokeColor=#1F3864;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="140" y="244" as="sourcePoint" />
+        <mxPoint x="1620" y="244" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="prog_label" value="Increasing organisational maturity →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#555555;" vertex="1" parent="1">
+      <mxGeometry x="380" y="248" width="500" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Legend -->
+    <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#CCCCCC;" vertex="1" parent="1">
+      <mxGeometry x="130" y="276" width="1499" height="36" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_df" value="- - -  Dark Factory boundary: at Stage 4, agents own the full engineering workflow (design → deploy). Humans provide requirements only." style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="148" y="285" width="820" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_human_op" value="👤  Human-led (Stages 1–3)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="982" y="285" width="190" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_agent_op" value="⬛  Agent-operated (Stages 4–6)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="1190" y="285" width="210" height="20" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

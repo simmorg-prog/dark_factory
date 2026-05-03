@@ -1,0 +1,176 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="490" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="Actor Involvement Heat Map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="127" y="10" width="1400" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="subtitle" value="Human · Agent · Agent Council involvement intensity across six stages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="127" y="38" width="1400" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory boundary line -->
+    <mxCell id="df_line" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#1C1C1C;strokeWidth=3;dashPattern=10 5;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="880" y="64" as="sourcePoint" />
+        <mxPoint x="880" y="410" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Stage header cells -->
+    <mxCell id="sh1" value="&lt;b&gt;Stage 1&lt;/b&gt;&lt;br&gt;Prompt Engineering&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#BDD7EE&#39;&gt;CMMI L1 — Initial&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#1F3864;fontColor=#ffffff;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="130" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="sh2" value="&lt;b&gt;Stage 2&lt;/b&gt;&lt;br&gt;Context Engineering&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#E2EFDA&#39;&gt;CMMI L2 — Managed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#70AD47;strokeColor=#375623;fontColor=#ffffff;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="380" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="sh3" value="&lt;b&gt;Stage 3&lt;/b&gt;&lt;br&gt;Intent Engineering&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#FCE4D6&#39;&gt;CMMI L3 — Defined&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#C55A11;fontColor=#ffffff;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="630" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="sh4" value="&lt;b&gt;&lt;font color=&#39;#D4A017&#39;&gt;Stage 4&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&#39;#D4A017&#39;&gt;Specification Engineering&lt;/font&gt;&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#A0AEC0&#39;&gt;CMMI L4 — Quant. Managed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D3748;strokeColor=#1C1C1C;fontColor=#D4A017;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="880" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="sh5" value="&lt;b&gt;&lt;font color=&#39;#D4A017&#39;&gt;Stage 5&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&#39;#D4A017&#39;&gt;Harness Engineering&lt;/font&gt;&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#A0AEC0&#39;&gt;CMMI L5 — Optimising&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1C1C1C;strokeColor=#D4A017;fontColor=#D4A017;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="1130" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+    <mxCell id="sh6" value="&lt;b&gt;Stage 6&lt;/b&gt;&lt;br&gt;Environment Engineering&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#EAD1FF&#39;&gt;CMMI L6 — Transcending&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7030A0;strokeColor=#4B1880;fontColor=#ffffff;fontSize=11;arcSize=6;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="1380" y="64" width="249" height="56" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory label -->
+    <mxCell id="df_label" value="◀  DARK FACTORY BOUNDARY  ▶" style="text;html=1;strokeColor=none;fillColor=#1C1C1C;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="718" y="122" width="324" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Workflow Owner label -->
+    <mxCell id="own_label" value="Workflow Owner" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="0" y="122" width="128" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Human-Led strip -->
+    <mxCell id="own_human" value="👤  Human-Led" style="text;html=1;strokeColor=#2E75B6;fillColor=#D5E8F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="130" y="122" width="750" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Agent-Operated strip -->
+    <mxCell id="own_agent" value="⬛  Agent-Operated (Dark Factory)" style="text;html=1;strokeColor=#D4A017;fillColor=#1C1C1C;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="880" y="122" width="749" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- ===== HUMAN ROW ===== -->
+    <mxCell id="h_lbl" value="👤&lt;br&gt;&lt;b&gt;Human&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#666666&#39;&gt;Maker → Architect&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F8F8F8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="0" y="146" width="129" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h1" value="&lt;b&gt;Critical&lt;/b&gt;&lt;br&gt;Sole Operator&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Does everything&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#1D5C96;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="130" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h2" value="&lt;b&gt;High&lt;/b&gt;&lt;br&gt;System Designer&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Reviews &amp;amp; approves&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#2E75B6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#BDD7EE;" vertex="1" parent="1">
+      <mxGeometry x="380" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h3" value="&lt;b&gt;High&lt;/b&gt;&lt;br&gt;Intent Author&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Governs strategy&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#5B9BD5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="630" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h4" value="&lt;b&gt;Low&lt;/b&gt;&lt;br&gt;Requirements Author&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Specs &amp;amp; escalations&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#BDD7EE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="880" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h5" value="&lt;b&gt;Minimal&lt;/b&gt;&lt;br&gt;Exception Approver&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Exceptions only&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#DEEAF1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="1130" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="h6" value="&lt;b&gt;Low&lt;/b&gt;&lt;br&gt;Environment Architect&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Designs the world&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#BDD7EE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="1380" y="146" width="249" height="84" as="geometry" />
+    </mxCell>
+
+    <!-- ===== AGENT ROW ===== -->
+    <mxCell id="a_lbl" value="🤖&lt;br&gt;&lt;b&gt;Agent&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#666666&#39;&gt;Oracle → Native&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F8F8F8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#375623;" vertex="1" parent="1">
+      <mxGeometry x="0" y="230" width="129" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a1" value="&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Stateless Oracle&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;No autonomy&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F0F0F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;" vertex="1" parent="1">
+      <mxGeometry x="130" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a2" value="&lt;b&gt;Low&lt;/b&gt;&lt;br&gt;Bounded Executor&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Single tasks&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#E2EFDA;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#375623;" vertex="1" parent="1">
+      <mxGeometry x="380" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a3" value="&lt;b&gt;Medium&lt;/b&gt;&lt;br&gt;Intent-Aware&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Within guardrails&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#A9D18E;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#375623;" vertex="1" parent="1">
+      <mxGeometry x="630" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a4" value="&lt;b&gt;High&lt;/b&gt;&lt;br&gt;Autonomous Executor&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Full workflow&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#70AD47;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="880" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a5" value="&lt;b&gt;Critical&lt;/b&gt;&lt;br&gt;Harness-Managed&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Self-correcting&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#538135;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#E2EFDA;" vertex="1" parent="1">
+      <mxGeometry x="1130" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="a6" value="&lt;b&gt;Critical&lt;/b&gt;&lt;br&gt;Environment-Native&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Fluent in AI world&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#375623;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#E2EFDA;" vertex="1" parent="1">
+      <mxGeometry x="1380" y="230" width="249" height="84" as="geometry" />
+    </mxCell>
+
+    <!-- ===== AGENT COUNCIL ROW ===== -->
+    <mxCell id="c_lbl" value="⚖️&lt;br&gt;&lt;b&gt;Agent Council&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:9px&#39; color=&#39;#666666&#39;&gt;Informal → Steward&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F8F8F8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4B1880;" vertex="1" parent="1">
+      <mxGeometry x="0" y="314" width="129" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c1" value="&lt;b&gt;None&lt;/b&gt;&lt;br&gt;Not Present" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F0F0F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#AAAAAA;" vertex="1" parent="1">
+      <mxGeometry x="130" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c2" value="&lt;b&gt;Minimal&lt;/b&gt;&lt;br&gt;Informal Pipeline&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;No protocols&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#F4EBF9;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4B1880;" vertex="1" parent="1">
+      <mxGeometry x="380" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c3" value="&lt;b&gt;Low&lt;/b&gt;&lt;br&gt;Deliberation Council&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Formally constituted&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#E2CFEE;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#4B1880;" vertex="1" parent="1">
+      <mxGeometry x="630" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c4" value="&lt;b&gt;Medium&lt;/b&gt;&lt;br&gt;Domain Councils&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Arch · Sec · Comply · Deploy&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#C196DC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="880" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c5" value="&lt;b&gt;High&lt;/b&gt;&lt;br&gt;Self-Constituting&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Harness-assembled&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#7030A0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#EAD1FF;" vertex="1" parent="1">
+      <mxGeometry x="1130" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+    <mxCell id="c6" value="&lt;b&gt;Critical&lt;/b&gt;&lt;br&gt;Environment Stewards&lt;br&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Propose evolution&lt;/font&gt;" style="text;html=1;strokeColor=#DDDDDD;fillColor=#4B1880;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#EAD1FF;" vertex="1" parent="1">
+      <mxGeometry x="1380" y="314" width="249" height="84" as="geometry" />
+    </mxCell>
+
+    <!-- ===== LEGEND ===== -->
+    <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#CCCCCC;" vertex="1" parent="1">
+      <mxGeometry x="130" y="412" width="1499" height="58" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_title" value="&lt;b&gt;Involvement Scale&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="148" y="416" width="160" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_none" value="None" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F0F0F0;align=center;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+      <mxGeometry x="148" y="436" width="50" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_min" value="Minimal" style="text;html=1;strokeColor=#CCCCCC;fillColor=#DEEAF1;align=center;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+      <mxGeometry x="204" y="436" width="60" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_low" value="Low" style="text;html=1;strokeColor=#CCCCCC;fillColor=#BDD7EE;align=center;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+      <mxGeometry x="270" y="436" width="50" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_med" value="Medium" style="text;html=1;strokeColor=#CCCCCC;fillColor=#5B9BD5;align=center;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="326" y="436" width="60" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_high" value="High" style="text;html=1;strokeColor=#CCCCCC;fillColor=#2E75B6;align=center;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="392" y="436" width="50" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_crit" value="Critical" style="text;html=1;strokeColor=#CCCCCC;fillColor=#1D5C96;align=center;fontSize=10;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="448" y="436" width="60" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_sep" value="" style="endArrow=none;html=1;strokeColor=#CCCCCC;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="522" y="416" as="sourcePoint" />
+        <mxPoint x="522" y="470" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="leg_df" value="- - -  Dark Factory boundary — Stages 4–6 operate autonomously" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="534" y="416" width="420" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_note" value="Scale applies across all three actor rows. Darker shade = higher involvement." style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#888888;" vertex="1" parent="1">
+      <mxGeometry x="534" y="436" width="440" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_agent_op" value="⬛ Agent-operated (Dark Factory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="1000" y="416" width="220" height="20" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_human_led" value="👤 Human-led" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="1230" y="416" width="140" height="20" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

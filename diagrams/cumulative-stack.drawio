@@ -1,0 +1,125 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Title -->
+    <mxCell id="title" value="The Cumulative Stack — Why Stages Cannot Be Skipped" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F3864;" vertex="1" parent="1">
+      <mxGeometry x="20" y="14" width="1600" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="subtitle" value="Each stage subsumes all stages below it. Higher stages inherit and depend on every discipline that precedes them." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+      <mxGeometry x="20" y="42" width="1600" height="20" as="geometry" />
+    </mxCell>
+
+    <!-- Column headers -->
+    <mxCell id="hdr_left" value="What this stage adds" style="text;html=1;strokeColor=#CCCCCC;fillColor=#F0F0F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="20" y="72" width="370" height="24" as="geometry" />
+    </mxCell>
+    <mxCell id="hdr_right" value="Risk if this stage is skipped or skimped" style="text;html=1;strokeColor=#C00000;fillColor=#FFF0F0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;fontColor=#C00000;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="72" width="570" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- Cumulative label on left spine -->
+    <mxCell id="spine_label" value="← each stage contains all stages below" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#888888;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="390" y="540" width="280" height="16" as="geometry" />
+    </mxCell>
+
+    <!-- ===== STAGE BLOCKS (top = S6, bottom = S1) ===== -->
+
+    <!-- S6 -->
+    <mxCell id="s6" value="&lt;b&gt;Stage 6  ·  Environment Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#EAD1FF&quot;&gt;CMMI L6 — Transcending  ·  The Transcendent Era&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7030A0;strokeColor=#4B1880;fontColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="100" width="640" height="68" as="geometry" />
+    </mxCell>
+    <!-- S6 left annotation -->
+    <mxCell id="l6" value="&lt;font color=&quot;#4B1880&quot;&gt;Requires S1–S5.&lt;/font&gt; Adds AI-native APIs, environment maps, data legibility standards. Re-architects the world agents operate in." style="text;html=1;strokeColor=#7030A0;fillColor=#F9F0FF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="100" width="370" height="68" as="geometry" />
+    </mxCell>
+    <!-- S6 right annotation -->
+    <mxCell id="r6" value="&lt;b&gt;Environment ossification.&lt;/b&gt; Agents must navigate legacy infrastructure forever. Ambiguity is a prompt problem, not a design problem. Technical debt re-accumulates at the infrastructure level." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="100" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- S5 -->
+    <mxCell id="s5" value="&lt;b&gt;Stage 5  ·  Harness Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#A0AEC0&quot;&gt;CMMI L5 — Optimising  ·  The Operational Era&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1C1C1C;strokeColor=#D4A017;fontColor=#D4A017;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="172" width="640" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="l5" value="&lt;font color=&quot;#555555&quot;&gt;Requires S1–S4.&lt;/font&gt; Adds self-monitoring, self-healing runtime envelope. Context quality sensors. Harness manages agent health, re-routes failures, auto-rolls back deployments." style="text;html=1;strokeColor=#D4A017;fillColor=#FEFCE8;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="172" width="370" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="r5" value="&lt;b&gt;The Dark Factory cannot see itself.&lt;/b&gt; Failures accumulate silently. No self-correction. Context rot goes undetected. A single bad assumption cascades across all agents simultaneously." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="172" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- S4 -->
+    <mxCell id="s4" value="&lt;b&gt;Stage 4  ·  Specification Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#A0AEC0&quot;&gt;CMMI L4 — Quant. Managed  ·  The Governance Era&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2D3748;strokeColor=#1C1C1C;fontColor=#D4A017;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="244" width="640" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="l4" value="&lt;font color=&quot;#555555&quot;&gt;Requires S1–S3.&lt;/font&gt; Adds policy-as-code, specification corpus, audit linkage. Every agent decision is traceable to a rule. Entry point of the Dark Factory." style="text;html=1;strokeColor=#2D3748;fillColor=#F4F6F8;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="244" width="370" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="r4" value="&lt;b&gt;Ungoverned autonomy.&lt;/b&gt; Agents act without accountability. No audit trail. Compliance violations cannot be detected or attributed. The Dark Factory is legally and operationally indefensible." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="244" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- Dark Factory boundary -->
+    <mxCell id="df_line" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#1C1C1C;strokeWidth=3;dashPattern=10 5;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="10" y="326" as="sourcePoint" />
+        <mxPoint x="1630" y="326" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="df_label" value="◀  DARK FACTORY BOUNDARY — Stages 4–6 operate autonomously  ▶" style="text;html=1;strokeColor=none;fillColor=#1C1C1C;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontStyle=1;fontColor=#D4A017;" vertex="1" parent="1">
+      <mxGeometry x="530" y="314" width="580" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- S3 -->
+    <mxCell id="s3" value="&lt;b&gt;Stage 3  ·  Intent Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#FCE4D6&quot;&gt;CMMI L3 — Defined  ·  The Strategy Era&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ED7D31;strokeColor=#C55A11;fontColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="340" width="640" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="l3" value="&lt;font color=&quot;#C55A11&quot;&gt;Requires S1–S2.&lt;/font&gt; Adds intent manifests, trade-off hierarchies, value constraints. Agents act with awareness of organisational goals, not just task instructions." style="text;html=1;strokeColor=#ED7D31;fillColor=#FFF2EC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="340" width="370" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="r3" value="&lt;b&gt;Intent drift.&lt;/b&gt; Agents produce technically correct, strategically wrong outputs. They optimise for measurable proxies rather than actual goals. Humans keep overriding — defeating the purpose of automation." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="340" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- S2 -->
+    <mxCell id="s2" value="&lt;b&gt;Stage 2  ·  Context Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#E2EFDA&quot;&gt;CMMI L2 — Managed  ·  The Systems Era&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#70AD47;strokeColor=#375623;fontColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="412" width="640" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="l2" value="&lt;font color=&quot;#375623&quot;&gt;Requires S1.&lt;/font&gt; Adds systematic context management: RAG, retrieval pipelines, structured context windows, bounded agent workflows. Quality criteria: relevance, sufficiency, isolation, economy, provenance." style="text;html=1;strokeColor=#70AD47;fillColor=#F2F9EC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="412" width="370" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="r2" value="&lt;b&gt;Agents operate blind.&lt;/b&gt; Without engineered context, models hallucinate, miss relevant information, and cannot maintain coherent state across steps. Context rot sets in immediately. Outputs are unreliable at scale." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="412" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- S1 -->
+    <mxCell id="s1" value="&lt;b&gt;Stage 1  ·  Prompt Engineering&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot; color=&quot;#BDD7EE&quot;&gt;CMMI L1 — Initial  ·  The Craft Era  (foundation layer)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#1F3864;fontColor=#ffffff;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="400" y="484" width="640" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="l1" value="The baseline capability. Establishes human ↔ model communication: system prompts, few-shot examples, chain-of-thought cues. Everything above depends on this being solid." style="text;html=1;strokeColor=#2E75B6;fillColor=#EBF3FB;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="20" y="484" width="370" height="68" as="geometry" />
+    </mxCell>
+    <mxCell id="r1" value="&lt;b&gt;No working baseline.&lt;/b&gt; Teams cannot reliably communicate intent to a model. Every higher stage depends on being able to prompt effectively — without this, all subsequent engineering is built on sand." style="text;html=1;strokeColor=#C00000;fillColor=#FFF5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="1050" y="484" width="570" height="68" as="geometry" />
+    </mxCell>
+
+    <!-- Upward arrow on the stack (left side) showing cumulative direction -->
+    <mxCell id="stack_arrow" value="" style="endArrow=block;endFill=1;html=1;strokeColor=#888888;strokeWidth=2;" edge="1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="394" y="552" as="sourcePoint" />
+        <mxPoint x="394" y="100" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="stack_arrow_label" value="Cumulative stack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#888888;fontStyle=2;rotation=-90;" vertex="1" parent="1">
+      <mxGeometry x="314" y="290" width="160" height="16" as="geometry" />
+    </mxCell>
+
+    <!-- Bottom note -->
+    <mxCell id="bottom_note" value="The most dangerous gap is &lt;b&gt;Stage 3 → 4&lt;/b&gt;: organisations that enter the Dark Factory without encoded intent find their agents are autonomous but directionless — compliant with rules, but not aligned with goals." style="text;html=1;strokeColor=#ED7D31;fillColor=#FFF2EC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#444444;" vertex="1" parent="1">
+      <mxGeometry x="20" y="572" width="1600" height="32" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
